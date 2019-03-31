@@ -2,18 +2,17 @@ var g, r, y, b, g2, r2, y2, b2;
 var color1, color2;
 var rectSize = 6;
 var z = 0;
+var xlo, xhi, ylo, yhi, xdisp, ydisp;
 
 var canvas;
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
-  console.log(windowHeight);
   canvas.parent('sketch-holder');
   canvas.position(0,0);
   canvas.style('z-index', '-1');
   canvas.style('display', 'block');
   frameRate(10);
-  noiseScale = windowWidth;
   g = color(0, 178, 178);
   g2 = color(0, 224, 224);
   r = color(238, 65, 66);
@@ -61,12 +60,21 @@ function draw() {
   textSize(windowWidth/10);
   text("Noise", windowWidth/2, windowHeight/1.8);
   
+  xlo = int(windowWidth/3);
+  xhi = int(windowWidth/1.5);
+  ylo = int(windowHeight/1.2);
+  yhi = int(windowHeight/1.1);
+  
   if (random() > 0.6) {
     loadPixels();
-    var xdisp = int(random(10))*20;
-    var ydisp = int(random(150));
-    for (var y = 550+ydisp; y < 600 + ydisp; y += 1) {
-      for (var x = 300; x < 1100; x += 1) {
+    xdisp = int(random(10))*20;
+    ydisp = int(random(windowHeight/5));
+    xlo = int(windowWidth/3);
+    xhi = int(windowWidth/1.5);
+    ylo = int(windowHeight/1.2);
+    yhi = int(windowHeight/1.1);
+    for (var y = ylo + ydisp; y < yhi + ydisp; y += 1) {
+      for (var x = xlo; x < xhi; x += 1) {
         for (var i = 0; i < 8; i++) {
           var index = (y*windowWidth+x)*8+i;
           pixels[index] = pixels[index+xdisp];
@@ -78,10 +86,14 @@ function draw() {
   
   if (random() > 0.6) {
     loadPixels();
-    var xdisp = int(random(10))*20;
-    var ydisp = int(random(150));
-    for (var y = 550+ydisp; y < 600 + ydisp; y += 1) {
-      for (var x = 1100; x > 300; x -= 1) {
+    xdisp = int(random(10))*20;
+    ydisp = int(random(windowHeight/5));
+    xlo = int(windowWidth/3);
+    xhi = int(windowWidth/1.5);
+    ylo = int(windowHeight/1.2);
+    yhi = int(windowHeight/1.1);
+    for (var y = ylo + ydisp; y < yhi + ydisp; y += 1) {
+      for (var x = xhi; x > xlo; x -= 1) {
         for (var i = 0; i < 8; i++) {
           var index = (y*windowWidth+x)*8+i;
           pixels[index] = pixels[index-xdisp];
@@ -95,4 +107,8 @@ function draw() {
 function windowResized() {
   console.log("resize");
   resizeCanvas(windowWidth, windowHeight);
+}
+
+function mouseClicked() {
+  console.log(mouseX, mouseY);
 }
