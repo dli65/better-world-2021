@@ -90,6 +90,8 @@ var bioInfo = {
   'interplay-name': 'Interplay',
   'blocks-img'	  : 'url(images/themes/blocks.png)',
   'interplay-img' : 'url(images/themes/interplay.png)',
+  'blocks-link'		: 'http://betterworldxdesign.com/conference_2017.html',
+	'interplay-link': 'http://www.core77.com/gallery/56525/From-Pneumatic-Inflatables-to-Designing-for-Healthcare-Better-World-by-Design-2016',
 };
 
 function populateModal(elt) {
