@@ -1,0 +1,301 @@
+#header {
+	background: linear-gradient(transparent, transparent),
+                 url(../images/banners/about.jpg) no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/banners/about.jpg) no-repeat;
+
+	background-position: center;
+}
+
+/**/
+/* Team */
+/**/
+
+#teamBanner {
+	width: 100%;
+	position: relative;
+	left: 0;
+}
+
+.prevPartners {
+	padding-bottom: 30px;
+}
+
+.sponsorDiv {
+	padding-top: 30px;
+	/*max-width: 550px;*/
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.sponsorLogo {
+	margin-bottom: 25px;
+	vertical-align: middle;
+}
+
+.lineLogo {
+	width: 100%;
+	max-width: 140px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.squareLogo {
+	/* width: 60%; */
+	max-width: 120px;
+	padding-left: 35px;
+	margin-right: 35px;
+}
+
+.adobeLogo {
+	/* width: 60%; */
+	max-width: 70px;
+	padding-left: 70px;
+	margin-right: 35px;
+}
+
+h1 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+h2 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+h3 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+p {
+	margin-bottom: 5px;
+}
+
+
+.subsection2 {
+	background-color: lightgray;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 5%;
+}
+
+.subsection3 {
+	/* background-color: lightgray; */
+	padding-left: 7%;
+	padding-right: 7%;
+	min-height: 465px;
+	/* padding-bottom: 100px;; */
+	padding-top: 10%;
+}
+
+.mobileMargin {
+	padding-top: 70px;
+}
+
+.infoSection {
+	width: 50%;
+	padding-bottom: 20px;
+	padding-left: 7%;
+	padding-right: 10%;
+}
+
+.footer{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom:20px;
+	background-color: #241F59;
+}
+
+@media (max-width: 999px) {
+	/* .greaterthan1000 {
+		display: none;
+	} */
+	.content {
+		/* padding-top: 60px; */
+	}
+	.mobileMargin {
+		padding-top: 30px;
+	}
+}
+
+@media (min-width: 1000px) {
+	/*h1 {
+		padding-top: 80px;
+	}*/
+	body {
+		height: 100%;
+		overflow: hidden;
+		margin: 0;
+		display: flex;
+		position: relative;
+		width: 100%;
+	}
+	#teamBanner {
+		width: 100%;
+		position: relative;
+		
+	}
+	::-webkit-scrollbar {
+    display: none;
+  }
+	.content {
+		overflow-y: auto;
+		/* padding-top: 21px; */
+		height: 95vh;
+	}
+	.subsection {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.infoSection {
+		width: 50%;
+		padding-bottom: 0px;
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	
+	.bottomAbout {
+		float: left;
+		width: 60%;
+	}
+	.rightCol {
+		padding-left: 100px;
+		width: 20%;
+		float: left;
+	}
+	.subsection2 {
+		padding-top: 50px;
+		float:left;
+		/* width: 100%; */
+		padding-left: 7%;
+		/* padding-right: 7%; */
+		background-color: lightgray;
+	}
+	.footer{
+		width: 100%;
+		padding-top: 21px;
+		padding-bottom: 21px;
+		background-color: #241F59;
+	}
+}
+
+@media (max-width: 600px) {
+	.nameBreak {
+		display: block;
+	}
+	.rightCol {
+		/* padding-top: 0px; */
+		width: 70%;
+		/* float: left; */
+	}
+	.content {
+		/* overflow-y: auto; */
+		/* padding-top: 10px; */
+	}
+	.subsection2 {
+		padding-top: 50px;
+		/* float:left; */
+		padding-left: 10%;
+		padding-right: 7%;
+		background-color: lightgray;
+	}
+	.infoSection {
+		width: 80%;
+		padding-bottom: 20px;
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	.photoSection {
+		width: 80%;
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	.footer{
+		width: 100%;
+		padding-top: 21px;
+		padding-bottom: 21px;
+		background-color: #241F59;
+	}
+	.containerStuff{
+		
+	}
+}
+
+/*Firefox Scrollbar Issue*/
+@-moz-document url-prefix() {
+	@media(min-width: 1000px) {
+		body {
+			overflow: scroll;
+		}
+		.leftCol, .rightCol {
+			overflow: inherit;
+		}
+	}
+}
+
+/* FROM CONTENTPAGE.CSS */
+#header {
+	width: 100vw;
+	height: 40vw;
+	min-height: 350px;
+
+	position: relative;
+    background-size: cover;
+    background-position:center;
+
+	text-align: center;
+}
+
+.contentContainer, #menu {
+	margin-top: 60px;
+}
+
+@media (min-width:1200px) {
+	#header {
+		height: 30vw;
+	}
+}
+
+#headerText {
+	color: #241F59;
+
+	width: 100%;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+
+	font-size: 3em;
+	font-weight: 700;
+}
+
+@media (min-width:600px) {
+	#headerText {
+		font-size: 5em;
+	}
+}
+
+/**/
+/* Content */
+/**/
+
+.section {
+/*	Add padding and negative margin for link anchor offset to acount for nav bar */
+/*	70 for navbar height and 30 for padding */
+	float: left;
+	padding-top: 100px;
+	margin: -70px 30px 30px 30px; /* Equivalent to 30 30 60 30 */
+}
+@media (min-width: 1200px) {
+    .section {
+	/*	80 for navbar height and 30 for padding */
+		padding-top: 110px;
+		margin: -80px 30px 30px 30px; /* Equivalent to 30 30 60 30 */
+	}
+}
+
+.subsection {
+	margin: 0 0; /* Originally 30px 0 */
+}
+

@@ -1,0 +1,467 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<!--    Custom facebook look-->
+    <meta property="og:image" content="http://betterworldxdesign.com/images/fb-ogimage.png" />
+    <meta property="og:image:width" content=1024 />
+    <meta property="og:image:height" content=768 />
+    <meta property="og:type"   content="website" />
+    <meta property="og:title" content="Better World by Design – About"/>
+    <meta property="og:url" content="http://betterworldxdesign.com/about.html"/>
+    <meta property="og:description"
+          content="2018 Conference – September 28-30 | Better World by Design is a student-led initiative at Brown and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale."/>
+
+    <meta http-equiv="expires" content="Sun, 13 Sep 2017 21:30:00 GMT" />
+
+    <title>About Us &middot; BWxD 2018</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link type="text/css" href="styles/general.css" rel="stylesheet"></link>
+    <link type="text/css" href="styles/typefaces.css" rel="stylesheet"></link>
+    <link type="text/css" href="styles/slideout.css" rel="stylesheet"></link> <!-- // dont do shit -->
+	<link type="text/css" href="styles/personGrid.css" rel="stylesheet"></link>
+    <link type="text/css" href="styles/about.css" rel="stylesheet"></link>
+
+    <meta Http-Equiv="Cache" content="no-cache">
+    <meta Http-Equiv="Pragma-Control" content="no-cache">
+    <meta Http-Equiv="Cache-directive" Content="no-cache">
+    <meta Http-Equiv="Pragma-directive" Content="no-cache">
+    <meta Http-Equiv="Cache-Control" Content="no-cache">
+    <meta Http-Equiv="Pragma" Content="no-cache">
+    <meta Http-Equiv="Expires" Content="0">
+    <meta Http-Equiv="Pragma-directive: no-cache">
+    <meta Http-Equiv="Cache-directive: no-cache">
+
+<!--    JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script></head>
+<body>
+	<nav id="menu" class="menu" style="display: none;">
+			<div style="height: calc(100% - 100px);">
+				<ul class="menu-l1">
+					<a href="index.html"><img src="images/SidebarNav.png" style="width: 100px; margin-bottom: 5px;"/></a>
+					<li><a  href="index.html" name="header">Home</a></li>
+					<li><a  href="conference.html">2018 Conference</a></li>
+					<li><a  href="about.html">About Us</a></li>
+					<li><a  href="sponsors.html">Sponsors</a></li>
+					
+					<!-- <li><a  href="htp://www.brownbsa.com/students/marketplace/" target="_blank">Buy Tickets</a></li> -->
+			  </ul>
+			</div>
+		<div class="logos" style="margin-left: 30px;">
+			<a target="_blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/Fb.png"/></a><a target="_blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/Twitter.png"/></a><a target="_blank" href="https://www.instagram.com/betterxdesign/"><img src="images/social/Insta.png"/></a>
+		</div>
+	</nav>
+
+	<div class="navbarDiv">
+		<h3 class="mobileOnly navTitle ">About Us</h3>
+
+			<ul class="desktopOnly">
+				<div class="leftNav">
+				  <li class = "otherSauce"><a  href="index.html">Home</a></li>
+				  <li class = "otherSauce"><a href="conference.html">2018 Conference</a></li>
+				  <li class = "active otherSauce"><a class="inpagelink selectedPage" href="about.html" name="header">About Us</a></li>
+				  <li class = "otherSauce"><a href="sponsors.html">Sponsors</a></li>
+				  
+				</div>
+				
+			  </ul>
+
+			<button id="hamburger" class="hamburger hamburger--squeeze mobileOnly toggle-button js-slideout-toggle" type="button">
+			<span class="hamburger-box">
+			<span class="hamburger-inner"></span>
+			</span>
+			</button>
+	</div>
+
+	<main id="panel">
+		<div class="content whiteBG contentContainer">
+			<img id="teamBanner" src="images/2018team.jpg"/>
+			<div class="subsection">
+				<div class="infoSection">
+					<h1 class="desktopOnly" style="padding-bottom: 10px">Hello!</h1>
+					<h2>Who we are:</h2>
+					<p>
+						Better World by Design is a student-led initiative at Brown University and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale.
+					</p>
+				</div>
+				<div class="photoSection" id="team">
+						<div class="subsection" id="photosSubsection-Team">
+							<h1>Committee of 2018:</h1>
+							<h3>Co-Chairs:</h3>
+							<div class="faceGrid">
+								<div class="personProfile" id="katchai">
+													<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+													<img class="personImg-border" src="images/circleBorder-blue.svg" />
+													<br />
+													<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Kat <br class="nameBreak"/>Chai</a>
+													<p class="schoolTag">Brown 2020</p>
+													<p class="committeeRole"></p>
+								</div>
+								<div class="personProfile" id="katchavez">
+													<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+													<img class="personImg-border" src="images/circleBorder-blue.svg" />
+													<br />
+													<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Kat <br class="nameBreak"/>Chavez</a>
+													<p class="schoolTag">Brown 2019</p>
+													<p class="committeeRole"></p>
+								</div>
+								<div class="personProfile" id="javi">
+													<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+													<img class="personImg-border" src="images/circleBorder-blue.svg" />
+													<br />
+													<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Javi <br class="nameBreak"/>Syquia</a>
+													<p class="schoolTag">Brown|RISD 2021</p>
+													<p class="committeeRole"></p>
+								</div>
+							</div>
+							<h3 div style="clear:both;">Content:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									<div class="personProfile" id="francesca">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Francesca <br class="nameBreak"/>Gallo</a>
+														<p class="schoolTag">Brown 2019</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="emilia">
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Emilia <br class="nameBreak"/>Mann</a>
+														<p class="schoolTag">Brown|RISD 2021</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="nick">
+											<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+											<img class="personImg-border" src="images/circleBorder-blue.svg" />
+											<br />
+											<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Nicholas <br class="nameBreak"/>Tomlin</a>
+											<p class="schoolTag">Brown 2019</p>
+											<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="emilio">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Emilio <br class="nameBreak"/>Vides-Curnen</a>
+														<p class="schoolTag">Brown 2019</p>
+														<p class="committeeRole"></p>
+									</div>
+							</div>
+							<h3 div style="clear:both;">Community Engagement:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									<div class="personProfile" id="anzia">
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Anzia <br class="nameBreak"/>Anderson</a>
+														<p class="schoolTag">Brown 2019</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="arjun">
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Arjun <br class="nameBreak"/>Shah</a>
+														<p class="schoolTag">RISD 2021</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="tina">
+											<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+											<img class="personImg-border" src="images/circleBorder-blue.svg" />
+											<br />
+											<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Tina <br class="nameBreak"/>Yang</a>
+											<p class="schoolTag">Brown 2020</p>
+											<p class="committeeRole"></p>
+									</div>
+									<h1 class="rightSpace"> &nbsp; </h1>
+							</div>
+							<h3 div style="clear:both;">Branding:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									<div class="personProfile" id="lorraine">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Lorraine <br class="nameBreak"/>Li</a>
+														<p class="schoolTag">RISD 2020</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="niya">
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Niya <br class="nameBreak"/>Sun</a>
+														<p class="schoolTag">RISD 2020</p>
+														<p class="committeeRole"></p>
+									</div>
+									<h1 class="rightSpace"> &nbsp; </h1>
+							</div>
+							<h3 div style="clear:both;">Finance:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									<div class="personProfile" id="briana">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Briana <br class="nameBreak"/>Das</a>
+														<p class="schoolTag">Brown 2021</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="tristan">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Tristan <br class="nameBreak"/>Harris</a>
+														<p class="schoolTag">Brown 2020</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="rachel">
+											<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+											<img class="personImg-border" src="images/circleBorder-blue.svg" />
+											<br />
+											<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Rachel <br class="nameBreak"/>Risoleo</a>
+											<p class="schoolTag">Brown 2019</p>
+											<p class="committeeRole"></p>
+									</div>
+									<h1 class="rightSpace"> &nbsp; </h1>
+							</div>
+							<h3 div style="clear:both;">Operations and Sustainability:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									<div class="personProfile" id="sammy">
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Sammy <br class="nameBreak"/>Randall</a>
+														<p class="schoolTag">Brown 2020</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="erica">
+											<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+											<img class="personImg-border" src="images/circleBorder-blue.svg" />
+											<br />
+											<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Erica <br class="nameBreak"/>Silver</a>
+											<p class="schoolTag">RISD 2020</p>
+											<p class="committeeRole"></p>
+									</div>
+									<h1 class="rightSpace"> &nbsp; </h1>
+							</div>
+							<h3 div style="clear:both;">Public Relations:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									
+									<div class="personProfile" id="elaine">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Elaine <br class="nameBreak"/>Lu</a>
+														<p class="schoolTag">RISD 2019</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="nat">
+											<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+											<img class="personImg-border" src="images/circleBorder-blue.svg" />
+											<br />
+											<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Natasha Orlando<br class="nameBreak"/>Figueiredo</a>
+											<p class="schoolTag">Brown 2019</p>
+											<p class="committeeRole"></p>
+									</div>
+									<h1 class="rightSpace"> &nbsp; </h1>
+							</div>
+							<h3 div style="clear:both;">Social Events:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									<div class="personProfile" id="reet">
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Reet <br class="nameBreak"/>Agrawal</a>
+														<p class="schoolTag">Brown 2021</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="ruthie">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Ruthie <br class="nameBreak"/>Ashinne</a>
+														<p class="schoolTag">Brown 2021</p>
+														<p class="committeeRole"></p>
+									</div>
+									<h1 class="rightSpace"> &nbsp; </h1>
+							</div>
+							<h3 div style="clear:both;">Web:</h3>
+							<div class="faceGrid" div style="clear:both;">
+									<div class="personProfile" id="ceci">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Cecilia <br class="nameBreak"/>Berriz</a>
+														<p class="schoolTag">Brown 2019</p>
+														<p class="committeeRole"></p>
+									</div>
+									<div class="personProfile" id="xuefei">
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+														<img class="personImg-border" src="images/circleBorder-blue.svg" />
+														<br />
+														<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Xuefei <br class="nameBreak"/>Yang</a>
+														<p class="schoolTag">RISD 2019</p>
+														<p class="committeeRole"></p>
+									</div>
+									<h1 class="rightSpace"> &nbsp; </h1>
+							</div>
+						</div>
+				</div> 		
+				 
+			</div>
+			<div class="subsection" div style="clear:both;">
+			</div>
+			
+			<div class="subsection2" div style="clear:both;">
+					<div class="bottomAbout" div style="clear:both;">
+						<h3 class="mobileMargin">Our history:</h3>
+						<p>
+							In 2008, Sharon Langevin (Brown ’09), Steve Daniels (Brown ’09), Tino Chow (RISD ’09) and Mike Eng (RISD ’09) founded Better World by Design to merge their fields and solve social problems from a holistic perspective. Over the years, Better World by Design has expanded its reach while fostering a close partnership between Brown, RISD, and the Providence community.
+						</p>
+						<h3>Our alumni:</h3>	
+						<p>
+							Our alums have gone off to do amazing things in amazing places. Our previous leaders and pioneers are listed below. If we’re lucky, we’ll even get to catch up with them at our conference.
+						</p>
+						<div class="alumni" div style="clear:both;">
+							<p>
+								<br>
+								<a href="https://www.callieclayton.com/"> Callie Clayton </a>,
+								<a href="https://www.linkedin.com/in/caroline-turner-992b29a7"> Caroline Turner </a>,
+								<a href="https://clarejessey.co/"> Clare Jessey </a>,
+								<a href="https://www.linkedin.com/in/daniela-longoria-939954a1"> Daniela Longoria </a>, 
+								<a href="https://www.linkedin.com/in/eitan-boiarsky-9a6995a3"> Eitan Boiarsky </a>, 
+								<a href="https://www.linkedin.com/in/indhusolayappan/"> Indhu Solayappan </a>, 
+								JD Tan, Lucie Fleming, 
+								<a href="https://www.linkedin.com/in/madeline-forbes-b548b7121/"> Maddie Forbes </a>, 
+								<a href="http://www.mandilicai.com/"> Mandi Cai </a>, 
+								<a href="https://www.linkedin.com/in/maria-russo-61b8618a"> Maria Russo </a>, 
+								<a href="https://www.behance.net/maykodama"> May Kodama </a>, 
+								<a href="https://www.phoebegallo.com/"> Phoebe Gallo </a>,
+								<a href="https://www.linkedin.com/in/taryn-oshiro-wachi-781722a3/"> Taryn Oshiro-Wachi </a>,
+								<a href="https://www.linkedin.com/in/zoechinonsoene/"> Zoë Ene </a>,
+								Isabella Giancarlo,
+								<a href="https://www.isaacblankensmith.com/"> Isaac Blackensmith </a>,
+								Joanna Zhang,
+								Katharine Li,
+								Lily Matthews,
+								Mark Towill,
+								Matt Severson,
+								Mike Eng,
+								Minsoo Thigpen,
+								Raaj Parekh,
+								Sharon Langevin,
+								Sophia Yang,
+								Steve Daniels,
+								Tim Dingman,
+								Tino Chow,
+								Veronica Clarkson,
+								Willem Van Lancker,
+								Yan Liang
+							</p>
+						</div>
+						<!-- <h1 class="rightSpace"> &nbsp; </h1> -->
+						<!-- <h1 class="rightSpace"> &nbsp; </h1> -->
+					</div>
+
+					<div class="rightCol">
+							<h3>Past conference themes:</h3>
+							<div class="theme">
+							  <h1 class="themeYear">2017</h1>
+							  <div class="confTheme" id="blocks">
+							  	<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Blocks, Bytes, and Bars</a>
+							  </div>
+
+							  <h1 class="themeYear">2016</h1>
+							  <div class="confTheme" id="interplay">
+									<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Interplay</a>
+							 </div>
+						
+							  <h1 class="themeYear">2015</h1>
+							  <h1 class="themeDesc">Access</h1>
+						
+							  <h1 class="themeYear">2014</h1>
+							  <h1 class="themeDesc">Wayfinding</h1>
+						
+							  <h1 class="themeYear">2013</h1>
+							  <h1 class="themeDesc">Pause & Effect</h1>
+						   </div>
+						   <h1 class="rightSpace"> &nbsp; </h1>
+					</div>
+			</div>
+			
+			      <div class="footer" div style="clear:both; padding-bottom: 70px">
+			          <div class="contactInformation">
+			              <p class="detailsBottom ">Better World by Design <br/> </p>
+			              <p class="detailsBottom ">Providence, Rhode Island <br/> </p>
+			              <p class="detailsBottom ">hello@betterworldxdesign.com<br/> </p>
+			              <a target="blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/2facebook.svg"></a>
+			              <a target="blank" href="https://www.instagram.com/betterxdesign/"><img src="images/social/2instagram.svg"></a>
+			              <a target="blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/2twitter.svg"></a>
+			          </div>
+			      </div>
+
+		</div>
+	</main>
+
+<div id='modalPopup'>
+	<a class="modal_close">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			viewBox="0 0 313.4 313.4" style="enable-background:new 0 0 313.4 313.4;" xml:space="preserve">
+				<style type="text/css">
+					.X {fill:#00B5AD;}
+				</style>
+				<title>X</title>
+				<polygon class="X" points="313.4,26.2 287.2,0 156.7,130.5 26.2,0 0,26.2 130.5,156.7 0,287.2 26.2,313.4 156.7,182.9
+					287.2,313.4 313.4,287.2 182.9,156.7 "/>
+			</svg>
+		</a>
+
+		<div class="imgDiv">
+			<div class="personImg"></div>
+			<img class="personImg-border" src="images/circleBorder-blue.svg" />
+		</div>
+
+		<div class="textDiv">
+			<a target="_blank" onclick="return clickable($(this));" href="#" class="name"></a>
+			<p class="bio"></p>
+		</div>
+	</div>
+
+
+<div id='modalPopupNoLink'>
+	<a class="modal_close">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			viewBox="0 0 313.4 313.4" style="enable-background:new 0 0 313.4 313.4;" xml:space="preserve">
+				<style type="text/css">
+					.X {fill:#00B5AD;}
+				</style>
+				<title>X</title>
+				<polygon class="X" points="313.4,26.2 287.2,0 156.7,130.5 26.2,0 0,26.2 130.5,156.7 0,287.2 26.2,313.4 156.7,182.9
+					287.2,313.4 313.4,287.2 182.9,156.7 "/>
+			</svg>
+		</a>
+
+		<div class="imgDiv">
+			<div class="personImg"></div>
+			<img class="personImg-border" src="images/circleBorder-blue.svg" />
+		</div>
+
+		<div class="textDiv">
+			<a class="nameNoLink"></a>
+			<p class="bio"></p>
+		</div>
+	</div>
+</body>
+
+<script src="scripts/checkBrowser.js"></script>
+<script src="scripts/layout.js"></script>
+<script src="scripts/slideout.min.js"></script>
+<script src="scripts/slideout-init.js"></script>
+<script src="scripts/smoothScroll.js"></script>
+<script src="scripts/jquery.leanModal.min.js"></script>
+<script src="scripts/modalPopup-2018.js"></script>
+
+</html>

@@ -1,0 +1,83 @@
+#header {
+	width: 100vw;
+	height: 40vw;
+	min-height: 350px;
+
+	position: relative;
+    background-size: cover;
+    background-position:center;
+
+	text-align: center;
+}
+
+.contentContainer, #menu {
+	margin-top: 60px;
+}
+
+@media (min-width:1200px) {
+	#header {
+		height: 30vw;
+	}
+}
+
+#headerText {
+	color: #241F59;
+
+	width: 100%;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+
+	font-size: 3em;
+	font-weight: 700;
+}
+
+@media (min-width:600px) {
+	#headerText {
+		font-size: 5em;
+	}
+}
+
+/**/
+/* Content */
+/**/
+
+.section {
+/*	Add padding and negative margin for link anchor offset to acount for nav bar */
+/*	70 for navbar height and 30 for padding */
+	float: left;
+	padding-top: 100px;
+	margin: -70px 30px 30px 30px; /* Equivalent to 30 30 60 30 */
+}
+@media (min-width: 1200px) {
+    .section {
+	/*	80 for navbar height and 30 for padding */
+		padding-top: 110px;
+		margin: -80px 30px 30px 30px; /* Equivalent to 30 30 60 30 */
+	}
+}
+
+.subsection {
+	margin: 0 0; /* Originally 30px 0 */
+}
+.content {
+	/*max-width: 650px;*/
+	padding: 0 24px;
+	/*margin-bottom: 90px;*/
+}
+@media (min-width: 680px) {
+	.content {
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+}
+@media (min-width: 1200px) {
+    .content {
+        /*width: 50%;
+        padding-left: calc(26% - 30px);
+        max-width: 710px;*/
+    }
+}

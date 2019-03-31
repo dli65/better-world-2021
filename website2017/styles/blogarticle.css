@@ -1,0 +1,58 @@
+/*.articleDate {
+  display: block;
+  height: 72px;
+  width: 72px;
+  line-height: 72px;
+
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.9em;
+}*/
+h2 {
+  /*padding-bottom: 10px;*/
+  font-size: 2.1em;
+  line-height: 1.1em;
+}
+.postDate {
+  margin-bottom: 5px;
+}
+.previewImage {
+  padding-top: 20px;
+  padding-bottom: 22px;
+  max-height: none;
+}
+
+p {
+  font-size: 1.15em;
+  line-height: 1.45em;
+}
+.article {
+  margin-bottom: 25px;
+}
+/* desktop-specific styling */
+@media (min-width: 1000px) {
+  .article {
+    width: calc(60% + 100px);
+    padding-top: 50px;
+  }
+  .articleDateContainer {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .leftCol {
+    width: auto;
+    float: left;
+  }
+  .article {
+    margin-right: 15%;
+    width: calc(65% + 100px);
+  }
+  .previewImage {
+    margin: 0 0px;
+  }
+}

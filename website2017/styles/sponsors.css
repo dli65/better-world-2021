@@ -1,0 +1,141 @@
+#header {
+	background: linear-gradient(transparent, transparent),
+                 url(../images/banners/sponsors.jpg) no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/banners/sponsors.jpg) no-repeat;
+}
+
+.sponsorDiv {
+	/*padding-top: 20px;*/
+	border-bottom: 1px solid #00B5AD;
+	/*max-width: 550px;*/
+}
+.lastsponsorDiv {
+	/*padding-top: 20px;*/
+	/*text-align: justify;*/
+	/*max-width: 550px;*/
+}
+
+.sponsorRow {
+
+}
+
+.leftCol {
+	/*float: left;
+	width: inherit;*/
+	/*margin-right: 100px;*/
+	padding-top: 40px;
+}
+
+.rightCol {
+	min-width: 320px;
+}
+
+.sponsorLogo {
+	margin-bottom: 25px;
+	vertical-align: middle;
+}
+
+.lineLogo {
+	width: 100%;
+	max-width: 140px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.squareLogo {
+	width: 60%;
+	max-width: 100px;
+	padding-left: 35px;
+	margin-right: 35px;
+}
+
+@media (min-width: 750px) {
+	.content {
+		margin: 0 5%;
+	}
+}
+@media (min-width: 1000px) {
+	.content {
+		margin: 0;
+	}
+	.leftCol {
+		float: left;
+		margin-left: 0px;
+		margin-right: 50px;
+		width: 64%;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.rightCol {
+		padding-top: 40px;
+	}
+	.mobileTopCol {
+		display: none;
+	}
+}
+@media (max-width: 999px) {
+	.rightSpace {
+		display: none;
+	}
+	h1 {
+		font-size: 1.3em;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	h3 {
+		font-size: 1em;
+		padding-top: 10px;
+	}
+	.leftCol {
+		padding-top: 0px;
+	}
+	.rightCol {
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	.leftCol {
+		width: calc(65% - 90px);
+		/*max-width: 550px;*/
+		margin-left: 90px;
+	}
+	.sponsorDiv {
+		/*max-width: 550px;*/
+	}
+	.lastsponsorDiv {
+		/*max-width: 550px;*/
+	}
+}
+
+@media (max-width: 399px) {
+	.squareLogo {
+		max-width: 100px;
+		padding-left: 25px;
+		margin-right: 15px;
+	}
+	.lineLogo {
+		max-width: 125px;
+		padding-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media (max-width: 374px) {
+	.squareLogo {
+		max-width: 100px;
+		padding-left: 15px;
+		margin-right: 15px;
+	}
+	.lineLogo {
+		max-width: 110px;
+		padding-left: 4px;
+		margin-right: 5px;
+	}
+}
+
+/*@media (min-width: 550px) {
+	.sponsorDiv, .lastsponsorDiv {
+		text-align: justify;
+	}
+}*/

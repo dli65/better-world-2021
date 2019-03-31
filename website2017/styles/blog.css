@@ -1,0 +1,142 @@
+/* Creates the circle for article dates. */
+.articleDate {
+  display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.localGreen {
+  border: 2px solid #00B5AD;
+}
+.alumYellow {
+  border: 2px solid #FFD400;
+}
+.designRed {
+  border: 2px solid #EF413D;
+}
+
+.articleDateContainer {
+  float: left;
+  height: 100%;
+  margin-right: 30px;
+  display: block;
+}
+
+.readMore {
+  font-weight: 700;
+}
+
+.previewImage {
+  width: 100%;
+  padding-bottom: 15px;
+  padding-left: 1px;
+  padding-right: 1px;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.article {
+  padding-top: 20px;
+  height: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+
+a {
+  /*color: #241F59;*/
+}
+
+.articleBody {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+}
+
+.pressItem a {
+  font-weight: 500;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+.pressItem p {
+  margin-bottom: 16px;
+}
+
+.yellowBull {
+  font-size: 0.8em;
+  color: #FFD400;
+}
+.greenBull {
+  font-size: 0.8em;
+  color: #00B5AD;
+}
+.redBull {
+  font-size: 0.8em;
+  color: #EF413D;
+}
+
+.bullet {
+  font-size: 0.8em;
+  padding: 0 2px;
+}
+
+h2 {
+  line-height: 1.1em;
+  padding-bottom: 6px;
+}
+.pressCol h2 {
+  padding-bottom: 16px;
+}
+
+/* Desktop specific styling: press, circles, etc. */
+
+@media (min-width: 1000px) {
+  .leftCol {
+    width: 60%;
+    margin-right: 100px;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .pressCol {
+    /*padding-top: 90px;*/
+    width: 24%;
+    float: left;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 999px) {
+  .pressCol {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .leftCol {
+    width: 65%;
+  }
+  .pressCol {
+    padding-top: 40px;
+  }
+  .content {
+    padding-top: 10px;
+  }
+  .article {
+    padding-top: 10px;
+  }
+  .greenBull, .yellowBull, .redBull {
+    color: #241F59;
+  }
+}
+
+@media (max-width: 1199px) {
+  .articleDateContainer {
+    display: none;
+  }
+}

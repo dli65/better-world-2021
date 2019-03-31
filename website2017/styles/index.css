@@ -1,0 +1,139 @@
+body {
+}
+
+.mainLogo {
+    position: relative;
+    margin-top: 8vh;
+    height: 45vh;
+}
+
+.logosDesktop {
+    display: visible;
+}
+
+.logosDesktop a {
+    margin: 1%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.logosDesktop img {
+  width: 40px;
+}
+.logosDesktop {
+  margin-bottom: 20px;
+}
+
+/*
+
+.name p {
+    position: fixed;
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color: white;
+    text-align: center;
+    width: 45%;
+    margin-top: 53vh;
+    margin-left: 50%;
+    vertical-align: center;
+    transform: translateX(-64%) translateY(60%);
+    transform: translateX(-10%) translateY(-10%);
+}
+*/
+
+.landingcontainer {
+    width: 100%;
+    text-align: center;
+}
+
+.landingType {
+    font-family: "calibre";
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-bottom: 3vh;
+    color: white;
+}
+
+.eventsButton {
+    display: inline-block;
+    border: 2px solid #ffd400;
+    padding: 10px;
+    background: transparent;
+    color: #ffd400;
+    font-family: "calibre";
+    font-weight: 300;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+    transition: color 0.1s ease;
+    margin-top: 20px;
+}
+
+.eventsButton:hover {
+    background: #00b5ad;
+    color: white;
+    cursor: pointer;
+}
+
+/*BREAKPOINT*/
+
+
+@media(max-width: 1200px) {
+    .logosDesktop {
+    display: none;
+    }
+}
+
+@media(max-width: 800px) {
+  .mainLogo {
+    height: 35vh;
+  }
+
+
+    .eventsbutton {
+        top: 90%;
+    }
+
+
+    .landingType {
+        padding: 0 20vw;
+        margin-bottom: 5vh;
+    }
+
+}
+
+
+
+@media(max-width: 500px) {
+
+    .mainLogo {
+        top: 30%;
+        height: 35vh;
+    }
+
+    .landingType {
+        font-size: 2.2em;
+        line-height: 1.2em;
+        padding: 0 10vw;
+        margin-bottom: 4vh;
+    }
+
+    .eventsbutton {
+        margin: 16vh auto;
+    }
+}
+
+@media(max-height: 600px) {
+  .mainLogo {
+    margin-top: 5.5vh;
+    position: relative;
+  }
+  .landingType {
+    font-size: 1.9em;
+    line-height: 1.15em;
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+  }
+  .
+}

@@ -1,0 +1,2822 @@
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="main.css?version=1.3.1">
+			<script src="scripts/tabs.js"></script>
+			<script src="scripts/dropdown.js"></script>
+			<script src="scripts/accordion.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			<script src='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js'></script>
+			<link href='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css' rel='stylesheet' />
+			<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.min.js'></script>
+			<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.css' type='text/css' />
+
+			<title>Blocks, Bytes, and Bars</title>
+			<link rel="shortcut icon" href="favicon.ico" />
+
+			<meta Http-Equiv="Cache" content="no-cache">
+		    <meta Http-Equiv="Pragma-Control" content="no-cache">
+		    <meta Http-Equiv="Cache-directive" Content="no-cache">
+		    <meta Http-Equiv="Pragma-directive" Content="no-cache">
+		    <meta Http-Equiv="Cache-Control" Content="no-cache">
+		    <meta Http-Equiv="Pragma" Content="no-cache">
+		    <meta Http-Equiv="Expires" Content="0">
+		    <meta Http-Equiv="Pragma-directive: no-cache">
+		    <meta Http-Equiv="Cache-directive: no-cache">
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	</head>
+	<body>
+		<div id="">
+		<div id="navbar">
+			<a href="#"><img id="nav_logo" src="images/bwx10.png"/></a>
+			<div id="nav_links">
+				<a class="desktop" href="#schedule">Schedule</a>
+				<a class="mobile" href="#mobileschedule">Schedule</a>
+				<a href="#mapcontainer">Locations</a>
+				<a href="#challenge">Adobe Creative Jam</a>
+				<a class="desktop" href="http://betterworldxdesign.com/index.html">Main Site</a>
+				<a class="mobile" style="padding-right: 20px" href="http://betterworldxdesign.com/index.html">Main Site</a>
+			</div>
+		</div>
+		<div id="main">
+
+			<div id="banner">
+				<div id="text">
+					<div id="bwxd">BWxD</div>
+					<div id="conference">Conference 2017</div>
+					<div id="bannerdates">
+						<span style="font-weight: 700;">Closing Keynote</span><br/>
+						<span style="font-weight: 300;">Sun. 3:30&ndash;4:30pm</span>
+					</div>
+				</div>
+				<div class="desktop" id="bannerimage">
+					<img src="images/banners/D_bannerfriday.svg"></img>
+				</div>
+				<div class="mobile" id="bannerimage2">
+					<img src="images/banners/M_bannerday2_updated.svg"></img>
+				</div>
+			</div>
+
+			<div id="schedule">
+				<div id="schedule_tabs">
+					<span id="friday_tab" class="day_tab"><a href="javascript:void(0)" onclick="show('friday')">Friday</a><br/></span>
+					<span id="saturday_tab" class="day_tab"><a href="javascript:void(0)" onclick="show('saturday')">Saturday</a><br/></span>
+					<span id="sunday_tab" class="day_tab selected_tab"><a href="javascript:void(0)" onclick="show('sunday')">Sunday</a></span>
+				</div>
+				<table style="display:none;" id="friday_schedule" class="schedule_table">
+					<tr>
+						<td class="time">10:00 A</td>
+						<td class="event">
+						<div class="icon">
+								<img src="images/registration.svg">
+							</div>
+							<div class="info">
+								<div class="title">Registration</div>
+								<div class="location">
+									Frazier Terrace
+									<a href="https://www.google.com/maps/dir//223+Benefit+St,+Providence,+RI+02903/@41.82668,-71.4070664,96m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e44517c5288c67:0x99e04ae220ef1870!2m2!1d-71.4069713!2d41.8267199">
+						<img class="marker" src="images/navy.svg"></img>
+						</a>
+						</div>
+								<div class="description">
+									<div id="a2" class="details">
+						<a href="javascript:void(0)" onclick="dropdown('#a', '#a2')">Details</a>
+						</div>
+									<div class="dropdown" id="a" style="display: none;">
+										First thing's first! Get your name badge that will grant you access to our full event! Grab your goodie bag with Soylent, Field Notes, Dopper Bottle, and more. If you have any questions, please don't hesitate to ask. 		</div>
+								</div>
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">11:00 A</td>
+						<td class="event">
+						<div class="icon">
+								<img src="images/lecture.svg">
+							</div>
+							<div class="info">
+								<div class="title">Cynthia Smith | Design by the People for the People</div>
+								<div class="location">
+						RISD Museum | Chace Metcalf Auditorium
+						<a href="https://www.google.com/maps/dir//RISD+Museum,+Chace+Center+entrance,+20+N+Main+St,+Providence,+RI+02903/@41.8265822,-71.4073886,18z/data=!4m15!1m6!3m5!1s0x0:0x49112556d05817bc!2sRISD+Museum,+Chace+Center+entrance!8m2!3d41.8261062!4d-71.4079839!4m7!1m0!1m5!1m1!1s0x89e445164b5ec617:0x49112556d05817bc!2m2!1d-71.407984!2d41.826106">	 
+						<img class="marker" src="images/teal.svg"></img>
+						</a>
+						</div>
+								<div class="description">
+									<div id="c0" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c1', '#c0')">Details</a>
+									</div>
+									<div class="dropdown" id="c1" style="display: none;">
+										Smith will explore the evolution of the exhibition series dedicated to socially responsible design that she organizes at Cooper Hewitt, Smithsonian Design Museum. The first show was conceived as a provocation to the design world to expand the notion of who designs, and her latest exhibition By the People: Designing a Better America focuses on collaborative designs that address widening inequities.
+									</div>
+								</div>
+						</div>
+						</td>
+					</tr>
+					<tr class="lunch">
+						<td class="lunch_time">12:00 P</td>
+						<td class="lunch_event">
+							<div id="lunch_title">
+								Lunch Break &mdash; Chace Terrace
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">1:00 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title">Elizabeth Hare & Brendan Oberkircher | Enabling Change Through Care-Centered Design at Johnson & Johnson</div>
+									<div class="location">RISD Museum | Chace Metcalf Auditorium
+										<a href="https://www.google.com/maps/dir//RISD+Museum,+Chace+Center+entrance,+20+N+Main+St,+Providence,+RI+02903/@41.8265822,-71.4073886,18z/data=!4m15!1m6!3m5!1s0x0:0x49112556d05817bc!2sRISD+Museum,+Chace+Center+entrance!8m2!3d41.8261062!4d-71.4079839!4m7!1m0!1m5!1m1!1s0x89e445164b5ec617:0x49112556d05817bc!2m2!1d-71.407984!2d41.826106">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c2" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c3', '#c2')">Details</a>
+									</div>
+									<div class="dropdown" id="c3" style="display: none;">
+										How design thinking is transforming expectations, behaviors and outcomes at a global healthcare company.
+									</div>
+									</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title">Martin Keen | From Feet to Seat: Crafting for Human Form and Function</div>
+									<div class="location">The MET | Metroom C
+										<a href="https://www.google.com/maps/dir//The+Met,+30+Waterman+St,+Providence,+RI+02912/@41.8269764,-71.4073797,18z/data=!4m15!1m6!3m5!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2sThe+Met!8m2!3d41.8269764!4d-71.4062854!4m7!1m0!1m5!1m1!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2m2!1d-71.4062854!2d41.8269764">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c4" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c5', '#c4')">Details</a>
+									</div>
+									<div class="dropdown" id="c5" style="display: none;">
+										From shoes to furniture, Martin Keen talks about the evolution of his design process, and how the human form has always been at the center of his research.
+									</div>
+									</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title"> Kit McDonnell | Antiparallel Play: Biological Design in Natural History and Synthetic Futures</div>
+									<div class="location">Memorial Hall | Taproom
+										<a href="https://www.google.com/maps/dir//226+Benefit+St,+Providence,+RI+02903/@41.8263219,-71.4078791,19z/data=!4m16!1m7!3m6!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2s226+Benefit+St,+Providence,+RI+02903!3b1!8m2!3d41.8262759!4d-71.4073937!4m7!1m0!1m5!1m1!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2m2!1d-71.4073319!2d41.8263219">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c6" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c7', '#c6')">Details</a>
+									</div>
+									<div class="dropdown" id="c7" style="display: none;">
+										What can the Creative Team at a futures-oriented biotech startup learn from a 114-year-old natural history museum with 25+ million specimens? The Creative Team at Ginkgo Bioworks explores compelling organism design and new ways of making… with DNA at the core. 
+									</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">2:00 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title"> Emilio Martinez Poppe| Ways of Being</div>
+									<div class="location">Memorial Hall | Taproom
+										<a href="https://www.google.com/maps/dir//226+Benefit+St,+Providence,+RI+02903/@41.8263219,-71.4078791,19z/data=!4m16!1m7!3m6!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2s226+Benefit+St,+Providence,+RI+02903!3b1!8m2!3d41.8262759!4d-71.4073937!4m7!1m0!1m5!1m1!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2m2!1d-71.4073319!2d41.8263219">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c8" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c9', '#c8')">Details</a>
+									</div>
+									<div class="dropdown" id="c9" style="display: none;">
+										Ways of Being is a free resource for educators that can be used in classroom, exhibition, and workshop contexts to analyze and reimagine power relationships in the arts. The textbook, syllabi, website, and videos are tools that prompt investigations into systems of production: how projects are made, how projects circulate, and how expressions of power are encoded in a wide range of approaches to production. We believe that an education in art must be as much about ways of being in the world as it is about ways of seeing and ways of making and exhibiting projects in the world.
+									</div>
+									</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title"> Barbara Weinreich | "Building" a Brand from Bricks to Bytes </div>
+									<div class="location">The MET | Metroom A
+										<a href="https://www.google.com/maps/dir//The+Met,+30+Waterman+St,+Providence,+RI+02912/@41.8269764,-71.4073797,18z/data=!4m15!1m6!3m5!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2sThe+Met!8m2!3d41.8269764!4d-71.4062854!4m7!1m0!1m5!1m1!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2m2!1d-71.4062854!2d41.8269764">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c10" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c11', '#c10')">Details</a>
+									</div>
+									<div class="dropdown" id="c11" style="display: none;">
+										A strong brand narrative informs its built form as a retail store. But how do you build a brand story? A series of retail design case studies will explore how some leading brands architecturally express their DNA.  How does retail design extend-or even invent- the brand story? How does this traditional store approach relate to retail design today, as the model shifts from digital to drones to duopolies? What are emerging trends in retail design and how does customer desire, behavior and experience affect the future design of the brand story?
+									</div>
+									</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title"> Design for America | Synthesize with Empathy</div>
+									<div class="location">Ewing Multicultural Center
+										<a href="https://www.google.com/maps/dir//41+Waterman+St,+Providence,+RI+02906/@41.82668,-71.4070664,96m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e44517da3db18d:0x80ae666791032d45!2m2!1d-71.40662!2d41.826605">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c12" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c13', '#c12')">Details</a>
+									</div>
+									<div class="dropdown" id="c13" style="display: none;">
+										Thoughtful synthesis, while not explicit in a solution's implementation, is nonetheless an essential step in informing a design intervention. It enables the designer to capture and process the mass of knowledge obtained from user research, and to identify underlying, implicit user needs. This workshop will introduce several synthesis methods and provide opportunities to practice and discuss on a smaller scale.
+									</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">3:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title"> LUMA Institute | Look Carefully. Understand Deeply. Make Resourcefully. </div>
+									<div class="location">RISD Museum | Chace Metcalf Auditorium
+										<a href="https://www.google.com/maps/dir//RISD+Museum,+Chace+Center+entrance,+20+N+Main+St,+Providence,+RI+02903/@41.8265822,-71.4073886,18z/data=!4m15!1m6!3m5!1s0x0:0x49112556d05817bc!2sRISD+Museum,+Chace+Center+entrance!8m2!3d41.8261062!4d-71.4079839!4m7!1m0!1m5!1m1!1s0x89e445164b5ec617:0x49112556d05817bc!2m2!1d-71.407984!2d41.826106">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c14" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c15', '#c14')">Details</a>
+									</div>
+									<div class="dropdown" id="c15" style="display: none;">
+										There is a great and growing imperative for innovation. It calls for more people to be more innovative more often. This session will help you learn and apply the discipline of Human-Centered Design to create new value and drive sustainable growth. We will equip you with the LUMA System of Innovation&mdash;a modular, adaptive approach that was applauded by Harvard Business Review as a powerful "Taxonomy of Innovation." You will leave this interactive session with principles and practices to move the needle a little bit or change the world in a big way.
+									</div>
+									</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title"> Ingrid Lange | When AI meets Healthcare </div>
+									<div class="location">The MET | Metroom A
+										<a href="https://www.google.com/maps/dir//The+Met,+30+Waterman+St,+Providence,+RI+02912/@41.8269764,-71.4073797,18z/data=!4m15!1m6!3m5!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2sThe+Met!8m2!3d41.8269764!4d-71.4062854!4m7!1m0!1m5!1m1!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2m2!1d-71.4062854!2d41.8269764">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c16" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c17', '#c16')">Details</a>
+									</div>
+									<div class="dropdown" id="c17" style="display: none;">
+										Uncertainty is an inherent part of the process of artists, designers, technologists, and philosophers. This uncertainty only intensifies when designing products that apply emerging technologies to problems in complex industries&mdash;what can we learn from designing AI healthcare products that can inform how designers across industries deal with uncertainty in their process?
+									</div>
+									</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+									<img src="images/lecture.svg">
+								</div>
+								<div class="info">
+									<div class="title"> Paolo Cardini | Design for the Pluriverse </div>
+									<div class="location">Memorial Hall | Taproom
+										<a href="https://www.google.com/maps/dir//226+Benefit+St,+Providence,+RI+02903/@41.8263219,-71.4078791,19z/data=!4m16!1m7!3m6!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2s226+Benefit+St,+Providence,+RI+02903!3b1!8m2!3d41.8262759!4d-71.4073937!4m7!1m0!1m5!1m1!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2m2!1d-71.4073319!2d41.8263219">	 
+										<img class="marker" src="images/teal.svg"></img>
+										</a></div>
+									<div class="description">
+									<div id="c18" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c19', '#c18')">Details</a>
+									</div>
+									<div class="dropdown" id="c19" style="display: none;">
+										Today, more than ever, design needs to engage with cultural interdependence. In this talk, Paolo Cardini will bring you on a journey through design, globalization, and localism highlighting criticisms and opportunities for a multicultural design approach.
+									</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">4:30 P</td>
+						<td class="event">
+						<div class="icon">
+								<img src="images/lecture.svg">
+							</div>
+							<div class="info">
+								<div class="title"> Beth Rattner | Nature as a storehouse of knowledge, not a warehouse of goods </div>
+								<div class="location"> RISD Auditorium
+									<a href="https://www.google.com/maps/dir//RISD+Auditorium,+7+Canal+Walk,+Providence+River+Greenway,+Providence,+RI+02903/@41.8260507,-71.408805,20z/data=!4m15!1m6!3m5!1s0x0:0xed606b3fce9ee3d9!2sRISD+Auditorium!8m2!3d41.8260018!4d-71.4088047!4m7!1m0!1m5!1m1!1s0x89e4451654014467:0xed606b3fce9ee3d9!2m2!1d-71.4088047!2d41.8260018">	 
+									<img class="marker" src="images/teal.svg"></img>
+									</a></div>
+								<div class="description">
+									<div id="c20" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c21', '#c20')">Details</a>
+									</div>
+									<div class="dropdown" id="c21" style="display: none;">
+										Biomimicry (also "bio-inspired design") is an approach to innovation that leads to sustainable design solutions by studying and applying nature's functional strategies and patterns. At a time when many innovators have a fractured, if any, relationship to nature, biomimicry offers a way to reconnect. It is a profound shift in how we view and value the natural world. How might a designer or engineer newly understand lightweighting and aerodynamics by studying how a hummingbird cross the Gulf of Mexico on minimal body fat?
+
+										Beth's presentation will be both a 30 minute talk and a brief, interactive example of how to apply the biomimicry design process. The overview will include case studies that focus on phenomena right outside in one's own backyard and striking examples from nature and bio-inspired design that are tied directly to biology, chemistry, physics, environmental science, and engineering at the high school level. As biomimicry is a multi-disciplinary approach -- synthesizing biology, engineering, design, math -- attendees of the talk will see that collaboration, innovation, and critical thinking are by-products of this lens. At the same time, an undeniable sense of wonder and hope are sparked, not just from the innate desire we all have to observe nature, but from understanding that solutions are all around us, all the time.
+ 										<br/></br/>
+										In this way, biomimicry is a "block" upon which a new kind of design practice is possible, and a "byte" in that it abstracts design principles from nature's blueprints and applies it to our imperfect, industrial materials palette. The selected case studies feature students and entrepreneurs worldwide who have designed nature-inspired solutions to critical sustainability problems through our Biomimicry Global Design Challenge, focused on climate change.
+
+									</div>
+								</div>
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">5:30 P</td>
+						<td class="event">
+						<div class="icon">
+								<img src="images/lecture.svg">
+							</div>
+							<div class="info">
+								<div class="title"> Matter-Mind Studio | Wind-Down Station </div>
+								<div class="location"> RISD Auditorium
+									<a href="https://www.google.com/maps/dir//RISD+Auditorium,+7+Canal+Walk,+Providence+River+Greenway,+Providence,+RI+02903/@41.8260507,-71.408805,20z/data=!4m15!1m6!3m5!1s0x0:0xed606b3fce9ee3d9!2sRISD+Auditorium!8m2!3d41.8260018!4d-71.4088047!4m7!1m0!1m5!1m1!1s0x89e4451654014467:0xed606b3fce9ee3d9!2m2!1d-71.4088047!2d41.8260018">	 
+									<img class="marker" src="images/teal.svg"></img>
+									</a></div>
+								<div class="description">
+									<div id="c22" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c23', '#c22')">Details</a>
+									</div>
+									<div class="dropdown" id="c23" style="display: none;">
+										Decompress after each conference day at the playful Wind-Down Station. You'll spend as little as 2 to 10 minutes building a visual snapshot of the nuggets of info from the conference you plan to take back and use in your own work!
+									</div>
+								</div>
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">9:00 P</td>
+						<td class="event">
+						<div class="icon">
+								<img src="images/socialevents.svg">
+							</div>
+							<div class="info">
+								<div class="title"> BWx10: Kick-off Party </div>
+								<div class="location">Sayles Hall
+									<a href="https://www.google.com/maps/dir//Sayles+Hall,+Providence,+RI+02912/@41.8262112,-71.4047641,17z/data=!4m16!1m7!3m6!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2sSayles+Hall,+Providence,+RI+02912!3b1!8m2!3d41.8262112!4d-71.4025754!4m7!1m0!1m5!1m1!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2m2!1d-71.4025754!2d41.8262112">	 
+									<img class="marker" src="images/red.svg"></img>
+									</a></div>
+								<div class="description">
+									<div id="c24" class="details">
+										<a href="javascript:void(0)" onclick="dropdown('#c25', '#c24')">Details</a>
+									</div>
+									<div class="dropdown" id="c25" style="display: none;">
+										Better World by Design invites you to a kick-off party for our 10th Anniversary Conference! Due to weather conditions, this event will now be held in Sayles Hall. Please join us for an evening of dancing and fun, with Ambo Studios and DJ Thirsty. Tickets are available to Brown and RISD students (Must bring student ID and state ID). If you purchased any conference ticket, admission to the social events is included.
+									</div>
+								</div>
+						</div>
+						</td>
+					</tr>
+				</table>
+
+
+
+				<table style="display:none;" id="saturday_schedule" class="schedule_table">
+					<tr>
+											<td class="time">8:30 A</td>
+											<td>
+												<div class="event">
+													<div class="icon">
+															<img src="images/registration.svg">
+														</div>
+														<div class="info">
+															<div class="title">Registration</div>
+															<div class="location">
+													Main Green
+													<a href="https://www.google.com/maps/dir//41.8263889,-71.4028611/@41.8263889,-71.4034083,19z/data=!4m8!1m7!3m6!1s0x0:0x0!2zNDHCsDQ5JzM1LjAiTiA3McKwMjQnMTAuMyJX!3b1!8m2!3d41.8263866!4d-71.4028649">	 
+													<img class="marker" src="images/navy.svg"></img>
+													</a>
+													</div>
+															<div class="description">
+																<div id="a0" class="details">
+													<a href="javascript:void(0)" onclick="dropdown('#a1', '#a0')">Details</a>
+													</div>
+																<div class="dropdown" id="a1" style="display: none;">
+																	First thing's first! Get your name badge that will grant you access to our full event! Grab your goodie bag with Soylent, Field Notes, Dopper Bottle, and more. If you have any questions, please don't hesitate to ask. 
+																</div>
+															</div>
+													</div>
+												</div>
+												<div class="second event">
+													<div class="icon">
+															<img src="images/registration.svg">
+														</div>
+														<div class="info">
+															<div class="title">Breakfast</div>
+															<div class="location">
+													Salomon Lobby
+													<a href="https://www.google.com/maps/place/Salomon+Center/@41.8266256,-71.4024381,19z/data=!4m8!1m2!2m1!1ssalomon+brown+univeristy!3m4!1s0x0:0x3b5e63a94276b39c!8m2!3d41.826531!4d-71.4024031">	 
+													<img class="marker" src="images/navy.svg"></img>
+													</a>
+													</div>
+															<div class="description">
+																<div id="a4kendra" class="details">
+													<a href="javascript:void(0)" onclick="dropdown('#a2kendra', '#a4kendra')">Details</a>
+													</div>
+																<div class="dropdown" id="a2kendra" style="display: none;">
+																	Come join us for breakfast! We will be serving zucchini and carrot muffins, yogurt and granola, Dave's Coffee, and more. Have a delicious start to your day 
+																</div>
+															</div>
+													</div>
+												</div>
+											</td>
+					</tr>
+					<tr>
+						<td class="time">10:00 A</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Nick Scappaticci | Unexpected Futures</div>
+										<div class="location">
+								Salomon DECI
+								<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="a38" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#a80', '#a38')">Details</a>
+								</div>
+											<div class="dropdown" id="a80" style="display: none;">
+												Tellart is an international experience design studio. Their vision is to work with design at the frontier of technology, in order to give people new ways of exploring and engaging with the world. This keynote will focus on how projects at Tellart combine storytelling with highly complex and experimental technologies.
+								 				<br/></br/>
+												In addition, their work with global brands on product and service innovation, as well as experiential marketing experiences engages audiences in new ways, while their work with cultural institutions provides new opportunities for creativity and learning, both onsite and online.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">11:00 A</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Doremy Diatta | Matter-Mind Studio: Emotion-Centered Design</div>
+										<div class="location">
+								Faunce | Petteruti Lounge
+								<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/"><img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="a38kendra" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#a80kendra', '#a38kendra')">Details</a>
+								</div>
+											<div class="dropdown" id="a80kendra" style="display: none;">
+												Organizations and companies often stumble because they have a blind spot&mdash;people's emotional experience. What might it look like to develop and use research, strategy, and design tools that are dedicated to understanding and designing for people's inner needs? What values and cross-disciplinary theories might be at the foundation of this kind of practice? 
+									</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> STEAM | Two for One: Merging Artistic and Scientific Design Approaches</div>
+										<div class="location">
+								Main Green | STEAM Pavillon
+								<a href="https://www.google.com/maps/dir//College+Hill,+Providence,+RI+02912/@41.8261616,-71.403379,83m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e4453cdf640337:0xa138301d7d53ce60!2m2!1d-71.4034045!2d41.8261344"><img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="a13" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#a12', '#a13')">Details</a>
+								</div>
+											<div class="dropdown" id="a12" style="display: none;">
+												We will discuss two perspectives commonly associated with design, that of a "scientific" approach, focused on function and quantitative data, and that of an "artistic" approach, focused on aesthetics and subjective experience. We will discuss how a combination of said mindsets can exist within a team of designers or within an individual designer through play, and how too much focus on one mindset can stifle a project. Specifically, how too much focus on experience can come at the cost of functionality, and how the opposite can come at the cost of creativity.
+								</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Annu Palakunnathu Matthew | Migration of Memory </div>
+										<div class="location">
+								Granoff | Studio 1
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="a15" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#a14', '#a15')">Details</a>
+								</div>
+											<div class="dropdown" id="a14" style="display: none;">
+												Annu Palakunnathu Matthew will discuss her creative journey in her photo based artwork and connect the dots between how she comes up with ideas and where they lead her as an artist, woman, minority, and immigrant in the United States.
+									</div>	
+								</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Professor Kathleen Grevers, Professor Ian Gonsher, Professor Thomas Thwaites, Surya Manickam | Health Care and Design Panel</div>
+										<div class="location">
+								Granoff Auditorium
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+								<img class="marker" src="images/teal.svg"></img>
+								</div>
+										<div class="description">
+											<div id="a17" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#a16', '#a17')">Details</a>
+								</div>
+											<div class="dropdown" id="a16" style="display: none;">
+												This panel will explore how a design based perspective can be used as an ethos and framework in transforming the way we think about health - what health is, who defines health, and who deserves access to health. This will be done by sharing a bit about ourselves, our work, and missions. But also by discussing how health, as an entity rooted in the human experience, is something that has brought all of us here together, despite our varied interests, creating a dynamic environment for change. We will end by exploring the ways design may influence and shape health as we search for solutions and greater ends.
+								</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="lunch">
+						<td class="lunch_time">12:00 P</td>
+						<td class="lunch_event">
+							<div id="lunch_title">
+								Lunch Break &mdash; Sayles Hall
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">1:00 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/creativejam.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Creative Jam: Social Hour | Adobe </div>
+										<div class="location">
+								Granoff Auditorium
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+								<img class="marker" src="images/red.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="a19" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#a18', '#a19')">Details</a>
+								</div>
+											<div class="dropdown" id="a18" style="display: none;">
+												Doors open. Settle in, and meet your fellow creative community. The tournament will be in full swing&mdash;pop your head in and see how it's developing. Portfolio reviews will be taking place for those who reserved a spot before the event.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Shruti Kunduri | A Conversation with UNICEF</div>
+										<div class="location">
+								85 Waterman | BERT 130
+								<a href="https://www.google.com/maps/dir//Hunter+Psychology+Lab,+85+Waterman+St,+Providence,+RI+02912/@41.8270255,-71.4021791,19.58z/">
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k13" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k14', '#k13')">Details</a>
+								</div>
+											<div class="dropdown" id="k14" style="display: none;">
+												Shruit will discuss her past and current experiences working with the innovation team with the global initiative of UNICEF
+								</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Mei Hsieh & Sheryl Cababa | Interactions are Chain Reactions  </div>
+										<div class="location">
+								Faunce | Petteruti Lounge
+								<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k17" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k18', '#k17')">Details</a>
+								</div>
+											<div class="dropdown" id="k18" style="display: none;">
+												Could the next default checkbox in your design be what it takes to save a whole forest? Or, alternatively, will the next automated interface you design replace a whole workforce? Two UX designers from Artefact grapple with these design decisions and look at the larger social, environmental, and economic implications beyond button clicks and screen swipes. In this workshop we will explore several real world case study approaches to these challenges and discuss the importance of defining outcomes. These exercises will challenge you to 'flex your ethics muscles' and push yourself to think beyond the decisions of aesthetics and usability.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">1:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/creativejam.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Design Expo </div>
+										<div class="location">
+								Main Green
+								<a href="https://www.google.com/maps/dir//41.8263889,-71.4028611/@41.8263889,-71.4034083,19z/data=!4m8!1m7!3m6!1s0x0:0x0!2zNDHCsDQ5JzM1LjAiTiA3McKwMjQnMTAuMyJX!3b1!8m2!3d41.8263866!4d-71.4028649">
+								<img class="marker" src="images/red.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k11" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k12', '#k11')">Details</a>
+								</div>
+											<div class="dropdown" id="k12" style="display: none;">
+												Each year, Better World by Design hosts a Design Expo that takes place on the Saturday of the conference. The Expo is a space for companies, student groups and other local designers to showcase innovative projects, programs and more that help promote a more sustainable and just future. 
+								</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					<tr>
+						<td class="time">2:00 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/creativejam.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Creative Jam: Lectures | Adobe </div>
+										<div class="location">
+								Granoff Auditorium
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+								<img class="marker" src="images/red.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k9" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k10', '#k9')">Details</a>
+								</div>
+											<div class="dropdown" id="k10" style="display: none;">
+												Creative Jam Talks begin. Sit back as local creative leaders walk you through their personal creative process.
+								</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Gabrielle Bufrem | Bootstrapping User Research: No Budget, No Buy-In, No Team, No Problem </div>
+										<div class="location">
+								85 Waterman | BERT 130
+								<a href="https://www.google.com/maps/dir//Hunter+Psychology+Lab,+85+Waterman+St,+Providence,+RI+02912/@41.8270255,-71.4021791,19.58z/">
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k15" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k16', '#k15')">Details</a>
+								</div>
+											<div class="dropdown" id="k16" style="display: none;">
+											 User research normally comes with some clich&eacute;s&mdash;"it's so expensive," "we need a dedicated research team," or "the people that I work for don't buy into it". If you've heard any of these negative stereotypes, or if you're looking for best practices to bootstrap user research despite constraints, this talk is for you! Gabrielle will introduce a toolkit to help you inject research into everything you do, and share her tips on how to turn constraints into opportunities. She will share stories and learnings from the field and send you off with actionable steps so you can begin developing solutions for the problems that your users actually care about.
+								</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Mei Hsieh & Sheryl Cababa | Interactions are Chain Reactions  </div>
+										<div class="location">
+								Faunce | Petteruti Lounge
+								<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k7" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k8', '#k7')">Details</a>
+								</div>
+											<div class="dropdown" id="k8" style="display: none;">
+												Could the next default checkbox in your design be what it takes to save a whole forest? Or, alternatively, will the next automated interface you design replace a whole workforce? Two UX designers from Artefact grapple with these design decisions and look at the larger social, environmental, and economic implications beyond button clicks and screen swipes. In this workshop we will explore several real world case study approaches to these challenges and discuss the importance of defining outcomes. These exercises will challenge you to 'flex your ethics muscles' and push yourself to think beyond the decisions of aesthetics and usability.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Chee Pearlman & Charlie Canon | Panel + Q&A  </div>
+										<div class="location">
+								Granoff | Studio 1
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k5" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k6', '#k5')">Details</a>
+								</div>
+											<div class="dropdown" id="k6" style="display: none;">
+												Chee Pearlman is the Design Curator of TED Conferences. Charlie Canon the department head of the RISD Industrial Design program. Hear a conversation of where design is and where it will go.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="lunch">
+						<td class="lunch_time">3:00 P</td>
+						<td class="lunch_event">
+							<div id="lunch_title">
+								Break &mdash; Sayles Hall
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">3:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> John Pipkin & Joyce Huang | Fantasies and Failures: Embracing Risks and Unknowns in the Creative Process</div>
+										<div class="location">
+								Granoff | Studio 1
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="k1" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#k2', '#k1')">Details</a>
+								</div>
+											<div class="dropdown" id="k2" style="display: none;">
+												In a presentation and a conversation between an architect and a novelist, this session will explore the notion of expanded practices, or creative processes that look beyond the confines of traditionally-defined disciplinary structures, and toward an invitation to undertake risk and unknown territories. Joyce Hwang will discuss her work on wildlife habitats, and taking on an unexpectedly complex and collaborative project in Australia. John Pipkin will discuss his novels and his processes integrating academic and "experiential" research. Both architect and writer will discuss ways for artists to proactively advocate for specific social, ecological, and cultural agendas through creative means.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Amanda Phingbodhipakkiya | The Leading Strand: A Collaboration of Neuroscientists and Designers</div>
+										<div class="location">
+								85 Waterman | BERT 130
+								<a href="https://www.google.com/maps/dir//Hunter+Psychology+Lab,+85+Waterman+St,+Providence,+RI+02912/@41.8270255,-71.4021791,19.58z/">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m38" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m39', '#m38')">Details</a>
+								</div>
+											<div class="dropdown" id="m39" style="display: none;">
+												After being frustrated by the misrepresentation of science in the media, and the struggles that researchers face in telling their story to the world, Amanda Phingbodhipakkiya decided to do something about it. As a Creative Director and Design Strategist with a neuroscience background, she brought together five designers and five neuroscientists to co-create visual works of art that were backed by academic rigor. The result was The Leading Strand, an organization dedicated to using design to shine a light on scientific research. 
+												<br/></br/>
+												In this talk, Amanda will give a behind the scenes look at how these collaborations came together, both the good and the bad, and share ideas and insights into how we can bring designers, the media, and other collaborators together to further understanding of science.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Barbara Stehle | Art Intelligentsia</div>
+										<div class="location">
+								Faunce | Petteruti Lounge
+								<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m36" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m37', '#m36')">Details</a>
+								</div>
+											<div class="dropdown" id="m37" style="display: none;">
+												Art Intelligentsia is a structure that allow me to explore all aspects of art history, tell stories with artists and share it with the world   I wanted to scrutinize art and its own space.  We can't escape space all painters will tell you, we live in it. It is one of the elements defining our perception of the human condition. What about stories? The need of telling them is another cornerstone of our humanity.  And so is art. So it is no surprise that Art Intelligentsia is all about reflecting on our humanity by looking at art.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">4:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> James Auger | Reconstrained Design</div>
+										<div class="location">
+								Salomon DECI
+								<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m34" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m35', '#m34')">Details</a>
+								</div>
+											<div class="dropdown" id="m35" style="display: none;">
+												Design practice always happens under a particular set of forces, commonly known as constraints. These constraints may be straightforward and indisputable, such as a physical or material quality: the force of gravity, the tensile strength of a structural beam, or a financial budget, and provide tangible limits to be adhered to or challenged.
+								 				<br/><br/>
+												Constraints, however, also exist in more abstract, systemic or hidden forms. These can have a significant impact on the potential of design, resulting in a paucity of original thinking and a chronic neglect of responsibility. For example, national systems of infrastructure, such as energy grids or roads, have become so normalized that they constrain designers to simply designing for or within the dominant paradigm. The constraint of positivity or progress dogma, blinds those influencing the future (scientists, technologists, politicians, designers, etc.) from the potential negative implications of their proposals.
+								 				<br/><br/>
+												This presentation will explore some of the more dominant oblique constraints and the ways in which they negatively influence the role and purpose of design. It will also describe how design, practiced outside of these constraints, can facilitate more inclusive, holistic, and environmentally responsible futures.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">5:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Matter-Mind Studio | Wind-Down Studio</div>
+										<div class="location">
+								Salomon Lobby
+								<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m30" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m31', '#m30')">Details</a>
+								</div>
+											<div class="dropdown" id="m31" style="display: none;">
+												Decompress after each conference day at the playful Wind-Down Station. You'll spend as little as 2 to 10 minutes building a visual snapshot of the nuggets of info from the conference you plan to take back and use in your own work!
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">8:00 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/socialevents.svg">
+									</div>
+									<div class="info">
+										<div class="title"> BWx10 @ Southlight Pavilion</div>
+										<div class="location">
+								Southlight 
+								<a href="https://www.google.com/maps/dir/''/Southside+Cultural+Center+of+Rhode+Island,+393+Broad+St,+Providence,+RI+02907/data=!4m5!4m4!1m0!1m2!1m1!1s0x89e44570eb4dbd9f:0xa875ddf087e462f?sa=X&ved=0ahUKEwiBpOyh3bTWAhUJOiYKHcmBDJMQiBMIIzAB">	 
+								<img class="marker" src="images/red.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m28" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m29', '#m28')">Details</a>
+								</div>
+											<div class="dropdown" id="m29" style="display: none;">
+											In honor of Better World's 10th Anniversary, please join us for our reunion-themed networking event! Hosted at 8:00pm at the SouthLight Pavilion at the Southside Cultural Center, a new and modern outdoor venue designed by the RISD Department of Architecture.
+											<br/></br/>
+											This offers our professional attendees and students an opportunity to introduce themselves, speak informally about their work and projects, and share their professional interests and focus. Students attending are encouraged to ask about ways to follow-up for future internships. We would additionally like to extend a special invitation to our Better World alumni to join us in celebrating 10 years of BWxD with some words from our founders!
+											<br/></br/>
+											Light refreshments will be served.
+
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+
+				</table>
+
+
+
+				<table id="sunday_schedule" class="schedule_table">
+					<tr>
+						<td class="time">8:30 A</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/registration.svg">
+									</div>
+									<div class="info">
+										<div class="title">Registration</div>
+										<div class="location">
+								Main Green
+								<a href="https://www.google.com/maps/dir//41.8263889,-71.4028611/@41.8263889,-71.4034083,19z/data=!4m8!1m7!3m6!1s0x0:0x0!2zNDHCsDQ5JzM1LjAiTiA3McKwMjQnMTAuMyJX!3b1!8m2!3d41.8263866!4d-71.4028649">	 
+								<img class="marker" src="images/navy.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m0" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m', '#m0')">Details</a>
+								</div>
+											<div class="dropdown" id="m" style="display: none;">
+												First thing's first! Get your name badge that will grant you access to our full event! Grab your goodie bag with Soylent, Field Notes, Dopper Bottle, and more. If you have any questions, please don't hesitate to ask. 
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/registration.svg">
+									</div>
+									<div class="info">
+										<div class="title">Breakfast</div>
+										<div class="location">
+								Salomon Lobby
+								<a href="https://www.google.com/maps/place/Salomon+Center/@41.8266256,-71.4024381,19z/data=!4m8!1m2!2m1!1ssalomon+brown+univeristy!3m4!1s0x0:0x3b5e63a94276b39c!8m2!3d41.826531!4d-71.4024031">	 
+								<img class="marker" src="images/navy.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m3" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m1', '#m3')">Details</a>
+								</div>
+											<div class="dropdown" id="m1" style="display: none;">
+												Come join us for breakfast! We will be serving zucchini and carrot muffins, yogurt and granola, Dave's Coffee, and more. Have a delicious start to your day 
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">10:00 A</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title">Ekene Ijeoma | Designing to impact citizens not market to consumers</div>
+										<div class="location">
+								Salomon DECI
+								<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m4" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m5', '#m4')">Details</a>
+								</div>
+											<div class="dropdown" id="m5" style="display: none;">
+												How can we as creatives think of cities and citizens as our clients as opposed to brands and consumers? What does it mean to be a citizen? How can we use data and tech to create more poetry and empathy in our society? How can we use them as materials to create contemporary representations and interventions around our societies issues? In this presentation, I'll address these issues through my work and practice.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">11:00 A</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title">John Zelek | Food Follows Function</div>
+										<div class="location">
+								Granoff | Studio 1
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m6" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m7', '#m6')">Details</a>
+								</div>
+											<div class="dropdown" id="m7" style="display: none;">
+												A detailed look at the food we eat, why we choose to eat it, and a sincere promise that Soylent isn't coming for your Thanksgiving dinner.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Smile Indias, Becky Slogeris, Kehinde Bademosi | Shifting Relationships through Design: Public Health & Public Safety </div>
+										<div class="location">
+								Granoff Auditorium
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m8" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m9', '#m8')">Details</a>
+								</div>
+											<div class="dropdown" id="m9" style="display: none;">
+												Reflecting on 10 years of work in MICA's Center for Social Design, questions about what it really means to sustain interventions while working with partners arise: How do we go beyond the normal designer-partner relationship to create a more authentic engagement with all the stakeholders of a project? How do we leverage the skills of all partners to truly address inequities?
+												<br/><br/>
+												This panel session will deconstruct two partnerships that graduates of MICA's MA in Social Design program have forged with the Baltimore City Health Department and the Baltimore Police Department to confront injustices in Baltimore. Panelists will discuss the successes and challenges of bringing a human centered design approach into traditional local public agencies, and how the partners worked together to shift relationships between people and people and people and institutions to support positive social change.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Tina Gong | Designing a Language of the Collective Unconscious</div>
+										<div class="location">
+								Granoff | Englander Studio
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m10" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m11', '#m10')">Details</a>
+								</div>
+											<div class="dropdown" id="m11" style="display: none;">
+												Contrary to popular belief, magic is about creating change in the caster, whose confrontation with the self then shapes the world around them. How can we design products that are also experiences and that transform our users into more self-aware beings? We'll be pulling from the maze of mythology and magic, to understand how ritual, tarot and the *spooky* world of the occult influenced the thinking behind HappyPlayTime and Labyrinthos Academy. 
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="lunch">
+						<td class="lunch_time">12:00 P</td>
+						<td class="lunch_event">
+							<div id="lunch_title">
+								Lunch Break &mdash; Sayles Hall
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">1:00 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Natalie Lew | Adobe Creative Resident</div>
+										<div class="location">
+								Granoff | Studio 1
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m12" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m13', '#m12')">Details</a>
+								</div>
+											<div class="dropdown" id="m13" style="display: none;">
+												Hear from Natalie Lew, on her experiences as an adobe creative resident.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Leo Selvaggio | Design as Subversion: How One Face Can Break Governmental Surveillance Systems</div>
+										<div class="location">
+								Granoff Auditorium
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m14" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m15', '#m14')">Details</a>
+								</div>
+											<div class="dropdown" id="m15" style="display: none;">
+												In this talk, artist Leo Selvaggio will examine his recent project, URME Surveillance, through an interdisciplinary lens that includes the fields cybernetics, gender studies, civics, psychology, and performance, as a case study towards socially engaged design. He will argue that the careful analysis of systems, aided through a varied perspective of disciplines, can empower designers to engage social problems and constructs much larger than themselves.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Stephanie Dinkins |  AI.Assembly:  What does Artificial Intelligence Need from You?</div>
+										<div class="location">
+								Granoff | Kooper Studio
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m16" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m17', '#m16')">Details</a>
+								</div>
+											<div class="dropdown" id="m17" style="display: none;">
+												Artificially intelligent systems (AI) are increasingly the ubiquitous, unseen arbiters of our social, civic and family lives. Ever increasing computational power, combined with almost limitless data, has led to a turning point in the way artificial intelligence assists, judges and cares for humans. The need to understand how, where, and why bias enters human-robot interactions occur is more important than ever. This workshop approaches artificial intelligence from a humanist perspective.  Participants will explore where and how our lives are touched by AI and explore methods to imagine and design more inclusive, transparent AI.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="lunch">
+						<td class="lunch_time">2:00 P</td>
+						<td class="lunch_event">
+							<div id="lunch_title">
+								Snack Break &mdash; Sayles Hall
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">2:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> BioBright | Stay in Your Lane: Challenging the status quo in science</div>
+										<div class="location">
+								Granoff | Studio 1
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m18" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m19', '#m18')">Details</a>
+								</div>
+											<div class="dropdown" id="m19" style="display: none;">
+												Biological research is in trouble. It can take decades for lifesaving drugs to come to market. Possible cures slip by unnoticed, lost in mountains of data. How can we break this status quo? What would you do if you were faced with this design challenge? We'll share our strategies for understanding complex scientific processes and creating innovative visual designs for the lab of the future.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Krystal Sarcone | Design and Disparities: The Role of Apparel in Marginalizing People with Disabilities and How Design Can Change the World</div>
+										<div class="location">
+								Granoff | Kooper Studio
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m20" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m21', '#m20')">Details</a>
+								</div>
+											<div class="dropdown" id="m21" style="display: none;">
+												This workshop is an introduction to the world of apparel through the lens of disability. Simply put, participation in society as a consumer is not equitable for people with disabilities (PWDs). There is a lack of accessibility within retail environments and also within garment construction itself. There will be an opportunity for participants to come together to discuss these concepts and think of the many ways in which innovation can incorporate elements of universal design.
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="second event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Kristen Chin | Building Equity through Design + Policy</div>
+										<div class="location">
+								Granoff | Englander Studio
+								<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m22" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m23', '#m22')">Details</a>
+								</div>
+											<div class="dropdown" id="m23" style="display: none;">
+												The built environment is one of the worst perpetrators of inequities in our neighborhoods. This session explores the idea that design has a responsibility to address systemic issues of injustice through the built environment. It will also examine design's possibilities and limitations in creating lasting change. By highlighting several community-driven design projects, attendees will learn how governments, community groups, and residents are driving efforts toward equitable, sustainable, and resilient neighborhoods.
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">3:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Alexandra Daisy Ginsberg | Better</div>
+										<div class="location">
+								Granoff Auditorium
+								<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m24" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m25', '#m24')">Details</a>
+								</div>
+											<div class="dropdown" id="m25" style="display: none;">
+												Designers often advocate that design makes things better. In promising a better future, they are not alone: engineers, marketers, politicians and scientists also invoke the imaginary of better, crafting dreams that have material effects. In some of these visions, "better" will be delivered by science and technology; in others, the consumption of designed things will better us or the world. "Better" itself has become a contemporary version of progress, shed of some of its philosophical baggage. But better is not a universal good or a verified measure: it is imbued with politics and values. And better will not be delivered equally, if at all. "What is better?", "Whose better" and "Who gets to decide?" are three questions with great implications for the way we live and hope to live. This talk explores how critical design can be used to address these questions. Drawing on my experiences over the last eight years working with the visionaries of synthetic biology&mdash;a new approach to genetic engineering&mdash;I consider how we can usefully question better to open up the possibility for alternatives. 
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="time">4:30 P</td>
+						<td>
+							<div class="event">
+								<div class="icon">
+										<img src="images/lecture.svg">
+									</div>
+									<div class="info">
+										<div class="title"> Matter-Mind Studio | Wind-Down Studio</div>
+										<div class="location">
+								Granoff Auditorium Lobby
+								<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+										<div class="description">
+											<div id="m26" class="details">
+								<a href="javascript:void(0)" onclick="dropdown('#m27', '#m26')">Details</a>
+								</div>
+											<div class="dropdown" id="m27" style="display: none;">
+												Decompress after each conference day at the playful Wind-Down Station. You'll spend as little as 2 to 10 minutes building a visual snapshot of the nuggets of info from the conference you plan to take back and use in your own work!
+											</div>
+										</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="mobileschedule">
+			    <div class="tab">
+			      <input id="tab-one" type="checkbox" name="tabs">
+			      <label for="tab-one">Friday</label>
+			      <div class="tab-content">
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">10:00AM&mdash;11:00AM</span>
+			      		<div class="mobileevent">
+						<div class="icon">
+								<img src="images/registration.svg">
+							</div>
+							<div class="info">
+								<div class="title">Registration</div>
+								<div class="location">
+						Frazier Terrace
+									<a href="https://www.google.com/maps/dir//223+Benefit+St,+Providence,+RI+02903/@41.82668,-71.4070664,96m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e44517c5288c67:0x99e04ae220ef1870!2m2!1d-71.4069713!2d41.8267199">
+						<img class="marker" src="images/navy.svg"></img>
+						</a>
+						</div>
+								<div class="description">
+									<div id="qa2" class="details">
+						<a href="javascript:void(0)" onclick="dropdown('#qa', '#qa2')">Details</a>
+						</div>
+									<div class="dropdown" id="qa" style="display: none;">
+										First thing's first! Get your name badge that will grant you access to our full event! Grab your goodie bag with Soylent, Field Notes, Dopper Bottle, and more. If you have any questions, please don't hesitate to ask. 		
+						</div>
+								</div>
+						</div>
+						</div>
+					</div>
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">11:00AM&mdash;12:00PM</span>
+			      		<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title">Cynthia Smith | Design by the People for the People</div>
+		<div class="location">
+RISD Museum | Chace Metcalf Auditorium
+<a href="https://www.google.com/maps/dir//RISD+Museum,+Chace+Center+entrance,+20+N+Main+St,+Providence,+RI+02903/@41.8265822,-71.4073886,18z/data=!4m15!1m6!3m5!1s0x0:0x49112556d05817bc!2sRISD+Museum,+Chace+Center+entrance!8m2!3d41.8261062!4d-71.4079839!4m7!1m0!1m5!1m1!1s0x89e445164b5ec617:0x49112556d05817bc!2m2!1d-71.407984!2d41.826106">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc0" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc1', '#qc0')">Details</a>
+</div>
+			<div class="dropdown" id="qc1" style="display: none;">
+				Smith will explore the evolution of the exhibition series dedicated to socially responsible design that she organizes at Cooper Hewitt, Smithsonian Design Museum. The first show was conceived as a provocation to the design world to expand the notion of who designs, and her latest exhibition By the People: Designing a Better America focuses on collaborative designs that address widening inequities.
+			</div>
+		</div>
+</div>
+</div>
+
+
+					<div class="mobilelunch" style="background: #242157; color: rgb(249,249,249); font-size: 1.1em; margin-top: 35px; margin-bottom: 35px;  padding-top: 14px; padding-bottom: 14px;">
+						<span style="font-weight: 500;">12:00&mdash;1:00PM  |  Lunch</span><br/>
+						The MET: Upper Quad Terrace <a href="https://www.google.com/maps/dir//The+Met,+30+Waterman+St,+Providence,+RI+02912/@41.8269764,-71.4073797,18z/data=!4m15!1m6!3m5!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2sThe+Met!8m2!3d41.8269764!4d-71.4062854!4m7!1m0!1m5!1m1!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2m2!1d-71.4062854!2d41.8269764">	 
+						<img class="marker" src="images/white.svg"></img>
+						</a>
+					</div>
+
+
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">1:00PM&mdash;2:00PM</span>
+			      		<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title">Elizabeth Hare & Brendan Oberkircher | Enabling Change Through Care-Centered Design at Johnson & Johnson</div>
+		<div class="location">
+RISD Museum | Chace Metcalf Auditorium
+<a href="https://www.google.com/maps/dir//RISD+Museum,+Chace+Center+entrance,+20+N+Main+St,+Providence,+RI+02903/@41.8265822,-71.4073886,18z/data=!4m15!1m6!3m5!1s0x0:0x49112556d05817bc!2sRISD+Museum,+Chace+Center+entrance!8m2!3d41.8261062!4d-71.4079839!4m7!1m0!1m5!1m1!1s0x89e445164b5ec617:0x49112556d05817bc!2m2!1d-71.407984!2d41.826106">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc2" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc3', '#qc2')">Details</a>
+</div>
+			<div class="dropdown" id="qc3" style="display: none;">
+				How design thinking is transforming expectations, behaviors and outcomes at a global healthcare company.
+			</div>
+		</div>
+</div>
+</div>
+
+					<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title">Martin Keen | From Feet to Seat: Crafting for Human Form and Function</div>
+		<div class="location">
+The MET | Metroom C
+<a href="https://www.google.com/maps/dir//The+Met,+30+Waterman+St,+Providence,+RI+02912/@41.8269764,-71.4073797,18z/data=!4m15!1m6!3m5!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2sThe+Met!8m2!3d41.8269764!4d-71.4062854!4m7!1m0!1m5!1m1!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2m2!1d-71.4062854!2d41.8269764">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc4" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc5', '#qc4')">Details</a>
+</div>
+			<div class="dropdown" id="qc5" style="display: none;">
+				From shoes to furniture, Martin Keen talks about the evolution of his design process, and how the human form has always been at the center of his research.
+			</div>
+		</div>
+</div>
+</div>
+
+					<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title"> Kit McDonnell | Antiparallel Play: Biological Design in Natural History and Synthetic Futures</div>
+		<div class="location">
+Memorial Hall | Taproom
+<a href="https://www.google.com/maps/dir//226+Benefit+St,+Providence,+RI+02903/@41.8263219,-71.4078791,19z/data=!4m16!1m7!3m6!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2s226+Benefit+St,+Providence,+RI+02903!3b1!8m2!3d41.8262759!4d-71.4073937!4m7!1m0!1m5!1m1!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2m2!1d-71.4073319!2d41.8263219">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc6" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc7', '#qc6')">Details</a>
+</div>
+			<div class="dropdown" id="qc7" style="display: none;">
+				What can the Creative Team at a futures-oriented biotech startup learn from a 114-year-old natural history museum with 25+ million specimens? The Creative Team at Ginkgo Bioworks explores compelling organism design and new ways of making… with DNA at the core. 
+
+			</div>
+		</div>
+</div>
+</div>
+
+
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">2:00PM&mdash;3:00PM</span>
+			      		<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title"> Emilio Martinez Poppe | Ways of Being </div>
+		<div class="location">
+Memorial Hall | Taproom
+<a href="https://www.google.com/maps/dir//226+Benefit+St,+Providence,+RI+02903/@41.8263219,-71.4078791,19z/data=!4m16!1m7!3m6!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2s226+Benefit+St,+Providence,+RI+02903!3b1!8m2!3d41.8262759!4d-71.4073937!4m7!1m0!1m5!1m1!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2m2!1d-71.4073319!2d41.8263219">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc8" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc9', '#qc8')">Details</a>
+</div>
+			<div class="dropdown" id="qc9" style="display: none;">
+				Ways of Being is a free resource for educators that can be used in classroom, exhibition, and workshop contexts to analyze and reimagine power relationships in the arts. The textbook, syllabi, website, and videos are tools that prompt investigations into systems of production: how projects are made, how projects circulate, and how expressions of power are encoded in a wide range of approaches to production. We believe that an education in art must be as much about ways of being in the world as it is about ways of seeing and ways of making and exhibiting projects in the world.
+
+			</div>
+		</div>
+</div>
+</div>
+					<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title"> Barbara Weinreich | "Building" a Brand from Bricks to Bytes </div>
+		<div class="location">
+The MET | Metroom A
+<a href="https://www.google.com/maps/dir//The+Met,+30+Waterman+St,+Providence,+RI+02912/@41.8269764,-71.4073797,18z/data=!4m15!1m6!3m5!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2sThe+Met!8m2!3d41.8269764!4d-71.4062854!4m7!1m0!1m5!1m1!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2m2!1d-71.4062854!2d41.8269764">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc10" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc11', '#qc10')">Details</a>
+</div>
+			<div class="dropdown" id="qc11" style="display: none;">
+				A strong brand narrative informs its built form as a retail store. But how do you build a brand story? A series of retail design case studies will explore how some leading brands architecturally express their DNA.  How does retail design extend-or even invent- the brand story? How does this traditional store approach relate to retail design today, as the model shifts from digital to drones to duopolies? What are emerging trends in retail design and how does customer desire, behavior and experience affect the future design of the brand story?
+
+			</div>
+		</div>
+</div>
+</div>
+					<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title"> Design for America | Synthesize with Empathy</div>
+		<div class="location">
+Ewing Multicultural Center
+<a href="https://www.google.com/maps/dir//41+Waterman+St,+Providence,+RI+02906/@41.82668,-71.4070664,96m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e44517da3db18d:0x80ae666791032d45!2m2!1d-71.40662!2d41.826605">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc12" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc13', '#qc12')">Details</a>
+</div>
+			<div class="dropdown" id="qc13" style="display: none;">
+				Thoughtful synthesis, while not explicit in a solution's implementation, is nonetheless an essential step in informing a design intervention. It enables the designer to capture and process the mass of knowledge obtained from user research, and to identify underlying, implicit user needs. This workshop will introduce several synthesis methods and provide opportunities to practice and discuss on a smaller scale.
+
+			</div>
+		</div>
+</div>
+</div>
+
+			     	<div class="mobilelunch" style="background: #242157; color: rgb(249,249,249); font-size: 1.1em; margin-top: 35px; margin-bottom: 35px;  padding-top: 14px; padding-bottom: 14px;">
+						<span style="font-weight: 500;">3:00&mdash;3:30PM  |  Snack Break</span><br/>
+						RISD Museum: Chace Lobby <a href="https://www.google.com/maps/dir//RISD+Museum,+Chace+Center+entrance,+20+N+Main+St,+Providence,+RI+02903/@41.8265822,-71.4073886,18z/data=!4m15!1m6!3m5!1s0x0:0x49112556d05817bc!2sRISD+Museum,+Chace+Center+entrance!8m2!3d41.8261062!4d-71.4079839!4m7!1m0!1m5!1m1!1s0x89e445164b5ec617:0x49112556d05817bc!2m2!1d-71.407984!2d41.826106">	 
+						<img class="marker" src="images/white.svg"></img>
+						</a>
+					</div>
+
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">3:30PM&mdash;4:30PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Ingrid Lange | When AI meets Healthcare </div>
+			      				<div class="location">
+			      		The MET | Metroom A
+			      		<a href="https://www.google.com/maps/dir//The+Met,+30+Waterman+St,+Providence,+RI+02912/@41.8269764,-71.4073797,18z/data=!4m15!1m6!3m5!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2sThe+Met!8m2!3d41.8269764!4d-71.4062854!4m7!1m0!1m5!1m1!1s0x89e44517dfbe1461:0x8e4bfbb9ae285ecf!2m2!1d-71.4062854!2d41.8269764">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qc16" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qc17', '#qc16')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qc17" style="display: none;">
+			      						Uncertainty is an inherent part of the process of artists, designers, technologists, and philosophers. This uncertainty only intensifies when designing products that apply emerging technologies to problems in complex industries&mdash; what can we learn from designing AI healthcare products that can inform how designers across industries deal with uncertainty in their process?
+
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Paolo Cardini | Design for the Pluriverse </div>
+			      				<div class="location">
+			      		Memorial Hall | Taproom
+			      		<a href="https://www.google.com/maps/dir//226+Benefit+St,+Providence,+RI+02903/@41.8263219,-71.4078791,19z/data=!4m16!1m7!3m6!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2s226+Benefit+St,+Providence,+RI+02903!3b1!8m2!3d41.8262759!4d-71.4073937!4m7!1m0!1m5!1m1!1s0x89e44517cbf0b68f:0xd8196dd0234e339b!2m2!1d-71.4073319!2d41.8263219">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qc18" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qc19', '#qc18')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qc19" style="display: none;">
+			      						Today, more than ever, design needs to engage with cultural interdependence. In this talk, Paolo Cardini will bring you on a journey through design, globalization, and localism highlighting criticisms and opportunities for a multicultural design approach.
+
+
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> LUMA Institute | Look Carefully. Understand Deeply. Make Resourcefully. </div>
+			      				<div class="location">
+			      		RISD Museum | Chace Metcalf Auditorium
+			      		<a href="https://www.google.com/maps/dir//RISD+Museum,+Chace+Center+entrance,+20+N+Main+St,+Providence,+RI+02903/@41.8265822,-71.4073886,18z/data=!4m15!1m6!3m5!1s0x0:0x49112556d05817bc!2sRISD+Museum,+Chace+Center+entrance!8m2!3d41.8261062!4d-71.4079839!4m7!1m0!1m5!1m1!1s0x89e445164b5ec617:0x49112556d05817bc!2m2!1d-71.407984!2d41.826106">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qc14" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qc15', '#qc14')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qc15" style="display: none;">
+			      						There is a great and growing imperative for innovation. It calls for more people to be more innovative more often. This session will help you learn and apply the discipline of Human-Centered Design to create new value and drive sustainable growth. We will equip you with the LUMA System of Innovation&mdash;a modular, adaptive approach that was applauded by Harvard Business Review as a powerful "Taxonomy of Innovation." You will leave this interactive session with principles and practices to move the needle a little bit or change the world in a big way.
+
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">4:30PM&mdash;5:30PM</span>
+			      		<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title"> Beth Rattner | Nature as a storehouse of knowledge, not a warehouse of goods </div>
+		<div class="location">
+RISD Auditorium
+<a href="https://www.google.com/maps/dir//RISD+Auditorium,+7+Canal+Walk,+Providence+River+Greenway,+Providence,+RI+02903/@41.8260507,-71.408805,20z/data=!4m15!1m6!3m5!1s0x0:0xed606b3fce9ee3d9!2sRISD+Auditorium!8m2!3d41.8260018!4d-71.4088047!4m7!1m0!1m5!1m1!1s0x89e4451654014467:0xed606b3fce9ee3d9!2m2!1d-71.4088047!2d41.8260018">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc20" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc21', '#qc20')">Details</a>
+</div>
+			<div class="dropdown" id="qc21" style="display: none;">
+				Biomimicry (also "bio-inspired design") is an approach to innovation that leads to sustainable design solutions by studying and applying nature's functional strategies and patterns. At a time when many innovators have a fractured, if any, relationship to nature, biomimicry offers a way to reconnect. It is a profound shift in how we view and value the natural world. How might a designer or engineer newly understand lightweighting and aerodynamics by studying how a hummingbird cross the Gulf of Mexico on minimal body fat?<br/><br/>
+ 
+Beth's presentation will be both a 30 minute talk and a brief, interactive example of how to apply the biomimicry design process. The overview will include case studies that focus on phenomena right outside in one's own backyard and striking examples from nature and bio-inspired design that are tied directly to biology, chemistry, physics, environmental science, and engineering at the high school level. As biomimicry is a multi-disciplinary approach -- synthesizing biology, engineering, design, math -- attendees of the talk will see that collaboration, innovation, and critical thinking are by-products of this lens. At the same time, an undeniable sense of wonder and hope are sparked, not just from the innate desire we all have to observe nature, but from understanding that solutions are all around us, all the time.<br/><br/>
+ 
+In this way, biomimicry is a "block" upon which a new kind of design practice is possible, and a "byte" in that it abstracts design principles from nature's blueprints and applies it to our imperfect, industrial materials palette. The selected case studies feature students and entrepreneurs worldwide who have designed nature-inspired solutions to critical sustainability problems through our Biomimicry Global Design Challenge, focused on climate change.
+
+
+			</div>
+		</div>
+</div>
+</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">5:30PM&mdash;6:30PM</span>
+			      		<div class="mobileevent">
+<div class="icon">
+		<img src="images/lecture.svg">
+	</div>
+	<div class="info">
+		<div class="title"> Matter-Mind Studio | Wind-Down Station </div>
+		<div class="location">
+RISD Auditorium Lobby
+<a href="https://www.google.com/maps/dir//RISD+Auditorium,+7+Canal+Walk,+Providence+River+Greenway,+Providence,+RI+02903/@41.8260507,-71.408805,20z/data=!4m15!1m6!3m5!1s0x0:0xed606b3fce9ee3d9!2sRISD+Auditorium!8m2!3d41.8260018!4d-71.4088047!4m7!1m0!1m5!1m1!1s0x89e4451654014467:0xed606b3fce9ee3d9!2m2!1d-71.4088047!2d41.8260018">	 
+<img class="marker" src="images/teal.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc22" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc23', '#qc22')">Details</a>
+</div>
+			<div class="dropdown" id="qc23" style="display: none;">
+				Decompress after each conference day at the playful Wind-Down Station. You'll spend as little as 2 to 10 minutes building a visual snapshot of the nuggets of info from the conference you plan to take back and use in your own work!
+
+
+			</div>
+		</div>
+</div>
+</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">9:00PM&mdash;1:00AM</span>
+			      		<div class="mobileevent">
+<div class="icon">
+		<img src="images/socialevents.svg">
+	</div>
+	<div class="info">
+		<div class="title"> BWx10: Kick-off Party </div>
+		<div class="location">
+Sayles Hall
+<a href="https://www.google.com/maps/dir//Sayles+Hall,+Providence,+RI+02912/@41.8262112,-71.4047641,17z/data=!4m16!1m7!3m6!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2sSayles+Hall,+Providence,+RI+02912!3b1!8m2!3d41.8262112!4d-71.4025754!4m7!1m0!1m5!1m1!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2m2!1d-71.4025754!2d41.8262112">	 
+<img class="marker" src="images/red.svg"></img>
+</a>
+</div>
+		<div class="description">
+			<div id="qc24" class="details">
+<a href="javascript:void(0)" onclick="dropdown('#qc25', '#qc24')">Details</a>
+</div>
+			<div class="dropdown" id="qc25" style="display: none;">
+														Better World by Design invites you to a kick-off party for our 10th Anniversary Conference! Due to weather conditions, this event will now be held in Sayles Hall. Please join us for an evening of dancing and fun, with Ambo Studios and DJ Thirsty. Tickets are available to Brown and RISD students (Must bring student ID and state ID). If you purchased any conference ticket, admission to the social events is included.
+			</div>
+		</div>
+</div>
+</div>
+
+			      	</div>
+
+
+
+					</div>
+					</div>
+			      </div>
+			    </div>
+			    <div class="tab">
+			      <input id="tab-two" type="checkbox" name="tabs">
+			      <label for="tab-two">Saturday</label>
+			      <div class="tab-content">
+			        <div class="mobiletimeblock">
+			      		<span class="mobiletime">8:30AM&mdash;10:00AM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/registration.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title">Registration</div>
+			      				<div class="location">
+			      		Main Green
+			      		<a href="https://www.google.com/maps/dir//41.8263889,-71.4028611/@41.8263889,-71.4034083,19z/data=!4m8!1m7!3m6!1s0x0:0x0!2zNDHCsDQ5JzM1LjAiTiA3McKwMjQnMTAuMyJX!3b1!8m2!3d41.8263866!4d-71.4028649">	 
+			      		<img class="marker" src="images/navy.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qa0" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qa1', '#qa0')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qa1" style="display: none;">
+			      						First thing's first! Get your name badge that will grant you access to our full event! Grab your goodie bag with Soylent, Field Notes, Dopper Bottle, and more. If you have any questions, please don't hesitate to ask. 
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/registration.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title">Breakfast</div>
+			      				<div class="location">
+			      		Salomon Lobby
+			      		<a href="https://www.google.com/maps/place/Salomon+Center/@41.8266256,-71.4024381,19z/data=!4m8!1m2!2m1!1ssalomon+brown+univeristy!3m4!1s0x0:0x3b5e63a94276b39c!8m2!3d41.826531!4d-71.4024031">	 
+			      		<img class="marker" src="images/navy.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qqa4" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qqa2', '#qqa4')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qqa2" style="display: none;">
+			      						Come join us for breakfast! We will be serving zucchini and carrot muffins, yogurt and granola, Dave's Coffee, and more. Have a delicious start to your day 
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">10:00AM&mdash;11:00AM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Nick Scappaticci | Unexpected Futures</div>
+			      				<div class="location">
+			      		Salomon DECI
+			      		<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qqa38" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qqa80', '#qqa38')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qqa80" style="display: none;">
+			      						Tellart is an international experience design studio. Their vision is to work with design at the frontier of technology, in order to give people new ways of exploring and engaging with the world. This keynote will focus on how projects at Tellart combine storytelling with highly complex and experimental technologies.
+			      		 				<br/><br/>
+							      		In addition, their work with global brands on product and service innovation, as well as experiential marketing experiences engages audiences in new ways, while their work with cultural institutions provides new opportunities for creativity and learning, both onsite and online.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">11:00AM&mdash;12:00PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Doremy Diatta | Matter-Mind Studio: Emotion-Centered Design</div>
+			      				<div class="location">
+			      		Faunce | Petteruti Lounge
+			      		<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/"><img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qa38" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qa80', '#qa38')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qa80" style="display: none;">
+			      						Organizations and companies often stumble because they have a blind spot&mdash;people's emotional experience. What might it look like to develop and use research, strategy, and design tools that are dedicated to understanding and designing for people's inner needs? What values and cross-disciplinary theories might be at the foundation of this kind of practice? 
+			      		</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> STEAM | Two for One: Merging Artistic and Scientific Design Approaches</div>
+			      				<div class="location">
+			      		Main Green | STEAM Pavillon
+			      		<a href="https://www.google.com/maps/dir//College+Hill,+Providence,+RI+02912/@41.8261616,-71.403379,83m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x89e4453cdf640337:0xa138301d7d53ce60!2m2!1d-71.4034045!2d41.8261344"><img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qa13" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qa12', '#qa13')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qa12" style="display: none;">
+			      						We will discuss two perspectives commonly associated with design, that of a "scientific" approach, focused on function and quantitative data, and that of an "artistic" approach, focused on aesthetics and subjective experience. We will discuss how a combination of said mindsets can exist within a team of designers or within an individual designer through play, and how too much focus on one mindset can stifle a project. Specifically, how too much focus on experience can come at the cost of functionality, and how the opposite can come at the cost of creativity.
+			      		</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Annu Palakunnathu Matthew | Migration of Memory </div>
+			      				<div class="location">
+			      		Granoff | Studio 1
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qa15" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qa14', '#qa15')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qa14" style="display: none;">
+			      						Annu Palakunnathu Matthew will discuss her creative journey in her photo based artwork and connect the dots between how she comes up with ideas and where they lead her as an artist, woman, minority, and immigrant in the United States.
+			      			</div>	
+			      		</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Professor Kathleen Grevers, Professor Ian Gonsher, Professor Thomas Thwaites, Surya Manickam | Health Care and Design Panel</div>
+			      				<div class="location">
+			      		Granoff Auditorium
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qa17" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qa16', '#qa17')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qa16" style="display: none;">
+			      						This panel will explore how a design based perspective can be used as an ethos and framework in transforming the way we think about health - what health is, who defines health, and who deserves access to health. This will be done by sharing a bit about ourselves, our work, and missions. But also by discussing how health, as an entity rooted in the human experience, is something that has brought all of us here together, despite our varied interests, creating a dynamic environment for change. We will end by exploring the ways design may influence and shape health as we search for solutions and greater ends.
+			      		</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobilelunch" style="background: #242157; color: rgb(249,249,249); font-size: 1.1em; margin-top: 35px; margin-bottom: 35px; padding-top: 14px; padding-bottom: 14px;">
+						<span style="font-weight: 500;">12:00&mdash;1:00PM  |  Lunch</span><br/>
+						Sayles Hall <a href="https://www.google.com/maps/dir//Sayles+Hall,+Providence,+RI+02912/@41.8262112,-71.4047641,17z/data=!4m16!1m7!3m6!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2sSayles+Hall,+Providence,+RI+02912!3b1!8m2!3d41.8262112!4d-71.4025754!4m7!1m0!1m5!1m1!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2m2!1d-71.4025754!2d41.8262112">	 
+						<img class="marker" src="images/white.svg"></img>
+						</a>
+					</div>
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">1:00PM&mdash;2:00PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/creativejam.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Creative Jam: Social Hour | Adobe </div>
+			      				<div class="location">
+			      		Granoff Auditorium
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+			      		<img class="marker" src="images/red.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qqqa19" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qqqa18', '#qqqa19')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qqqa18" style="display: none;">
+			      						Doors open. Settle in, and meet your fellow creative community.
+			      		The tournament will be in full swing&mdash;pop your head in and see how it's developing. Portfolio reviews will be taking place for those who reserved a spot before the event.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Shruti Kunduri | A Conversation with UNICEF</div>
+			      				<div class="location">
+			      		85 Waterman | BERT 130
+			      		<a href="https://www.google.com/maps/dir//Hunter+Psychology+Lab,+85+Waterman+St,+Providence,+RI+02912/@41.8270255,-71.4021791,19.58z/">
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qk13" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qk14', '#qk13')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qk14" style="display: none;">
+			      						Shruti will discuss her past and current experiences working with the innovation team with the global initiative of UNICEF.
+			      		</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Mei Hsieh & Sheryl Cababa | Interactions are Chain Reactions  </div>
+			      				<div class="location">
+			      		Faunce | Petteruti Lounge
+			      		<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qk17" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qk18', '#qk17')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qk18" style="display: none;">
+			      						Could the next default checkbox in your design be what it takes to save a whole forest? Or, alternatively, will the next automated interface you design replace a whole workforce? Two UX designers from Artefact grapple with these design decisions and look at the larger social, environmental, and economic implications beyond button clicks and screen swipes. In this workshop we will explore several real world case study approaches to these challenges and discuss the importance of defining outcomes. These exercises will challenge you to 'flex your ethics muscles' and push yourself to think beyond the decisions of aesthetics and usability.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">1:30PM&mdash;3:30PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/creativejam.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Design Expo </div>
+			      				<div class="location">
+			      		Main Green
+			      		<a href="https://www.google.com/maps/dir//41.8263889,-71.4028611/@41.8263889,-71.4034083,19z/data=!4m8!1m7!3m6!1s0x0:0x0!2zNDHCsDQ5JzM1LjAiTiA3McKwMjQnMTAuMyJX!3b1!8m2!3d41.8263866!4d-71.4028649">
+			      		<img class="marker" src="images/red.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="zk11" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#zk12', '#zk11')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="zk12" style="display: none;">
+			      						Each year, Better World by Design hosts a Design Expo that takes place on the Saturday of the conference. The Expo is a space for companies, student groups and other local designers to showcase innovative projects, programs and more that help promote a more sustainable and just future. 
+			      		</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">2:00PM&mdash;3:00PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/creativejam.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Creative Jam: Lectures | Adobe </div>
+			      				<div class="location">
+			      		Granoff Auditorium
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">
+			      		<img class="marker" src="images/red.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qqqk9" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qqqk10', '#qqqk9')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qqqk10" style="display: none;">
+			      						Creative Jam Talks begin. Sit back as local creative leaders walk you through their personal creative process.
+			      		</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Gabrielle Bufrem | Bootstrapping User Research: No Budget, No Buy-In, No Team, No Problem </div>
+			      				<div class="location">
+								85 Waterman | BERT 130
+								<a href="https://www.google.com/maps/dir//Hunter+Psychology+Lab,+85+Waterman+St,+Providence,+RI+02912/@41.8270255,-71.4021791,19.58z/">
+								<img class="marker" src="images/teal.svg"></img>
+								</a>
+								</div>
+			      				<div class="description">
+			      					<div id="qk15" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qk16', '#qk15')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qk16" style="display: none;">
+			      					 User research normally comes with some clich&eacute;s &mdash; "it's so expensive," "we need a dedicated research team," or "the people that I work for don't buy into it". If you've heard any of these negative stereotypes, or if you're looking for best practices to bootstrap user research despite constraints, this talk is for you! Gabrielle will introduce a toolkit to help you inject research into everything you do, and share her tips on how to turn constraints into opportunities. She will share stories and learnings from the field and send you off with actionable steps so you can begin developing solutions for the problems that your users actually care about.
+			      		</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Mei Hsieh & Sheryl Cababa | Interactions are Chain Reactions  </div>
+			      				<div class="location">
+			      		Faunce | Petteruti Lounge
+			      		<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="aak7" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#aak8', '#aak7')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="aak8" style="display: none;">
+			      						Could the next default checkbox in your design be what it takes to save a whole forest? Or, alternatively, will the next automated interface you design replace a whole workforce? Two UX designers from Artefact grapple with these design decisions and look at the larger social, environmental, and economic implications beyond button clicks and screen swipes. In this workshop we will explore several real world case study approaches to these challenges and discuss the importance of defining outcomes. These exercises will challenge you to 'flex your ethics muscles' and push yourself to think beyond the decisions of aesthetics and usability.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Chee Pearlman & Charlie Canon | Panel + Q&A  </div>
+			      				<div class="location">
+			      		Granoff | Studio 1
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="xk5" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#xk6', '#xk5')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="xk6" style="display: none;">
+			      						Chee Pearlman is the Design Curator of TED Conferences. Charlie Canon the department head of the RISD Industrial Design program. Hear a conversation of where design is and where it will go.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobilelunch" style="background: #242157; color: rgb(249,249,249); font-size: 1.1em; margin-top: 35px; margin-bottom: 35px;  padding-top: 14px; padding-bottom: 14px;">
+						<span style="font-weight: 500;">3:00&mdash;3:30PM  |  Break</span><br/>
+						Sayles Hall <a href="https://www.google.com/maps/dir//Sayles+Hall,+Providence,+RI+02912/@41.8262112,-71.4047641,17z/data=!4m16!1m7!3m6!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2sSayles+Hall,+Providence,+RI+02912!3b1!8m2!3d41.8262112!4d-71.4025754!4m7!1m0!1m5!1m1!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2m2!1d-71.4025754!2d41.8262112">	 
+						<img class="marker" src="images/white.svg"></img>
+						</a>
+					</div>
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">3:30PM&mdash;4:30PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> John Pipkin & Joyce Huang | Fantasies and Failures: Embracing Risks and Unknowns in the Creative Process</div>
+			      				<div class="location">
+			      		Granoff | Studio 1
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="rrk1" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#rrk2', '#rrk1')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="rrk2" style="display: none;">
+			      						In a presentation and a conversation between an architect and a novelist, this session will explore the notion of expanded practices, or creative processes that look beyond the confines of traditionally-defined disciplinary structures, and toward an invitation to undertake risk and unknown territories. Joyce Hwang will discuss her work on wildlife habitats, and taking on an unexpectedly complex and collaborative project in Australia. John Pipkin will discuss his novels and his processes integrating academic and "experiential" research. Both architect and writer will discuss ways for artists to proactively advocate for specific social, ecological, and cultural agendas through creative means.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Amanda Phingbodhipakkiya | The Leading Strand: A Collaboration of Neuroscientists and Designers</div>
+			      				<div class="location">
+			      		85 Waterman | BERT 130
+			      		<a href="https://www.google.com/maps/dir//Hunter+Psychology+Lab,+85+Waterman+St,+Providence,+RI+02912/@41.8270255,-71.4021791,19.58z/">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qm38" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qm39', '#qm38')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qm39" style="display: none;">
+			      						After being frustrated by the misrepresentation of science in the media, and the struggles that researchers face in telling their story to the world, Amanda Phingbodhipakkiya decided to do something about it. As a Creative Director and Design Strategist with a neuroscience background, she brought together five designers and five neuroscientists to co-create visual works of art that were backed by academic rigor. The result was The Leading Strand, an organization dedicated to using design to shine a light on scientific research. 
+
+			      		In this talk, Amanda will give a behind the scenes look at how these collaborations came together, both the good and the bad, and share ideas and insights into how we can bring designers, the media, and other collaborators together to further understanding of science.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Barbara Stehle | Art Intelligentsia</div>
+			      				<div class="location">
+			      		Faunce | Petteruti Lounge
+			      		<a href="https://www.google.com/maps/dir//Stephen+Robert+'62+Campus+Center,+75+Waterman+St,+Providence,+RI+02912/@41.8268716,-71.4036756,18.96z/">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="ym36" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#ym37', '#ym36')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="ym37" style="display: none;">
+			      						Art Intelligentsia is a structure that allow me to explore all aspects of art history, tell stories with artists and share it with the world   I wanted to scrutinize art and its own space.  We can't escape space all painters will tell you, we live in it. It is one of the elements defining our perception of the human condition. What about stories? The need of telling them is another cornerstone of our humanity.  And so is art. So it is no surprise that Art Intelligentsia is all about reflecting on our humanity by looking at art.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">4:30PM&mdash;5:30PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> James Auger | Reconstrained Design</div>
+			      				<div class="location">
+			      		Salomon DECI
+			      		<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="hm34" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#hm35', '#hm34')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="hm35" style="display: none;">
+			      						Design practice always happens under a particular set of forces, commonly known as constraints. These constraints may be straightforward and indisputable, such as a physical or material quality: the force of gravity, the tensile strength of a structural beam, or a financial budget, and provide tangible limits to be adhered to or challenged.<br/><br/>
+			      		 
+			      		Constraints, however, also exist in more abstract, systemic or hidden forms. These can have a significant impact on the potential of design, resulting in a paucity of original thinking and a chronic neglect of responsibility. For example, national systems of infrastructure, such as energy grids or roads, have become so normalized that they constrain designers to simply designing for or within the dominant paradigm. The constraint of positivity or progress dogma, blinds those influencing the future (scientists, technologists, politicians, designers, etc.) from the potential negative implications of their proposals.<br/><br/>
+			      		 
+			      		This presentation will explore some of the more dominant oblique constraints and the ways in which they negatively influence the role and purpose of design. It will also describe how design, practiced outside of these constraints, can facilitate more inclusive, holistic, and environmentally responsible futures.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+
+			      	</div>
+
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">5:30PM&mdash;6:30PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Matter-Mind Studio | Wind-Down Studio</div>
+			      				<div class="location">
+			      		Salomon Lobby
+			      		<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="aam30" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#aam31', '#aam30')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="aam31" style="display: none;">
+			      						Decompress after each conference day at the playful Wind-Down Station. You'll spend as little as 2 to 10 minutes building a visual snapshot of the nuggets of info from the conference you plan to take back and use in your own work!
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+
+			      	</div>
+
+
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">8:00PM&mdash;10:00PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/socialevents.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> BWx10 @ Southlight Pavilion</div>
+			      				<div class="location">
+			      		Southlight 
+			      		<a href="https://www.google.com/maps/dir/''/Southside+Cultural+Center+of+Rhode+Island,+393+Broad+St,+Providence,+RI+02907/data=!4m5!4m4!1m0!1m2!1m1!1s0x89e44570eb4dbd9f:0xa875ddf087e462f?sa=X&ved=0ahUKEwiBpOyh3bTWAhUJOiYKHcmBDJMQiBMIIzAB">	 
+			      		<img class="marker" src="images/red.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="mm28" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#mm29', '#mm28')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="mm29" style="display: none;">
+			      					In honor of Better World's 10th Anniversary, please join us for our reunion-themed networking event! Hosted at 8:00pm at the SouthLight Pavilion at the Southside Cultural Center, a new and modern outdoor venue designed by the RISD Department of Architecture.<br/><br/>
+
+			      		This offers our professional attendees and students an opportunity to introduce themselves, speak informally about their work and projects, and share their professional interests and focus. Students attending are encouraged to ask about ways to follow-up for future internships. We would additionally like to extend a special invitation to our Better World alumni to join us in celebrating 10 years of BWxD with some words from our founders!<br/><br/>
+
+			      		Light refreshments will be served.
+
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+
+
+
+			      </div>
+			    </div>
+			    <div class="tab">
+			      <input id="tab-three" type="checkbox" name="tabs">
+			      <label for="tab-three">Sunday</label>
+			      <div class="tab-content">
+			        <div class="mobiletimeblock">
+			      		<span class="mobiletime">8:30AM&mdash;10:00AM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/registration.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title">Registration</div>
+			      				<div class="location">
+			      		Main Green
+			      		<a href="https://www.google.com/maps/dir//41.8263889,-71.4028611/@41.8263889,-71.4034083,19z/data=!4m8!1m7!3m6!1s0x0:0x0!2zNDHCsDQ5JzM1LjAiTiA3McKwMjQnMTAuMyJX!3b1!8m2!3d41.8263866!4d-71.4028649">	 
+			      		<img class="marker" src="images/navy.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qqm0" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qqm', '#qqm0')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qqm" style="display: none;">
+			      						First thing's first! Get your name badge that will grant you access to our full event! Grab your goodie bag with Soylent, Field Notes, Dopper Bottle, and more. If you have any questions, please don't hesitate to ask. 
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/registration.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title">Breakfast</div>
+			      				<div class="location">
+			      		Salomon Lobby
+			      		<a href="https://www.google.com/maps/place/Salomon+Center/@41.8266256,-71.4024381,19z/data=!4m8!1m2!2m1!1ssalomon+brown+univeristy!3m4!1s0x0:0x3b5e63a94276b39c!8m2!3d41.826531!4d-71.4024031">	 
+			      		<img class="marker" src="images/navy.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="wam3" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#wam1', '#wam3')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="wam1" style="display: none;">
+			      						Come join us for breakfast! We will be serving zucchini and carrot muffins, yogurt and granola, Dave's Coffee, and more. Have a delicious start to your day 
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">10:00AM&mdash;11:00AM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title">Ekene Ijeoma | Designing to impact citizens not market to consumers</div>
+			      				<div class="location">
+			      		Salomon DECI
+			      		<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qqm4" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qqm5', '#qqm4')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qqm5" style="display: none;">
+			      						How can we as creatives think of cities and citizens as our clients as opposed to brands and consumers? What does it mean to be a citizen? How can we use data and tech to create more poetry and empathy in our society? How can we use them as materials to create contemporary representations and interventions around our societies issues? In this presentation, I'll address these issues through my work and practice.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      		<span class="mobiletime">11:00AM&mdash;12:00PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title">John Zelek | Food Follows Function</div>
+			      				<div class="location">
+			      		Granoff | Studio 1
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qm6" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qm7', '#qm6')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qm7" style="display: none;">
+			      						A detailed look at the food we eat, why we choose to eat it, and a sincere promise that Soylent isn't coming for your Thanksgiving dinner.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Smile Indias, Becky Slogeris, Kehinde Bademosi | Shifting Relationships through Design: Public Health & Public Safety </div>
+			      				<div class="location">
+			      		Granoff Auditorium
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qqqm8" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qqqm9', '#qqqm8')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qqqm9" style="display: none;">
+			      						Reflecting on 10 years of work in MICA's Center for Social Design, questions about what it really means to sustain interventions while working with partners arise: How do we go beyond the normal designer-partner relationship to create a more authentic engagement with all the stakeholders of a project? How do we leverage the skills of all partners to truly address inequities?
+			      						<br/><br/>
+			      		This panel session will deconstruct two partnerships that graduates of MICA's MA in Social Design program have forged with the Baltimore City Health Department and the Baltimore Police Department to confront injustices in Baltimore. Panelists will discuss the successes and challenges of bringing a human centered design approach into traditional local public agencies, and how the partners worked together to shift relationships between people and people and people and institutions to support positive social change.
+
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Tina Gong | Designing a Language of the Collective Unconscious</div>
+			      				<div class="location">
+			      		Granoff | Englander Studio
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="zm10" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#zm11', '#zm10')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="zm11" style="display: none;">
+			      						Contrary to popular belief, magic is about creating change in the caster, whose confrontation with the self then shapes the world around them. How can we design products that are also experiences and that transform our users into more self-aware beings? We'll be pulling from the maze of mythology and magic, to understand how ritual, tarot and the *spooky* world of the occult influenced the thinking behind HappyPlayTime and Labyrinthos Academy. 
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobilelunch" style="background: #242157; color: rgb(249,249,249); font-size: 1.1em; margin-top: 35px; margin-bottom: 35px;  padding-top: 14px; padding-bottom: 14px;">
+						<span style="font-weight: 500;">12:00&mdash;1:00PM  |  Lunch</span><br/>
+						Sayles Hall <a href="https://www.google.com/maps/dir//Sayles+Hall,+Providence,+RI+02912/@41.8262112,-71.4047641,17z/data=!4m16!1m7!3m6!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2sSayles+Hall,+Providence,+RI+02912!3b1!8m2!3d41.8262112!4d-71.4025754!4m7!1m0!1m5!1m1!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2m2!1d-71.4025754!2d41.8262112">	 
+						<img class="marker" src="images/white.svg"></img>
+						</a>
+					</div>
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">1:00PM&mdash;2:00PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Natalie Lew | Adobe Creative Resident</div>
+			      				<div class="location">
+			      		Granoff | Studio 1
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="azm12" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#azm13', '#azm12')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="azm13" style="display: none;">
+			      						Hear from Natalie Lew, on her experiences as an Adobe creative resident.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Leo Selvaggio | Design as Subversion: How One Face Can Break Governmental Surveillance Systems</div>
+			      				<div class="location">
+			      		Granoff Auditorium
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="ttm14" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#ttm15', '#ttm14')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="ttm15" style="display: none;">
+			      						In this talk, artist Leo Selvaggio will examine his recent project, URME Surveillance, through an interdisciplinary lens that includes the fields cybernetics, gender studies, civics, psychology, and performance, as a case study towards socially engaged design. He will argue that the careful analysis of systems, aided through a varied perspective of disciplines, can empower designers to engage social problems and constructs much larger than themselves.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Stephanie Dinkins |  AI.Assembly:  What does Artificial Intelligence Need from You?</div>
+			      				<div class="location">
+			      		Granoff | Kooper Studio
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="dm16" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#dm17', '#dm16')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="dm17" style="display: none;">
+			      						Artificially intelligent systems (AI) are increasingly the ubiquitous, unseen arbiters of our social, civic and family lives. Ever increasing computational power, combined with almost limitless data, has led to a turning point in the way artificial intelligence assists, judges and cares for humans. The need to understand how, where, and why bias enters human-robot interactions occur is more important than ever. This workshop approaches artificial intelligence from a humanist perspective.  Participants will explore where and how our lives are touched by AI and explore methods to imagine and design more inclusive, transparent AI.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobilelunch" style="background: #242157; color: rgb(249,249,249); font-size: 1.1em; margin-top: 35px; margin-bottom: 35px;  padding-top: 14px; padding-bottom: 14px;">
+						<span style="font-weight: 500;">2:00&mdash;2:30PM  |  Snack Break</span><br/>
+						Sayles Hall <a href="https://www.google.com/maps/dir//Sayles+Hall,+Providence,+RI+02912/@41.8262112,-71.4047641,17z/data=!4m16!1m7!3m6!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2sSayles+Hall,+Providence,+RI+02912!3b1!8m2!3d41.8262112!4d-71.4025754!4m7!1m0!1m5!1m1!1s0x89e4453ce616ec01:0x1c24e3c7ecf48f18!2m2!1d-71.4025754!2d41.8262112">	 
+						<img class="marker" src="images/white.svg"></img>
+						</a>
+					</div>
+					<div class="mobiletimeblock">
+			      		<span class="mobiletime">2:30PM&mdash;3:30PM</span>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> BioBright | Stay in Your Lane: Challenging the status quo in science</div>
+			      				<div class="location">
+			      		Granoff | Studio 1
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="am18" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#am19', '#am18')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="am19" style="display: none;">
+			      						Biological research is in trouble. It can take decades for lifesaving drugs to come to market. Possible cures slip by unnoticed, lost in mountains of data. How can we break this status quo? What would you do if you were faced with this design challenge? We'll share our strategies for understanding complex scientific processes and creating innovative visual designs for the lab of the future.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Krystal Sarcone | Design and Disparities: The Role of Apparel in Marginalizing People with Disabilities and How Design Can Change the World</div>
+			      				<div class="location">
+			      		Granoff | Kooper Studio
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="qm20" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#qm21', '#qm20')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="qm21" style="display: none;">
+			      						This workshop is an introduction to the world of apparel through the lens of disability. Simply put, participation in society as a consumer is not equitable for people with disabilities (PWDs). There is a lack of accessibility within retail environments and also within garment construction itself. There will be an opportunity for participants to come together to discuss these concepts and think of the many ways in which innovation can incorporate elements of universal design.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobileevent">
+			      		<div class="icon">
+			      				<img src="images/lecture.svg">
+			      			</div>
+			      			<div class="info">
+			      				<div class="title"> Kristen Chin | Building Equity through Design + Policy</div>
+			      				<div class="location">
+			      		Granoff | Englander Studio
+			      		<a href="https://www.google.com/maps/dir//Granoff+Center,+Providence,+RI/@41.8283423,-71.4714741,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e4452346905f35:0xd7577ffb1434c6af!2m2!1d-71.4014338!2d41.8282357">	 
+			      		<img class="marker" src="images/teal.svg"></img>
+			      		</a>
+			      		</div>
+			      				<div class="description">
+			      					<div id="tm22" class="details">
+			      		<a href="javascript:void(0)" onclick="dropdown('#tm23', '#tm22')">Details</a>
+			      		</div>
+			      					<div class="dropdown" id="tm23" style="display: none;">
+			      						The built environment is one of the worst perpetrators of inequities in our neighborhoods. This session explores the idea that design has a responsibility to address systemic issues of injustice through the built environment. It will also examine design's possibilities and limitations in creating lasting change. By highlighting several community-driven design projects, attendees will learn how governments, community groups, and residents are driving efforts toward equitable, sustainable, and resilient neighborhoods.
+			      					</div>
+			      				</div>
+			      		</div>
+			      		</div>
+			      		<div class="mobiletimeblock">
+			      			<span class="mobiletime">3:30PM&mdash;4:30PM</span>
+			      			<div class="mobileevent">
+			      			<div class="icon">
+			      					<img src="images/lecture.svg">
+			      				</div>
+			      				<div class="info">
+			      					<div class="title"> Alexandra Daisy Ginsberg | Better</div>
+			      					<div class="location">
+			      			Granoff Auditorium
+			      			<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+			      			<img class="marker" src="images/teal.svg"></img>
+			      			</a>
+			      			</div>
+			      					<div class="description">
+			      						<div id="ttm24" class="details">
+			      			<a href="javascript:void(0)" onclick="dropdown('#ttm25', '#ttm24')">Details</a>
+			      			</div>
+			      						<div class="dropdown" id="ttm25" style="display: none;">
+			      							Designers often advocate that design makes things better. In promising a better future, they are not alone: engineers, marketers, politicians and scientists also invoke the imaginary of better, crafting dreams that have material effects. In some of these visions, "better" will be delivered by science and technology; in others, the consumption of designed things will better us or the world. "Better" itself has become a contemporary version of progress, shed of some of its philosophical baggage. But better is not a universal good or a verified measure: it is imbued with politics and values. And better will not be delivered equally, if at all. "What is better?", "Whose better" and "Who gets to decide?" are three questions with great implications for the way we live and hope to live. This talk explores how critical design can be used to address these questions. Drawing on my experiences over the last eight years working with the visionaries of synthetic biology&mdash;a new approach to genetic engineering&mdash;I consider how we can usefully question better to open up the possibility for alternatives. 
+			      						</div>
+			      					</div>
+			      			</div>
+			      			</div>
+			      		</div>
+			      	</div>
+			      	<div class="mobiletimeblock">
+			      			<span class="mobiletime">4:30PM&mdash;5:30PM</span>
+			      			<div class="mobileevent">
+			      			<div class="icon">
+			      					<img src="images/lecture.svg">
+			      				</div>
+			      				<div class="info">
+			      					<div class="title"> Matter-Mind Studio | Wind-Down Studio</div>
+			      					<div class="location">
+			      			Granoff Auditorium Lobby
+			      			<a href="https://www.google.com/maps/dir//Salomon+Center/@41.8263986,-71.4032001,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x0:0x3b5e63a94276b39c!2m2!1d-71.4024032!2d41.8265309">	 
+			      			<img class="marker" src="images/teal.svg"></img>
+			      			</a>
+			      			</div>
+			      					<div class="description">
+			      						<div id="em26" class="details">
+			      			<a href="javascript:void(0)" onclick="dropdown('#em27', '#em26')">Details</a>
+			      			</div>
+			      						<div class="dropdown" id="em27" style="display: none;">
+			      							Decompress after each conference day at the playful Wind-Down Station. You'll spend as little as 2 to 10 minutes building a visual snapshot of the nuggets of info from the conference you plan to take back and use in your own work!
+			      						</div>
+			      					</div>
+			      			</div>
+			      			</div>
+			      	</div>
+			      </div>
+			    </div>
+			</div>
+
+
+
+
+
+		</div>
+
+			<div id="mapcontainer">
+				<div id='map' style='height: 80vh;'></div>
+				<script>
+				mapboxgl.accessToken = 'pk.eyJ1IjoibnRvbWxpbiIsImEiOiJjaXJ4cGY4eW0wMDM1MnlvNGptbnU4ZDZiIn0.d5vAXDvOo-FuOcoDenzLJg';
+				var map = new mapboxgl.Map({
+				    container: 'map',
+				    style: 'mapbox://styles/mapbox/light-v9',
+				    center: [-71.4050354, 41.8264755],
+	    			zoom: 16
+				});
+
+				var lectures = {
+				  type: 'FeatureCollection',
+				  features: [
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.407955, 41.826135]
+				    },
+				    properties: {
+				      title: 'RISD Museum',
+				      description: 'Chace Metcalf Auditorium'
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4026858, 41.8265224]
+				    },
+				    properties: {
+				      title: 'Salomon Center',
+				      description: ''
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.406319, 41.826960]
+				    },
+				    properties: {
+				      title: 'The MET',
+				      description: ''
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.407349, 41.826378]
+				    },
+				    properties: {
+				      title: 'Memorial Hall',
+				      description: ''
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4088376, 41.8260267]
+				    },
+				    properties: {
+				      title: 'RISD Auditorium',
+				      description: ''
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4031661, 41.82684]
+				    },
+				    properties: {
+				      title: 'Faunce House',
+				      description: 'Petteruti Lounge'
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4014807, 41.8283359]
+				    },
+				    properties: {
+				      title: 'Granoff Center',
+				      description: ''
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4019393, 41.8269953]
+				    },
+				    properties: {
+				      title: '85 Waterman',
+				      description: 'Bert 130'
+				    }
+				  }
+				]};
+
+				var registration = {
+				  type: 'FeatureCollection',
+				  features: [{
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.407007, 41.826707]
+				    },
+				    properties: {
+				      title: 'Frazier Terrace',
+				      description: 'Friday Registration'
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4033208, 41.8262214]
+				    },
+				    properties: {
+				      title: 'Brown Main Green',
+				      description: 'Saturday/Sunday Registration'
+				    }
+				  }
+				]};
+
+				var social = {
+				  type: 'FeatureCollection',
+				  features: [{
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4223594, 41.8129124]
+				    },
+				    properties: {
+				      title: 'Southlight Pavillion',
+				      description: 'Saturday Night Social Event'
+				    }
+				  },
+				  {
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [-71.4026849, 41.8262423]
+				    },
+				    properties: {
+				      title: 'Sayles Hall',
+				      description: 'Friday Night Social Event<br/>Saturday/Sunday Lunch'
+				    }
+				  }
+				]};
+
+				lectures.features.forEach(function(marker) {
+
+				  // create a HTML element for each feature
+				  var el = document.createElement('div');
+				  el.className = 'tealmarker';
+
+				  // make a marker for each feature and add to the map
+				  // new mapboxgl.Marker(el, { offset: [-50 / 2, -50 / 2] })
+				  // .setLngLat(marker.geometry.coordinates)
+				  // .addTo(map);
+				  new mapboxgl.Marker(el, { offset: [0, 0] })
+					  .setLngLat(marker.geometry.coordinates)
+					  .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+					  .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+					  .addTo(map);
+				});
+
+				registration.features.forEach(function(marker) {
+
+				  // create a HTML element for each feature
+				  var el = document.createElement('div');
+				  el.className = 'navymarker';
+
+				  // make a marker for each feature and add to the map
+				  // new mapboxgl.Marker(el, { offset: [-50 / 2, -50 / 2] })
+				  // .setLngLat(marker.geometry.coordinates)
+				  // .addTo(map);
+				  new mapboxgl.Marker(el, { offset: [0, 0] })
+					  .setLngLat(marker.geometry.coordinates)
+					  .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+					  .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+					  .addTo(map);
+				});
+
+				social.features.forEach(function(marker) {
+
+				  // create a HTML element for each feature
+				  var el = document.createElement('div');
+				  el.className = 'redmarker';
+
+				  // make a marker for each feature and add to the map
+				  // new mapboxgl.Marker(el, { offset: [-50 / 2, -50 / 2] })
+				  // .setLngLat(marker.geometry.coordinates)
+				  // .addTo(map);
+				  new mapboxgl.Marker(el, { offset: [0, 0] })
+					  .setLngLat(marker.geometry.coordinates)
+					  .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+					  .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+					  .addTo(map);
+				});
+
+				map.addControl(new MapboxGeocoder({
+				    accessToken: mapboxgl.accessToken
+				}), 'top-left');
+
+				map.addControl(new mapboxgl.NavigationControl());
+				</script>
+			</div>
+
+
+			<div id="challenge">
+				<h1>Join us for a Creative Jam!</h1>
+				<img src="images/CreativeJam.jpg">
+				<div id="challenge2col">
+					<div id="leftcol">
+						<h2 style="margin-top: 25px;">
+							Please join us for a Creative Jam, an inspiring two-part design experience that demonstrates and celebrates creativity.
+						</h2>
+					</div>
+					<div id="rightcol">
+						<p style="margin-top: 25px;">The Adobe Creative Cloud team will host the Creative Jam presentations. This one-hour design showcase highlights the work of local creative leaders.</p>
+
+						<p>At the same time, in the next room, design teams will be competing in the Creative Jam tournament, a 3-hour design showdown. This event will have several categories: motion design, graphic design and UX/UI. Once the Creative Jam presentations wrap, tournament participants will take the stage to share their creations with you. As part of the audience, you'll vote on each submission and select the People's Choice winner. There will also be Grand Prize winners decided by a group of Judges!</p>
+
+						<p>Visit <a href="https://nvite.com/CreativeJam/betterxdesign">https://nvite.com/CreativeJam/betterxdesign</a> for more details.</p>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footertext" style="margin-top: 5px;">
+					<a href="https://www.facebook.com/betterworldbydesign/"><img src="images/social/2facebook.svg"></a>
+					<a href="https://www.instagram.com/betterxdesign/"><img src="images/social/2instagram.svg"></a>
+					<a href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/2twitter.svg"></a>
+				</div>
+				<span class="desktop" style="color: rgb(249,249,249);">Better World by Design Conference 2017</span>
+				<span class="mobile" style="color: rgb(249,249,249);">BWxD 2017: Sep. 22-24</span>
+			</div>
+		</div>
+	</body>
+</html>
