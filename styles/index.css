@@ -52,6 +52,24 @@ body {
 
 .logosDesktop {
     display: visible;
+    margin-top: 80px;
+}
+@media only screen and (max-width: 1024px) {
+  .logosDesktop {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logosDesktop {
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .logosDesktop {
+    margin-top: 110px;
+  }
 }
 
 .logosDesktop a {
@@ -62,9 +80,7 @@ body {
 .logosDesktop img {
   width: 40px;
 }
-.logosDesktop {
-  margin-top: 20px;
-}
+
 
   .themeDate{
     font-weight: 500;
@@ -112,14 +128,16 @@ body {
 
 
 .themeText {
+  visibility: hidden;
 	font-weight: 500;
 	color: white;
-    font-size: 8em;
+    font-size: 10em;
     font-family: "calibre";
     text-align: center;
 }
 
 .themeTopper {
+  visibility: hidden;
 	font-weight: 500;
 	color: white;
     font-size: 2.0em;
@@ -128,10 +146,11 @@ body {
 }
 
 .themeDescription{
+  visibility: hidden;
 	font-weight: 500;
 	color: white;
-    font-size: 1.5em;
-    text-align: center;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .eventsButton {

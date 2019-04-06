@@ -320,7 +320,7 @@ a {
 .desktopOnly {
     display: none;
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
     .mobileOnly {
         display: none;
     }
@@ -328,7 +328,7 @@ a {
         display: block;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   a:hover {
       color: #00B5AD;
   }
