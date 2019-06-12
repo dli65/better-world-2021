@@ -74,9 +74,11 @@ function draw() {
     textFont(fontBold);
     textSize(70);
     text(theme, halfWidth, 150);
-    textFont(fontMedium);
-    textSize(15);
-    text(description, halfWidth, 430, 280, 500);
+    if (windowHeight > 400) {
+      textFont(fontMedium);
+      textSize(15);
+      text(description, halfWidth, 430, 280, 500);
+    }
     xlo = 100;
     xhi = 350;
     ylo = 160;
@@ -88,9 +90,11 @@ function draw() {
     textFont(fontBold);
     textSize(90);
     text(theme, halfWidth, 200);
-    textFont(fontMedium);
-    textSize(18);
-    text(description, halfWidth, 460, 430, 400);
+    if (windowHeight > 400) {
+        textFont(fontMedium);
+        textSize(18);
+        text(description, halfWidth, 460, 430, 400);
+    }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
     ylo = 240;
@@ -102,9 +106,11 @@ function draw() {
     textFont(fontBold);
     textSize(100);
     text(theme, halfWidth, 220);
-    textFont(fontMedium);
-    textSize(20);
-    text(description, halfWidth, 460, 520, 400);
+    if (windowHeight > 400) {
+      textFont(fontMedium);
+      textSize(20);
+      text(description, halfWidth, 460, 520, 400);
+    }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
     ylo = 260;
