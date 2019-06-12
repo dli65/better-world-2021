@@ -1,0 +1,212 @@
+body {
+}
+
+.landingcontainer {
+    width: 100%;
+    text-align: left;
+    height:100%;
+    min-height: 500px;
+}
+
+.landingType {
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-bottom: 1vh;
+    color: white;
+    padding-left: 90px;
+    padding-top: 80px;
+}
+
+.buttonContainer {
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-bottom: 3vh;
+    color: white;
+    padding-left: 90px;
+    padding-top: 0px;
+}
+
+a.contact:link {
+    color: white;
+}
+
+/* visited link */
+a.contact:visited {
+    color: white;
+}
+.eventsButton {
+    display: inline-block;
+    border: 2px solid #ffd400;
+    padding: 10px;
+    background: #ffd400;
+    color: white;
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+    transition: color 0.1s ease;
+    margin-top: 10px;
+}
+.eventsButton:hover {
+    background: lightgray;
+    color: white;
+    cursor: pointer;
+}
+
+
+.eventsButtonBottom {
+    /* display: inline-block; */
+    border: 0.5px solid #ffd400;
+    padding: 8px;
+    background: #ffd400;
+    color: white;
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 0.8em;
+    transition: background-color 0.2s ease;
+    transition: color 0.1s ease;
+    margin-top: 5px;
+    float: right;
+}
+.eventsButtonBottom:hover {
+    background: lightgray;
+    color: white;
+    cursor: pointer;
+}
+
+.details {
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.detailsBottom {
+    font-family: "calibre";
+    font-weight: 300;
+    font-size: 1.2em;
+    color: lightgray;
+}
+
+.contactInformation {
+    padding-top: 35px;
+    padding-left: 70px;
+}
+
+.questions {
+    display: flex;
+  }
+
+.detailContainer{
+    padding-top: 10px;
+}
+
+.buttonContainerBottom {
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-bottom: 3vh;
+    color: white;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.containerStuff {
+    display: flex;
+  }
+
+  .containerOne {
+    display: flex;
+  }
+
+.containerStuff > div {
+    flex: 1; /*grow*/
+}
+
+.perkContainer{
+    background-color: #EF413D;
+    padding-right: 10px;
+    padding-left: 20px;
+    border: 19px solid white;
+    min-width: 150px;
+}
+
+.perkTitle {
+    padding-top: 20px;
+    color: white;
+    font-family: "calibre";
+    font-weight: 500;
+    font-size: 2.0em;
+}
+
+.perkDesc {
+    color: white;
+    font-family: "calibre";
+    font-weight: 300;
+    font-size: 1.0em;
+    padding-bottom: 20px;
+}
+
+.perkBottom {
+    font-family: "calibre";
+    font-weight: 200;
+    font-size: 1.1em;
+}
+
+.perkDetails{
+    font-family: "calibre";
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+@media (max-width:500px) {
+    .landingcontainer {
+        width: 100%;
+        text-align: left;
+        height:100%;
+        min-height: 300px;
+    }
+
+    .landingType {
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+
+    .buttonContainer {
+        padding-top: 00px;
+        padding-left: 40px;
+    }
+
+    .containerStuff{
+		display: block;
+    }
+    .containerOne{
+		display: block;
+	}
+}
+
+@media (min-width:500px) and (max-width:800px) {
+    .containerStuff{
+		display: block;
+    }
+    .containerOne{
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+    .landingcontainer{
+        height:40%;
+    }
+    .perkContainer{
+        background-color: #EF413D;
+        /* padding-right: 100px; */
+        padding-left: 20px;
+        border: 0px;
+        min-width: 150px;
+    }
+  }

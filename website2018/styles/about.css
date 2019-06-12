@@ -1,0 +1,668 @@
+#header {
+	background: linear-gradient(transparent, transparent),
+                 url(../images/banners/about.jpg) no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/banners/about.jpg) no-repeat;
+
+	background-position: center;
+}
+
+/**/
+/* Team */
+/**/
+
+#teamBanner {
+	width: 100%;
+	position: relative;
+	left: 0;
+}
+
+.detailsBottom {
+    font-family: "calibre";
+    font-weight: 300;
+    font-size: 1.2em;
+    color: lightgray;
+}
+
+.contactInformation {
+    padding-top: 35px;
+    padding-left: 70px;
+}
+
+.faceGrid {
+	width: 100%;
+	white-space: nowrap;
+	position: relative;
+	border-top: 1px solid #FFD400;
+}
+h1 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+h2 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+h3 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+p {
+	margin-bottom: 5px;
+}
+
+.themeYear {
+	padding-top: 12px;
+	font-weight: 500;
+	color: #00B5AD;
+	font-size: 1em;
+}
+.themeDesc {
+	font-weight: 500;
+	font-size: 1.2em;
+}
+.theme {
+	width: 180px;
+}
+
+.content {
+	/* padding-top: 70px; */
+}
+
+.subsection2 {
+	background-color: lightgray;
+	padding-left: 7%;
+	padding-right: 7%;
+	min-height: 465px;
+}
+.infoSection {
+	width: 50%;
+	padding-bottom: 20px;
+	padding-left: 7%;
+	padding-right: 10%;
+}
+.photoSection {
+	width: 80%;
+	padding-left: 7%;
+	padding-right: 10%;
+}
+.footer{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom:20px;
+	background-color: #241F59;
+}
+.rightCol {
+	padding-top: 5px;
+}
+
+@media (max-width: 999px) {
+	/* .greaterthan1000 {
+		display: none;
+	} */
+	.content {
+		/* padding-top: 60px; */
+	}
+	.mobileMargin {
+		padding-top: 30px;
+	}
+}
+
+@media (min-width: 1000px) {
+	/*h1 {
+		padding-top: 80px;
+	}*/
+	body {
+		height: 100%;
+		overflow: hidden;
+		margin: 0;
+		display: flex;
+		position: relative;
+		width: 100%;
+	}
+	#teamBanner {
+		width: 100%;
+		position: relative;
+		
+	}
+	::-webkit-scrollbar {
+    display: none;
+  }
+	.content {
+		overflow-y: auto;
+		/* padding-top: 21px; */
+		height: 95vh;
+	}
+	.subsection {
+		width: 100%;
+		padding-bottom: 70px;
+	}
+	.infoSection {
+		width: 50%;
+		padding-bottom: 20px;
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	.photoSection {
+		width: 80%;
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	.faceGrid {
+		position: relative;
+		border-top: 1px solid #FFD400;
+	}
+	.bottomAbout {
+		float: left;
+		width: 60%;
+	}
+	.rightCol {
+		padding-left: 100px;
+		width: 20%;
+		float: left;
+	}
+	.subsection2 {
+		padding-top: 50px;
+		float:left;
+		padding-left: 7%;
+		padding-right: 7%;
+		background-color: lightgray;
+	}
+	.footer{
+		width: 100%;
+		padding-top: 21px;
+		padding-bottom: 21px;
+		background-color: #241F59;
+	}
+}
+
+@media (max-width: 600px) {
+	.nameBreak {
+		display: block;
+	}
+	.rightCol {
+		/* padding-top: 0px; */
+		width: 70%;
+		/* float: left; */
+	}
+	.content {
+		/* overflow-y: auto; */
+		padding-top: 10px;
+	}
+	.subsection2 {
+		padding-top: 50px;
+		/* float:left; */
+		padding-left: 7%;
+		padding-right: 7%;
+		background-color: lightgray;
+	}
+	.infoSection {
+		width: 80%;
+		padding-bottom: 20px;
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	.photoSection {
+		width: 80%;
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	.footer{
+		width: 100%;
+		padding-top: 21px;
+		padding-bottom: 21px;
+		background-color: #241F59;
+	}
+}
+
+/*Firefox Scrollbar Issue*/
+@-moz-document url-prefix() {
+	@media(min-width: 1000px) {
+		body {
+			overflow: scroll;
+		}
+		.leftCol, .rightCol {
+			overflow: inherit;
+		}
+	}
+}
+
+/* FROM CONTENTPAGE.CSS */
+#header {
+	width: 100vw;
+	height: 40vw;
+	min-height: 350px;
+
+	position: relative;
+    background-size: cover;
+    background-position:center;
+
+	text-align: center;
+}
+
+.contentContainer, #menu {
+	margin-top: 60px;
+}
+
+@media (min-width:1200px) {
+	#header {
+		height: 30vw;
+	}
+}
+
+#headerText {
+	color: #241F59;
+
+	width: 100%;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+
+	font-size: 3em;
+	font-weight: 700;
+}
+
+@media (min-width:600px) {
+	#headerText {
+		font-size: 5em;
+	}
+}
+
+/**/
+/* Content */
+/**/
+
+.section {
+/*	Add padding and negative margin for link anchor offset to acount for nav bar */
+/*	70 for navbar height and 30 for padding */
+	float: left;
+	padding-top: 100px;
+	margin: -70px 30px 30px 30px; /* Equivalent to 30 30 60 30 */
+}
+@media (min-width: 1200px) {
+    .section {
+	/*	80 for navbar height and 30 for padding */
+		padding-top: 110px;
+		margin: -80px 30px 30px 30px; /* Equivalent to 30 30 60 30 */
+	}
+}
+
+.subsection {
+	margin: 0 0; /* Originally 30px 0 */
+}
+
+
+
+
+/* Individual people */
+
+#katchai .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/chair_katChai.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/chair_katChai.jpg') no-repeat;
+	background-size: contain;
+}
+#katchavez .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/chair_katChavez.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/chair_katChavez.jpg') no-repeat;
+	background-size: contain;
+}
+#javi .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/chair_javi.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/chair_javi.jpg') no-repeat;
+	background-size: contain;
+}
+#priscilla .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_priscilla.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_priscilla.jpg') no-repeat;
+	background-size: contain;
+}
+#francesca .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_francesca.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_francesca.jpg') no-repeat;
+	background-size: contain;
+}
+#emilia .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_emilia.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_emilia.jpg') no-repeat;
+	background-size: contain;
+}
+#emilio .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_emilio.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_emilio.jpg') no-repeat;
+	background-size: contain;
+}
+#nick .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_nick.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/con_nick.jpg') no-repeat;
+	background-size: contain;
+}
+#anzia .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ce_anzia.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ce_anzia.jpg') no-repeat;
+	background-size: contain;
+}
+#arjun .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ce_arjun.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ce_arjun.jpg') no-repeat;
+	background-size: contain;
+}
+#tina .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ce_tina.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ce_tina.jpg') no-repeat;
+	background-size: contain;
+}
+#lorraine .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/gra_lorraine.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/gra_lorraine.jpg') no-repeat;
+	background-size: contain;
+}
+#niya .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/gra_niya.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/gra_niya.jpg') no-repeat;
+	background-size: contain;
+}
+#briana .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/fin_briana.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/fin_briana.jpg') no-repeat;
+	background-size: contain;
+}
+#tristan .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/fin_tristan.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/fin_tristan.jpg') no-repeat;
+	background-size: contain;
+}
+#rachel .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/fin_rachel.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/fin_rachel.jpg') no-repeat;
+	background-size: contain;
+}
+#kirby .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ope_kirby.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ope_kirby.jpg') no-repeat;
+	background-size: contain;
+}
+#sammy .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ope_sammy.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ope_sammy.jpg') no-repeat;
+	background-size: contain;
+}
+#erica .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ope_erica.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/ope_erica.jpg') no-repeat;
+	background-size: contain;
+}
+#jeremy .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/pr_jeremy.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/pr_jeremy.jpg') no-repeat;
+	background-size: contain;
+}
+#elaine .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/pr_elaine.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/pr_elaine.jpg') no-repeat;
+	background-size: contain;
+}
+#nat .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/pr_nat.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/pr_nat.jpg') no-repeat;
+	background-size: contain;
+}
+#reet .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/soc_reet.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/soc_reet.jpg') no-repeat;
+	background-size: contain;
+}
+#ruthie .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/soc_ruthie.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/soc_ruthie.jpg') no-repeat;
+	background-size: contain;
+}
+#ceci .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/web_ceci.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/web_ceci.jpg') no-repeat;
+	background-size: contain;
+}
+#xuefei .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../../images/2018team/web_xuefei.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../../images/2018team/web_xuefei.jpg') no-repeat;
+	background-size: contain;
+}
+
+@media (min-width: 1000px){
+	#katchai .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/chair_katChai2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/chair_katChai2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#katchavez .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+					 url('../../images/2018team/chair_katChavez2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+					 url('../../images/2018team/chair_katChavez2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#javi .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/chair_javi2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/chair_javi2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#priscilla .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/con_priscilla2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/con_priscilla2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#francesca .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+					 url('../../images/2018team/con_francesca2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+					 url('../../images/2018team/con_francesca2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#nick .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/con_nick2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/con_nick2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#emilia .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/con_emilia2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/con_emilia2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#emilio .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+					 url('../../images/2018team/con_emilio2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+					 url('../../images/2018team/con_emilio2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#anzia .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ce_anzia2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ce_anzia2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#arjun .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ce_arjun2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ce_arjun2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#tina .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+					 url('../../images/2018team/ce_tina2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+					 url('../../images/2018team/ce_tina2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#lorraine .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/gra_lorraine2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/gra_lorraine2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#niya .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/gra_niya2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/gra_niya2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#briana .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+					 url('../../images/2018team/fin_briana2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+					 url('../../images/2018team/fin_briana2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#tristan .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/fin_tristan2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/fin_tristan2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#rachel .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/fin_rachel2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/fin_rachel2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#kirby .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ope_kirby2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ope_kirby2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#sammy .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ope_sammy2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ope_sammy2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#erica .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ope_erica2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/ope_erica2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#jeremy .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/pr_jeremy2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/pr_jeremy2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#elaine .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/pr_elaine2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/pr_elaine2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#nat .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/pr_nat2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/pr_nat2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#reet .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/soc_reet2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/soc_reet2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#ruthie .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/soc_ruthie2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/soc_ruthie2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#ceci .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/web_ceci2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/web_ceci2.jpg') no-repeat;
+		background-size: contain;
+	}
+	#xuefei .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/web_xuefei2.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../../images/2018team/web_xuefei2.jpg') no-repeat;
+		background-size: contain;
+	}
+}
