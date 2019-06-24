@@ -1,0 +1,430 @@
+.landingcontainer {
+	height: 300px;
+}
+
+.introTitle {
+	font-weight:500;
+	font-size:18px;
+}
+
+.introContent{
+	padding-bottom:10px;
+}
+
+.speakerSection {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.introContainer {
+	width: 800px;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.introTitle {
+	padding-bottom: 15px;
+}
+
+
+.logo {
+	margin-top: -120px;
+	margin-right: 50px;
+	float: right;
+	position: relative;
+	width: 400px;
+}
+
+.speakerCTA {
+	padding-top:100px;
+}
+
+@media (max-width: 500px) {
+	.introContainer{
+		width:80%;
+		padding-left: 20px;
+	}
+	.speakerSection {
+		width:100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.speakerCTA {
+		padding-top:30px;
+		padding-left:5px;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+	.introContainer{
+		width:500px;
+	}
+	.speakerContainer {
+		width:600px;
+	}
+}
+
+.tags {
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+}
+
+.personProfile {
+	float: left;
+	width: 28%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 15px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.personTags {
+  text-align: center;
+}
+
+/*.nameBreak {
+	display: none;  visibility settings in individual page styles
+}*/
+
+.personImg-border {
+	width: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	pointer-events: none;
+}
+.personLink-img {
+	border-radius: 50%;
+	display: inline-block;
+	width: 90%;
+	padding-top: 90%; /*to set the same as width, because height: 100% isn't working*/
+}
+
+.personLink-txt {
+	font-size: 1.3em;
+	font-weight: 500;
+	color: #241F59;
+	border-bottom: 1px solid #241F59;
+}
+.companyTag, .committeeRole {
+	font-weight: 500;
+	font-size: 1em;
+	margin-bottom: 0;
+}
+@media (min-width: 1200px) {
+	.personLink-txt:hover {
+		color: #00B5AD;
+		border-bottom: 1px solid #00B5AD;
+	}
+	.companyName:hover {
+		color: #00B5AD;
+		border-bottom: 1px solid #00B5AD;
+	}
+}
+
+.companyTag {
+	font-size: 1.0em;
+	margin-top: 5px;
+}
+#team .schoolTag {
+	margin-bottom: 0;
+}
+
+.personLink-txt {
+	font-size: 1.2em;
+}
+
+.committeeRole {
+	font-size: 1.0em;
+}
+
+.companyName {
+	position: relative;
+	font-size: 1.2em;
+	top: 5px;
+
+	color: #241F59;
+	border-bottom: 1px solid #241F59;
+
+	margin-bottom: 15px;
+}
+
+/**/
+/* Modal Popup */
+/**/
+
+#modalPopup {
+	display: none;
+
+	position: relative;
+
+	background-color: white;
+	border: 2px solid #00B5AD;
+
+	width: 60%;
+	max-height: 70vh;
+	overflow: scroll;
+
+	margin: 0 auto;
+
+	padding: 30px;
+}
+#modalPopupNoLink {
+	display: none;
+
+	position: relative;
+
+	background-color: white;
+	border: 2px solid #00B5AD;
+
+	width: 60%;
+	max-height: 70vh;
+	overflow: scroll;
+
+	margin: 0 auto;
+
+	padding: 30px;
+}
+#modalPopup .modal_close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+
+	width: 20px;
+}
+#modalPopupNoLink .modal_close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+
+	width: 20px;
+}
+@media (min-width: 1200px) {
+	#modalPopup .modal_close svg .X {
+		-webkit-transition: 0.2s all;
+		transition: 0.2s all;
+	}
+	#modalPopup .modal_close svg:hover .X {
+		fill: #FFD400;
+	}
+	#modalPopupNoLink .modal_close svg .X {
+		-webkit-transition: 0.2s all;
+		transition: 0.2s all;
+	}
+	#modalPopupNoLink .modal_close svg:hover .X {
+		fill: #FFD400;
+	}
+}
+
+#modalPopup .imgDiv {
+	position: relative;
+	margin-top: 15px;
+
+	margin-bottom: 30px;
+}
+#modalPopup .personImg-border {
+	width: 200px;
+
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+
+	z-index: 1;
+
+	pointer-events: none;
+}
+
+#modalPopupNoLink .imgDiv {
+	position: relative;
+	margin-top: 15px;
+
+	margin-bottom: 30px;
+}
+#modalPopupNoLink .personImg-border {
+	width: 200px;
+
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+
+	z-index: 1;
+
+	pointer-events: none;
+}
+#modalPopup .personImg {
+	border-radius: 50%;
+	width: 200px;
+	padding-top: 200px; /*to set the same as width, because height: 100% isn't working */
+
+	margin: 0 auto;
+
+	background-size: contain;
+}
+#modalPopupNoLink .personImg {
+	border-radius: 50%;
+	width: 200px;
+	padding-top: 200px; /*to set the same as width, because height: 100% isn't working */
+
+	margin: 0 auto;
+
+	background-size: contain;
+}
+@media (min-width: 600px) {
+	#modalPopup .personImg-border {
+		width: 300px;
+	}
+	#modalPopup .personImg {
+		width: 300px;
+		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
+	}
+	#modalPopupNoLink .personImg-border {
+		width: 300px;
+	}
+	#modalPopupNoLink .personImg {
+		width: 300px;
+		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
+	}
+}
+#modalPopup .name {
+	line-height: 1.35em;
+	font-size: 1.3em;
+
+	color: #241F59;
+	border-bottom: solid 1px #241F59;
+}
+
+#modalPopupNoLink .nameNoLink {
+	line-height: 1.35em;
+	font-size: 1.3em;
+
+	color: #241F59;
+	border-bottom: solid 1px #241F59;
+}
+
+@media (min-width: 1200px) {
+	#modalPopup .name:hover {
+		color: #FFD400;
+		border-bottom: solid 1px #FFD400;
+	}
+}
+
+#modalPopup .bio {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#modalPopup .bio a {
+	color: #241F59;
+	border-bottom: 1px #241F59 solid;
+}
+
+
+#modalPopupNoLink .bio {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#modalPopupNoLink .bio a {
+	color: #241F59;
+	border-bottom: 1px #241F59 solid;
+}
+
+@media (min-width: 1200px) {
+	#modalPopup .bio a:hover {
+		color: #FFD400;
+		border-bottom: 1px #FFD400 solid;
+	}
+	#modalPopupNoLink .bio a:hover {
+		color: #FFD400;
+		border-bottom: 1px #FFD400 solid;
+	}
+}
+
+/* Modal desktop */
+
+@media (min-width: 1200px) {
+	#modalPopup {
+		width: 800px;
+/*		overflow: hidden;*/
+	}
+	#modalPopup .imgDiv {
+		float: left;
+		margin-bottom: 0;
+	}
+	#modalPopup .textDiv {
+		float: right;
+		width: calc(100% - 330px);
+
+		margin-top: 15px;
+		margin-bottom: 15px;
+		max-height: 60vh;
+		min-height: 300px;
+		overflow: scroll;
+	}
+
+	#modalPopup .personImg-border {
+		width: 300px;
+	}
+	#modalPopup .personImg {
+		width: 300px;
+		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
+	}
+	
+
+	#modalPopupNoLink {
+		width: 800px;
+/*		overflow: hidden;*/
+	}
+	#modalPopupNoLink .imgDiv {
+		float: left;
+		margin-bottom: 0;
+	}
+	#modalPopupNoLink .textDiv {
+		float: right;
+		width: calc(100% - 330px);
+
+		margin-top: 15px;
+		margin-bottom: 15px;
+		max-height: 60vh;
+		min-height: 300px;
+		overflow: scroll;
+	}
+
+	#modalPopupNoLink .personImg-border {
+		width: 300px;
+	}
+	#modalPopupNoLink .personImg {
+		width: 300px;
+		padding-top: 300px; /*to set the same as width, because height: 100% isn't working */
+	}
+}
+
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#ayako .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/2018/speakers/ayako-maruyama.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/2018/speakers/ayako-maruyama.jpg') no-repeat;
+	background-size: contain;
+}
+

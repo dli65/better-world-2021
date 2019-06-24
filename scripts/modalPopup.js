@@ -4,6 +4,7 @@ $("a[rel*=leanModal]").leanModal({ top : offsetTop, overlay : 0.4, closeButton: 
 
 var bioInfo = {
   'erica-name'    : 'Erica Silver',
+  'erica-s-name'    : 'Erica Silver',
   'tristan-name'  : 'Tristan Harris',
   'tina-name'	  : 'Tina Yang',
   'emilia-name'	  : 'Emilia K Mann',
@@ -29,6 +30,7 @@ var bioInfo = {
   'lauren-name'   : 'Lauren MIlan Rausaw',
   
   'erica-img'     : 'url(images/team2019/chair_erica.jpg)',
+  'erica-s-img'     : 'url(images/team2019/chair_erica.jpg)',
   'tristan-img'   : 'url(images/team2019/chair_tristan.jpg)',
   'tina-img'	  : 'url(images/team2019/chair_tina.jpg)',
   'emilia-img'	  : 'url(images/team2019/con_emilia.jpg)',
@@ -54,6 +56,7 @@ var bioInfo = {
   'lauren-img'    : 'url(images/team2019/soc_lauren.jpg)',
   
   'erica-bio'      : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
+  'erica-s-bio'    : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
   'tristan-bio'    : "Tristan is in the class of 2020 at Brown and studies Economics and the History of Art. He enjoys exploring how multi-disciplinary strategies can sustain value for both institutions and individuals via the strategies of design. He is particularly interested in art that utilizes interventions into dominating systems as a means of critique. Raised in Florida, he enjoys running (but not up College Hill) and wishes that it was possible for Brown and RISD to relocate somewhere warmer during the winter.",
   'tina-bio'      : "Tina is in the class of 2020 studying neuroscience at Brown. She is interested in how understanding neurobiology can lead to improvements in mental health awareness, treatment, and education. She loves bad puns and Atlanta sweet tea. In her free time, she enjoys illustrating funky bones. Ask her about her dog!",
   'emilia-bio'	  : "Emilia is in the Brown|RISD Dual Degree Program class of 2021. She is doing an independent concentration at Brown and majoring in Apparel at RISD; her particular interest is the intersection between biology, technology, and fashion. Emilia has an unconditional love for labradors (especially her own doggo, Chai Latte), black turtlenecks, and boba.",
@@ -96,6 +99,9 @@ var bioInfo = {
 
 function populateModal(elt) {
 	var id = elt.parent().attr('id');
+  if (id.endsWith("-d")) {
+    id = id.slice(0, -2);
+  }
 	console.log(id);
 
 	var name = bioInfo[id + '-name'];
