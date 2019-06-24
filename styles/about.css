@@ -298,7 +298,13 @@ p {
 
 
 /* Individual people */
-
+#erica-s .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2019/chair_erica.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2019/chair_erica.jpg') no-repeat;
+	background-size: contain;
+}
 
 #erica .personLink-img {
 	background: linear-gradient(transparent, transparent),
