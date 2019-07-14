@@ -10,11 +10,45 @@
 /**/
 /* Team */
 /**/
+.bannerWrapper {
+  align-items: baseline;
+}
+
+.banner {
+  width: 70%;
+  display: inline-block;
+  padding: 20px;
+}
 
 #teamBanner {
 	width: 100%;
-	position: relative;
-	left: 0;
+}
+
+.infoSection {
+  vertical-align: top;
+  padding-top:20px;
+  display: inline-block;
+	width: 20%;
+}
+
+@media (min-width: 1050px) {
+  .infoSection {
+    padding-top: 100px;
+  }
+}
+
+
+@media (max-width: 870px) {
+  .banner {
+    width: 100%;
+    padding: 0px;
+  }
+  
+  .infoSection {
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
 }
 
 .detailsBottom {
@@ -75,12 +109,6 @@ p {
 	padding-right: 7%;
 	min-height: 465px;
 }
-.infoSection {
-	width: 50%;
-	padding-bottom: 20px;
-	padding-left: 7%;
-	padding-right: 10%;
-}
 .photoSection {
 	width: 80%;
 	padding-left: 7%;
@@ -120,11 +148,6 @@ p {
 		position: relative;
 		width: 100%;
 	}
-	#teamBanner {
-		width: 100%;
-		position: relative;
-		
-	}
 	::-webkit-scrollbar {
     display: none;
   }
@@ -136,12 +159,6 @@ p {
 	.subsection {
 		width: 100%;
 		padding-bottom: 70px;
-	}
-	.infoSection {
-		width: 50%;
-		padding-bottom: 20px;
-		padding-left: 7%;
-		padding-right: 10%;
 	}
 	.photoSection {
 		width: 80%;
@@ -195,12 +212,6 @@ p {
 		padding-left: 7%;
 		padding-right: 7%;
 		background-color: lightgray;
-	}
-	.infoSection {
-		width: 80%;
-		padding-bottom: 20px;
-		padding-left: 7%;
-		padding-right: 10%;
 	}
 	.photoSection {
 		width: 80%;
