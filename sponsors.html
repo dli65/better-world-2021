@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -35,15 +35,48 @@
 <meta Http-Equiv="Cache-directive: no-cache">
 
 <!--    JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script></head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <style>
+    }
+    .about-dropdown {
+      display: none;
+      position: absolute;
+      background-color: #FFFFFF;
+      min-width: 125px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .about-dropdown a {
+      color: black;
+      padding: 5px 12px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .about-dropdown a:hover {color: #00B5AD;}
+    
+    /* Show the dropdown menu on hover */
+    .about-us-nav:hover .about-dropdown {display: block;}
+  </style>
+
+</head>
 <body>
   <nav id="menu" class="menu" style="display: none;">
     <div style="height: calc(100% - 100px);">
       <ul class="menu-l1">
-        <a href="index.html"><img src="images/SidebarNav.png" style="width: 100px; margin-bottom: 5px;"/></a>
+        <a href="index.html"><img src="images/SidebarNav.png" alt = "Better World by Design logo" style="width: 100px; margin-bottom: 5px;"/></a>
         <li><a  href="index.html" name="header">Home</a></li>
         <li><a  href="conference.html">2018 Conference</a></li>
-        <li><a  href="about.html" name="header">About Us</a></li>
+        <li class = "about-us-nav"><a  href="about.html" name="header">About Us</a>
+            <div class = about-dropdown>
+		   	    <a href="about.html">Who are we</a>
+				<a href="about.html">What are we</a>
+			</div>
+		</li>
         <li><a  href="sponsors.html">Sponsors</a></li>
 
 
@@ -51,7 +84,7 @@
       </ul>
     </div>
     <div class="logos" style="margin-left: 30px;">
-      <a target="_blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/Fb.png"/></a><a target="_blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/Twitter.png"/></a><a target="_blank" href="https://www.instagram.com/betterxdesign/"><img src="images/social/Insta.png"/></a>
+      <a target="_blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/Fb.png" alt = "Facebook social media logo" /></a><a target="_blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/Twitter.png" alt = "Twitter social media logo" /></a><a target="_blank" href="https://www.instagram.com/betterxdesign/"><img src="images/social/Insta.png" alt = "Instagram social media logo"/></a>
     </div>
   </nav>
 
@@ -62,7 +95,12 @@
       <div class="leftNav">
         <li class = "otherSauce"><a  href="index.html">Home</a></li>
         <li class = "otherSauce"><a href="conference.html">2018 Conference</a></li>
-        <li class = "otherSauce"><a href="about.html" name="header">About Us</a></li>
+        <li class = "otherSauce about-us-nav"><a href="about.html" name="header">About Us</a>
+            <div class = about-dropdown>
+			    <a href="about.html">Who are we</a>
+				<a href="about.html">What we do</a>
+			</div>
+		</li>
         <li class = "active otherSauce"><a class="inpagelink selectedPage" href="sponsors.html">Sponsors</a></li>
 
 
@@ -158,16 +196,16 @@
 
           <div class="sponsorDiv">
 
-            <a target="_blank"><img class="sponsorLogo adobeLogo" id="ufbLogo" src="images/prevLogos/adobe.png" /></a>
-            <a target="_blank"><img style = "padding-left: 55px" class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/autodesk.png" /></a>
-            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/3m.png" /></a>
+            <a target="_blank"><img class="sponsorLogo adobeLogo" id="ufbLogo" alt = "Adobe logo" src="images/prevLogos/adobe.png" /></a>
+            <a target="_blank"><img style = "padding-left: 55px" class="sponsorLogo squareLogo" id="csiLogo" alt = "Autodesk logo" src="images/prevLogos/autodesk.png" /></a>
+            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/3m.png" alt = "3M logo" /></a>
 
-            <a target="_blank"><img class="sponsorLogo squareLogo" id="ufbLogo" src="images/prevLogos/kpcb.png" /></a>
-            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/zipcar.png" /></a>
-            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/dean.png" /></a>
+            <a target="_blank"><img class="sponsorLogo squareLogo" id="ufbLogo" src="images/prevLogos/kpcb.png" alt = "KPCB logo" /></a>
+            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/zipcar.png" alt = "Zipcar logo" /></a>
+            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/dean.png" alt = "Dean logo" /></a>
 
-            <a target="_blank"><img class="sponsorLogo squareLogo" id="ufbLogo" src="images/prevLogos/emeco.jpg" /></a>
-            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/herman.png" /></a>
+            <a target="_blank"><img class="sponsorLogo squareLogo" id="ufbLogo" src="images/prevLogos/emeco.jpg" alt = "Emeco logo" /></a>
+            <a target="_blank"><img class="sponsorLogo squareLogo" id="csiLogo" src="images/prevLogos/herman.png" alt = "Herman logo" /></a>
           </div>	
           <h1 class="rightSpace"> &nbsp; </h1>
           <div class="questions">
@@ -189,9 +227,9 @@
           <p class="detailsBottom ">Better World by Design <br/> </p>
           <p class="detailsBottom ">Providence, Rhode Island <br/> </p>
           <p class="detailsBottom ">hello@betterworldxdesign.com<br/> </p>
-          <a target="blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/2facebook.svg"></a>
-          <a target="blank" href="https://www.instagram.com/betterxdesign/"><img src="images/social/2instagram.svg"></a>
-          <a target="blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/2twitter.svg"></a>
+          <a target="blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/2facebook.svg" alt = "Facebook social media logo"></a>
+          <a target="blank" href="https://www.instagram.com/betterxdesign/"><img src="images/social/2instagram.svg" alt = "Instagram social media logo"></a>
+          <a target="blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/2twitter.svg" alt = "Twitter social media logo"></a>
         </div>
       </div>
 

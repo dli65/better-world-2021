@@ -1,16 +1,16 @@
 /*
 Colors:
-blue   - #00B5AD
-yellow - #FFD400
-purple - #241F59
-red    - #EF413D
+blue   - #00ADA6
+yellow - #E6BF00
+purple - #1C1847
+red    - #D13A36
 */
 
 body {
     padding: 0;
     margin: 0;
 
-    color: #241F59;
+    color: #1C1847;
 
 	font-weight: 300;
 }
@@ -37,7 +37,7 @@ body {
 
     transition: all 0.2s;
 
-    border-bottom: 2px solid #00B5AD;
+    border-bottom: 2px solid #00ADA6;
     padding-bottom: 0px;
 }
 /*.navbarDiv-open {
@@ -76,15 +76,47 @@ body {
 .navbarDiv a:hover {
   transition-delay: 0s;
   transition-duration: 0s;
-  /*border-bottom: 3px solid #FFD400;*/
+  /*border-bottom: 3px solid #E6BF00;*/
 }
 .navbarDiv a.selectedPage {
   /*width: 100%;*/
   height: 100%;
-  color: #00B5AD;
-  /* border-bottom: 2px solid #EF413D; */
+  color: #00ADA6;
+  /* border-bottom: 2px solid #D13A36; */
   align-content: left;
 }
+
+.about-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.about-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 125px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.about-dropdown a {
+  color: black;
+  padding: 5px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.about-dropdown a:hover {color: #00ADA6;}
+
+/* Show the dropdown menu on hover */
+.about-us-nav:hover .about-dropdown {display: block;}
 
 .navTitle {
   padding-top: 0px;
@@ -117,7 +149,7 @@ body {
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
-  color: #FFD400;
+  color: #E6BF00;
   text-transform: none;
   background-color: transparent;
   border: 0;
@@ -148,7 +180,7 @@ position: absolute;
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
 	width: 25px;
     height: 4px;
-    background-color: #241F59;
+    background-color: #1C1847;
     border-radius: 3px;
     position: absolute;
     transition-property: -webkit-transform;
@@ -305,7 +337,7 @@ position: absolute;
 /*Links*/
 /**/
 a {
-    color: #241F59;
+    color: #1C1847;
     text-decoration: none;
 
     transition: all 0.2s;
@@ -330,7 +362,7 @@ a {
 }
 @media (min-width: 800px) {
   a:hover {
-      color: #00B5AD;
+      color: #00ADA6;
   }
 }
 
