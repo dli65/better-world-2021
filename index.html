@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -43,7 +43,34 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
     <script language="javascript" type="text/javascript" src="p5.dom.js"></script>
     <script src="sketch.js"></script>
+    
+    <style>
+        .about-dropdown {
+          display: none;
+          position: absolute;
+          background-color: #FFFFFF;
+          min-width: 125px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        /* Links inside the dropdown */
+        .about-dropdown a {
+          color: black;
+          padding: 5px 12px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        /* Change color of dropdown links on hover */
+        .about-dropdown a:hover {color: #00B5AD;}
+        
+        /* Show the dropdown menu on hover */
+        .about-us-nav:hover .about-dropdown {display: block;}
+    </style>
+  
   </head>
+  
   <body>
     <nav id="menu" class="menu" style="display: none;">
       <div style="height: calc(100% - 100px);">
@@ -51,7 +78,12 @@
           <a href="index.html"><img src="images/SidebarNav.png" style="width: 100px; margin-bottom: 5px;"/></a>
           <li><a  href="index.html" name="header">Home</a></li>
           <li><a  href="conference.html">2018 Conference</a></li>
-          <li><a  href="about.html" name="header">About Us</a></li>
+          <li class = "about-us-nav"><a  href="about.html" name="header">About Us</a>
+            <div class = about-dropdown>
+			    <a href="about.html">Who are we</a>
+				<a href="whatAreWe.html">What are we</a>
+			</div>
+		  </li>
           <li><a  href="sponsors.html">Sponsors</a></li>
 
 
@@ -71,7 +103,12 @@
         <div class="leftNav">
           <li class = "active otherSauce"><a class="inpagelink selectedPage" href="index.html" name="header">Home</a></li>
           <li class = "otherSauce"><a  href="conference.html">2018 Conference</a></li>
-          <li class = "otherSauce"><a  href="about.html">About Us</a></li>
+          <li class = "otherSauce about-us-nav"><a  href="about.html">About Us</a>
+            <div class = about-dropdown>
+			    <a href="about.html">Who are we</a>
+				<a href="whatAreWe.html">What are we</a>
+			</div>
+		  </li>
           <li class = "otherSauce"><a  href="sponsors.html">Sponsors</a></li>
 
         </div>

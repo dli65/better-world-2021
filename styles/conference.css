@@ -1,9 +1,9 @@
 /*
 Colors:
-blue   - #00B5AD
-yellow - #FFD400
-purple - #241F59
-red    - #EF413D
+blue   - #00ADA6
+yellow - #E6BF00
+purple - #1C1847
+red    - #D13A36
 */
 
 #header {
@@ -32,13 +32,13 @@ red    - #EF413D
 /**/
 
 #schedule a {
-	color: #241F59;
-	border-bottom: 1px solid #241F59;
+	color: #1C1847;
+	border-bottom: 1px solid #1C1847;
 }
 @media (min-width: 1200px) {
 	#schedule a:hover {
-		color: #00B5AD;
-		border-bottom: 1px solid #FFD400;
+		color: #00ADA6;
+		border-bottom: 1px solid #E6BF00;
 	}
 }
 
@@ -75,13 +75,13 @@ red    - #EF413D
 	text-align: center;
 }
 #scheduleDayToggle-1 {
-	background-color: #FFD400;
+	background-color: #E6BF00;
 }
 #scheduleDayToggle-2 {
-	background-color: #00B5AD;
+	background-color: #00ADA6;
 }
 #scheduleDayToggle-3 {
-	background-color: #EF413D;
+	background-color: #D13A36;
 }
 
 .scheduleDayToggleArrow {
@@ -140,7 +140,7 @@ red    - #EF413D
 
 .themeYear {
 	font-weight: 500;
-	color: #00B5AD;
+	color: #00ADA6;
 	font-size: 2.5em;
 }
 .themeDesc {
@@ -148,7 +148,7 @@ red    - #EF413D
 }
 .theme {
 	padding-bottom: 10px;
-	border-bottom: 1px solid #00B5AD;
+	border-bottom: 1px solid #00ADA6;
 	width: 180px;
 	padding-top: 1px;
 }
@@ -268,16 +268,16 @@ h4 {
 	margin-bottom: 30px;
 }
 .colorblock-blue {
-	border-color: #00B5AD;
+	border-color: #00ADA6;
 }
 .colorblock-yellow {
-	border-color: #FFD400;
+	border-color: #E6BF00;
 }
 .colorblock-purple {
-	border-color: #241F59;
+	border-color: #1C1847;
 }
 .colorblock-red {
-	border-color: #EF413D;
+	border-color: #D13A36;
 }
 
 .scheduleEventTitle {

@@ -61,8 +61,8 @@ function draw() {
       } else {
         fill(color2);
       }
-			rect(x, y, rectSize, rectSize);
-		}		
+	  rect(x, y, rectSize, rectSize);
+	}		
   }
   z+= 0.03;
   fill(255, 255, 255);
