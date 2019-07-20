@@ -5,10 +5,13 @@ var z = 0;
 var xlo, xhi, ylo, yhi, xdisp, ydisp;
 var fontRegular, fontMedium, fontBold;
 var canvas;
+var animationOn = true;
 
 const theme = "Noise";
 const themeTop = "Welcome to BWxD 2019";
 const description = "Noise disrupts dominant wavelengths. While this disturbance is often considered negative, we have chosen Noise as this year’s theme as an opportunity to embrace imperfection while challenging distortion. Through auditory, visual and physical forms of noise, we consider how design and social practices can create major shock waves that disrupt traditional methods and generate new ideas.";
+const buttonTextOn = "Disable Animation";
+const buttonTextOff = "Enable Animation";
 
 function preload() {
   fontRegular = loadFont('styles/fonts/Calibre-Regular.otf');
@@ -52,17 +55,20 @@ function setup() {
 
 function draw() {
   noStroke();
-  for (var x = 0; x < width; x+=rectSize) {
-    var l = lerp(0.3, 0.7, (windowWidth-mouseX)*2*x/windowWidth/windowWidth);
-		for (var y = 0; y < height; y+=rectSize) {
-			var c = noise(0.03 * x, 0.3 * y, z);
-			if (c > l) {
-        fill(color1);
-      } else {
-        fill(color2);
-      }
-	  rect(x, y, rectSize, rectSize);
-	}		
+  background(color1);
+  if (animationOn) {
+    for (var x = 0; x < width; x+=rectSize) {
+      var l = lerp(0.3, 0.7, (windowWidth-mouseX)*2*x/windowWidth/windowWidth);
+      for (var y = 0; y < height; y+=rectSize) {
+        var c = noise(0.03 * x, 0.3 * y, z);
+        if (c > l) {
+          fill(color1);
+        } else {
+          fill(color2);
+        }
+        rect(x, y, rectSize, rectSize);
+      }		
+    }
   }
   z+= 0.03;
   fill(255, 255, 255);
@@ -91,9 +97,9 @@ function draw() {
     textSize(90);
     text(theme, halfWidth, 200);
     if (windowHeight > 400) {
-        textFont(fontMedium);
-        textSize(18);
-        text(description, halfWidth, 460, 430, 400);
+      textFont(fontMedium);
+      textSize(18);
+      text(description, halfWidth, 460, 430, 400);
     }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
@@ -130,35 +136,38 @@ function draw() {
     ylo = 280;
     yhi = 350;
   }
-
-  if (random() > 0.6) {
-    loadPixels();
-    xdisp = int(random(10))*20;
-    ydisp = int(random(windowHeight/5));
-    for (var y = ylo + ydisp; y < yhi + ydisp; y += 1) {
-      for (var x = xlo; x < xhi; x += 1) {
-        for (var i = 0; i < 8; i++) {
-          var index = (y*windowWidth+x)*8+i;
-          pixels[index] = pixels[index+xdisp];
+  if (animationOn) {
+    if (random() > 0.6) {
+      loadPixels();
+      xdisp = int(random(10))*20;
+      ydisp = int(random(windowHeight/5));
+      for (var y = ylo + ydisp; y < yhi + ydisp; y += 1) {
+        for (var x = xlo; x < xhi; x += 1) {
+          for (var i = 0; i < 8; i++) {
+            var index = (y*windowWidth+x)*8+i;
+            pixels[index] = pixels[index+xdisp];
+          }
         }
       }
+      updatePixels();
     }
-    updatePixels();
   }
-  
-  if (random() > 0.6) {
-    loadPixels();
-    xdisp = int(random(10))*20;
-    ydisp = int(random(windowHeight/5));
-    for (var y = ylo + ydisp; y < yhi + ydisp; y += 1) {
-      for (var x = xhi; x > xlo; x -= 1) {
-        for (var i = 0; i < 8; i++) {
-          var index = (y*windowWidth+x)*8+i;
-          pixels[index] = pixels[index-xdisp];
-        }
-      }
-    }
-    updatePixels();
+
+  stroke(255, 255, 255);
+  strokeWeight(3);
+  if (mouseX > (windowWidth-170) && mouseX < (windowWidth-70) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)) {
+    fill(255, 255, 255, 50);
+  } else {
+    noFill();
+  }
+  rect(windowWidth-120, windowHeight-120, 100, 50);
+  strokeWeight(1);
+  fill(255, 255, 255);
+  textSize(20);
+  if (animationOn) {
+    text(buttonTextOn, windowWidth-120, windowHeight-120, 100, 40);
+  } else {
+    text(buttonTextOff, windowWidth-120, windowHeight-120, 100, 40);    
   }
 }
 
@@ -166,31 +175,35 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-function mouseClicked() {
-  g = color(0, 180, 172);
-  g2 = color(0, 129, 123);
-  r = color(238, 64, 61);
-  r2 = color(175, 47, 44);
-  y = color(255, 211, 0);
-  y2 = color(255, 171, 0);
-  b = color(36, 31, 89);
-  b2 = color(26, 22, 63);
-  var newN = Math.floor(random(4));
-  if (newN == n) {
-    newN = (newN + 1) % 4;
-  }
-  n = newN;
-  if (n == 0) {
-    color1 = g2;
-    color2 = g;
-  } else if (n == 1) {
-    color1 = r2;
-    color2 = r;
-  } else if (n == 2) {
-    color1 = y2;
-    color2 = y;
+function mousePressed() {
+  if (mouseX > (windowWidth-170) && mouseX < (windowWidth-70) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)) {
+    animationOn = !animationOn;
   } else {
-    color1 = b2;
-    color2 = b;
-  } 
+    g = color(0, 180, 172);
+    g2 = color(0, 129, 123);
+    r = color(238, 64, 61);
+    r2 = color(175, 47, 44);
+    y = color(255, 211, 0);
+    y2 = color(255, 171, 0);
+    b = color(36, 31, 89);
+    b2 = color(26, 22, 63);
+    var newN = Math.floor(random(4));
+    if (newN == n) {
+      newN = (newN + 1) % 4;
+    }
+    n = newN;
+    if (n == 0) {
+      color1 = g2;
+      color2 = g;
+    } else if (n == 1) {
+      color1 = r2;
+      color2 = r;
+    } else if (n == 2) {
+      color1 = y2;
+      color2 = y;
+    } else {
+      color1 = b2;
+      color2 = b;
+    } 
+  }
 }
