@@ -56,6 +56,8 @@ function setup() {
 function draw() {
   noStroke();
   background(color1);
+
+  // Background
   if (animationOn) {
     for (var x = 0; x < width; x+=rectSize) {
       var l = lerp(0.3, 0.7, (windowWidth-mouseX)*2*x/windowWidth/windowWidth);
@@ -136,6 +138,8 @@ function draw() {
     ylo = 280;
     yhi = 350;
   }
+
+  // Noise glitch
   if (animationOn) {
     if (random() > 0.6) {
       loadPixels();
@@ -153,21 +157,40 @@ function draw() {
     }
   }
 
-  stroke(255, 255, 255);
-  strokeWeight(3);
-  if (mouseX > (windowWidth-170) && mouseX < (windowWidth-70) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)) {
-    fill(255, 255, 255, 50);
+  // Disable/Enable Animation Button
+      stroke(255, 255, 255);
+  if (windowWidth > 600) {
+    strokeWeight(3);
+    if (mouseX > (windowWidth-170) && mouseX < (windowWidth-70) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)) {
+      fill(255, 255, 255, 50);
+    } else {
+      noFill();
+    }
+    rect(windowWidth-120, windowHeight-120, 100, 50);
+    strokeWeight(1);
+    fill(255, 255, 255);
+    textSize(20);
+    if (animationOn) {
+      text(buttonTextOn, windowWidth-120, windowHeight-120, 100, 40);
+    } else {
+      text(buttonTextOff, windowWidth-120, windowHeight-120, 100, 40);    
+    }
   } else {
-    noFill();
-  }
-  rect(windowWidth-120, windowHeight-120, 100, 50);
-  strokeWeight(1);
-  fill(255, 255, 255);
-  textSize(20);
-  if (animationOn) {
-    text(buttonTextOn, windowWidth-120, windowHeight-120, 100, 40);
-  } else {
-    text(buttonTextOff, windowWidth-120, windowHeight-120, 100, 40);    
+    strokeWeight(2);
+    if (mouseX > (windowWidth-170) && mouseX < (windowWidth-110) && mouseY > (windowHeight-125) && mouseY < (windowHeight-85)) {
+      fill(255, 255, 255, 50);
+    } else {
+      noFill();
+    }
+    rect(windowWidth-140, windowHeight-110, 60, 40);
+    strokeWeight(1);
+    fill(255, 255, 255);
+    textSize(13);
+    if (animationOn) {
+      text(buttonTextOn, windowWidth-140, windowHeight-105, 60, 40);
+    } else {
+      text(buttonTextOff, windowWidth-140, windowHeight-105, 60, 40);    
+    }    
   }
 }
 
