@@ -177,19 +177,19 @@ function draw() {
     }
   } else {
     strokeWeight(2);
-    if (mouseX > (windowWidth-170) && mouseX < (windowWidth-110) && mouseY > (windowHeight-125) && mouseY < (windowHeight-85)) {
+    if (mouseX > (windowWidth-150) && mouseX < (windowWidth-90) && mouseY > (windowHeight-125) && mouseY < (windowHeight-85)) {
       fill(255, 255, 255, 50);
     } else {
       noFill();
     }
-    rect(windowWidth-140, windowHeight-110, 60, 40);
+    rect(windowWidth-120, windowHeight-110, 60, 40);
     strokeWeight(1);
     fill(255, 255, 255);
     textSize(13);
     if (animationOn) {
-      text(buttonTextOn, windowWidth-140, windowHeight-105, 60, 40);
+      text(buttonTextOn, windowWidth-120, windowHeight-105, 60, 40);
     } else {
-      text(buttonTextOff, windowWidth-140, windowHeight-105, 60, 40);    
+      text(buttonTextOff, windowWidth-120, windowHeight-105, 60, 40);    
     }    
   }
 }
