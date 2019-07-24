@@ -158,7 +158,7 @@ function draw() {
   }
 
   // Disable/Enable Animation Button
-      stroke(255, 255, 255);
+  stroke(255, 255, 255);
   if (windowWidth > 600) {
     strokeWeight(3);
     if (mouseX > (windowWidth-170) && mouseX < (windowWidth-70) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)) {
