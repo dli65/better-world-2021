@@ -9,6 +9,7 @@ var animationOn = true;
 
 const theme = "Noise";
 const themeTop = "Welcome to BWxD 2019";
+const time = "September 27 - 29, 2019";
 const description = "Noise disrupts dominant wavelengths. While this disturbance is often considered negative, we have chosen Noise as this year’s theme as an opportunity to embrace imperfection while challenging distortion. Through auditory, visual and physical forms of noise, we consider how design and social practices can create major shock waves that disrupt traditional methods and generate new ideas.";
 const buttonTextOn = "Disable Animation";
 const buttonTextOff = "Enable Animation";
@@ -82,10 +83,12 @@ function draw() {
     textFont(fontBold);
     textSize(70);
     text(theme, halfWidth, 150);
+    textFont(fontMedium);
+    textSize(20);
+    text(time, halfWidth, 185);
     if (windowHeight > 400) {
-      textFont(fontMedium);
       textSize(15);
-      text(description, halfWidth, 430, 280, 500);
+      text(description, halfWidth, 450, 280, 500);
     }
     xlo = 100;
     xhi = 350;
@@ -98,10 +101,12 @@ function draw() {
     textFont(fontBold);
     textSize(90);
     text(theme, halfWidth, 200);
+    textFont(fontMedium);
+    textSize(26);
+    text(time, halfWidth, 250);
     if (windowHeight > 400) {
-      textFont(fontMedium);
       textSize(18);
-      text(description, halfWidth, 460, 430, 400);
+      text(description, halfWidth, 470, 430, 400);
     }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
@@ -114,10 +119,12 @@ function draw() {
     textFont(fontBold);
     textSize(100);
     text(theme, halfWidth, 220);
+    textFont(fontMedium);
+    textSize(26);
+    text(time, halfWidth, 270);
     if (windowHeight > 400) {
-      textFont(fontMedium);
       textSize(20);
-      text(description, halfWidth, 460, 520, 400);
+      text(description, halfWidth, 500, 520, 400);
     }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
@@ -126,13 +133,15 @@ function draw() {
   } else {
     textFont(fontMedium);
     textSize(53);
-    text(themeTop, halfWidth, 140);
+    text(themeTop, halfWidth, 120);
     textFont(fontBold);
     textSize(110);
-    text(theme, halfWidth, 240);
+    text(theme, halfWidth, 220);
     textFont(fontMedium);
+    textSize(30);
+    text(time, halfWidth, 270);
     textSize(20);
-    text(description, halfWidth, 480, 550, 400);
+    text(description, halfWidth, 495, 550, 400);
     xlo = int(windowWidth/3);
     xhi = int(windowWidth/1.5);
     ylo = 280;
