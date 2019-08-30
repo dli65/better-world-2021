@@ -50,28 +50,28 @@
     <!--    JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <style>
-    .about-dropdown {
-      display: none;
-      position: absolute;
-      background-color: #FFFFFF;
-      min-width: 125px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-    
-    /* Links inside the dropdown */
-    .about-dropdown a {
-      color: black;
-      padding: 5px 12px;
-      text-decoration: none;
-      display: block;
-    }
-    
-    /* Change color of dropdown links on hover */
-    .about-dropdown a:hover {color: #00B5AD;}
-    
-    /* Show the dropdown menu on hover */
-    .about-us-nav:hover .about-dropdown {display: block;}
+      .about-dropdown {
+        display: none;
+        position: absolute;
+        background-color: #FFFFFF;
+        min-width: 125px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .about-dropdown a {
+        color: black;
+        padding: 5px 12px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .about-dropdown a:hover {color: #00B5AD;}
+
+      /* Show the dropdown menu on hover */
+      .about-us-nav:hover .about-dropdown {display: block;}
     </style>
 
   </head>
@@ -85,10 +85,10 @@
           <li><a  href="conference.html">2018 Conference</a></li>
           <li class = "about-us-nav"><a  href="about.html" name="header">About Us</a>
             <div class = about-dropdown>
-			    <a href="about.html">Who are we</a>
-				<a href="whatAreWe.html">What we do</a>
-			</div>
-		  </li>
+              <a href="about.html">Who We Are</a>
+              <a href="whatAreWe.html">What We Do</a>
+            </div>
+          </li>
           <li><a  href="sponsors.html">Sponsors</a></li>
 
           <!-- <li><a  href="htp://www.brownbsa.com/students/marketplace/" target="_blank">Buy Tickets</a></li> -->
@@ -103,22 +103,22 @@
       <h3 class="mobileOnly navTitle ">2018 Conference</h3>
 
       <div class = "menu-wrap">
-      <ul class="desktopOnly">
-        <div class="leftNav">
-          <li class = "otherSauce"><a  href="index.html">Home</a></li>
-          <li class = "active otherSauce"><a class="inpagelink selectedPage" href="conference.html">2018 Conference</a></li>
-          <li class = "otherSauce about-us-nav"><a  href="about.html">About Us</a>
-            <div class = about-dropdown>
-				<a href="about.html">Who are we</a>
-				<a href="whatAreWe.html">What we do</a>
-			</div>
-		  </li>
-          <li class = "otherSauce"><a href="sponsors.html">Sponsors</a></li>
+        <ul class="desktopOnly">
+          <div class="leftNav">
+            <li class = "otherSauce"><a  href="index.html">Home</a></li>
+            <li class = "active otherSauce"><a class="inpagelink selectedPage" href="conference.html">2018 Conference</a></li>
+            <li class = "otherSauce about-us-nav"><a  href="about.html">About Us</a>
+              <div class = about-dropdown>
+                <a href="about.html">Who We Are</a>
+                <a href="whatAreWe.html">What We Do</a>
+              </div>
+            </li>
+            <li class = "otherSauce"><a href="sponsors.html">Sponsors</a></li>
 
 
-        </div>
+          </div>
 
-      </ul>
+        </ul>
       </div>
 
       <button id="hamburger" class="hamburger hamburger--squeeze mobileOnly toggle-button js-slideout-toggle" type="button">
