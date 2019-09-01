@@ -1,0 +1,116 @@
+.conferenceHeader {
+  display: block;
+  background-image: url(../images/2019/conferenceBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 10% 0px 10%;
+}
+
+.conferenceBlock {
+  display: block;
+}
+
+.conferenceBlock1 {
+  padding: 10px 20% 10px 10px;
+}
+
+.conferenceBlock2 {
+  padding: 10px 10px 10px 50%;
+}
+
+.conferenceIntro {
+  padding: 30px 10px 0px 0px;
+}
+
+.conferenceHeading {
+  padding: 0px 0px 20px 0px;
+  font-size: 4em;
+  line-height: 0.95;
+}
+
+.conferenceBlock p {
+  font-weight: 100;
+}
+
+.conferenceContent1 {
+  display: block;
+  padding-right: 20%;
+}
+
+.schedule {
+  margin: 0px 10%;
+}
+
+.conferenceSpeaker {
+  margin: 50px 8% 0px 8%;
+}
+
+.scheduleTitle {
+  margin-top: 40px;
+  padding-left: 20px;
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.speakerTitle {
+  padding-left: 30px;
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+#mobileschedule {
+  display: block;
+  padding: 0px 10% 0px 10%;
+}
+
+.mobileevent {
+  margin-top: 20px;
+}
+
+.mobiletime {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 1.2111em;
+}
+
+.mobiletimeblock {
+  margin-top: 35px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-bottom: 1px solid #BFBFBF;
+}
+
+@media (max-width: 1100px) {
+  .conferenceHeading {
+    font-size: 3em;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .conferenceBlock1 {
+    padding: 10px;
+  }
+
+  .conferenceBlock2 {
+    padding: 10px;
+  }
+  .conferenceContent1 {
+    padding: 0px;
+  }
+  .conferenceSpeaker {
+    margin-top: -20px;
+  }  
+}
+
+@media (max-width: 800px) {
+  .conferenceHeading {
+    font-size: 2.3em;
+  }
+}
+
+
