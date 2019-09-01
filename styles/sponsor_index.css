@@ -97,11 +97,6 @@ a.contact:visited {
     color: lightgray;
 }
 
-.contactInformation {
-    padding-top: 35px;
-    padding-left: 70px;
-}
-
 .questions {
     display: flex;
   }

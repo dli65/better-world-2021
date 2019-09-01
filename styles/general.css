@@ -59,7 +59,6 @@ body {
 .navbarDiv ul {
     margin: 0 auto;
     padding: 0;
-    min-width: 1200px;
     list-style: none;
 }
 .navbarDiv li {
@@ -84,6 +83,16 @@ body {
   color: #00ADA6;
   /* border-bottom: 2px solid #D13A36; */
   align-content: left;
+}
+.navbarDiv a.button {
+    border-radius: 20px;
+    line-height: 30px;
+    text-align: center;
+    border: 1.2px solid #1C1847;
+}
+
+.spacer {
+    flex: 1;
 }
 
 .about-dropdown {
@@ -145,8 +154,13 @@ body {
 }
 
 .leftNav{
-  float: left;
-  width:80%;
+  display: flex;
+  float: right;
+  margin-right: 20px;
+}
+
+.leftNav li {
+    margin-right: 40px;
 }
 
 .hamburger {
@@ -232,6 +246,30 @@ position: absolute;
     transition: bottom 0.1s ease, -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+.footer {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .contactInformation {
+    flex: 1;
+    padding-left: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer .socialMedia {
+    flex: 1;
+    padding-top: 20px;
+    padding-right: 65px;
+    text-align: right;
+}
+
+.footer .socialMedia a {
+    margin-right: 4px;
+}
 
 
 @media (min-width: 1200px) {
