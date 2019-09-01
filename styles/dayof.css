@@ -358,7 +358,7 @@ p {
 	height: 40px;
 }
 
-.mobile, #mobileschedule {
+.mobile {
 	display: none;
 }
 
@@ -373,6 +373,8 @@ p {
 		padding-left: 35px;
 	}
 }
+
+
 
 @media (max-width: 1000px) {
 	#navbar {
@@ -442,38 +444,12 @@ p {
 		display: inline-block;
 	}
 
-	#mobileschedule {
-		display: block;
-	}
-
 	#footer img {
 		margin-right: 17px;
 	}
 
 	.icon {
 		margin-left: 20px;
-	}
-
-	.mobileevent {
-		margin-top: 20px;
-	}
-/*
-	.dropdown {
-		margin-right: 20px;
-	}
-*/
-	.mobiletime {
-		margin-left: 20px;
-		font-weight: 500;
-		font-size: 1.2111em;
-	}
-
-	.mobiletimeblock {
-		margin-top: 35px;
-		padding-bottom: 30px;
-		padding-right: 30px;
-		padding-left: 30px;
-		border-bottom: 1px solid #BFBFBF;
 	}
 
 	.icon > img {

@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!--    Custom facebook look-->
+    <meta property="og:image" content="http://betterworldxdesign.com/imaknges/fb-ogimage.png" />
+    <meta property="og:image:width" content=1024 />
+    <meta property="og:image:height" content=768 />
+    <meta property="og:type"   content="website" />
+    <meta property="og:title" content="Better World by Design – About"/>
+    <meta property="og:url" content="http://betterworldxdesign.com/about.html"/>
+    <meta property="og:description"
+          content="2016 Conference – September 23-25 | Better World by Design is a student-led initiative at Brown and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale."/>
+
+    <meta http-equiv="expires" content="Sun, 13 Sep 2017 21:30:00 GMT" />
+
+    <script src="scripts/tabs.js"></script>
+    <script src="scripts/dropdown.js"></script>
+    <script src="scripts/accordion.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.min.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.css' type='text/css' />
+
+
+    <title>Schedule &middot; BWxD 2019</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link type="text/css" href="styles/general.css" rel="stylesheet" />
+    <link type="text/css" href="styles/typefaces.css" rel="stylesheet" />
+    <link type="text/css" href="styles/slideout.css" rel="stylesheet" /> <!-- // dont do shit -->
+    <link type="text/css" href="styles/sponsor_index.css" rel="stylesheet" />
+    <link type="text/css" href="styles/sponsors.css" rel="stylesheet" />
+    <link type="text/css" href="styles/conference_2018.css" rel="stylesheet" />
+    <link type="text/css" href="styles/conference_2019.css" rel="stylesheet" />
+    <link type="text/css" href="styles/dayof.css" rel="stylesheet" />
+    <link type="text/css" href="styles/speakers.css" rel="stylesheet" />
+
+    <meta Http-Equiv="Cache" content="no-cache">
+    <meta Http-Equiv="Pragma-Control" content="no-cache">
+    <meta Http-Equiv="Cache-directive" Content="no-cache">
+    <meta Http-Equiv="Pragma-directive" Content="no-cache">
+    <meta Http-Equiv="Cache-Control" Content="no-cache">
+    <meta Http-Equiv="Pragma" Content="no-cache">
+    <meta Http-Equiv="Expires" Content="0">
+    <meta Http-Equiv="Pragma-directive: no-cache">
+    <meta Http-Equiv="Cache-directive: no-cache">
+
+    <!--    JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+    <nav id="menu" class="menu" style="display: none;">
+      <div class = "menu-wrap" style="height: calc(100% - 100px);">
+        <ul class="menu-l1">
+          <a href="index.html"><img src="images/SidebarNav.png" alt = "Better World By Design logo" style="width: 100px; margin-bottom: 5px;"/></a>
+          <li><a  href="index.html" name="header">Home</a></li>
+          <li><a  href="conference.html">Conference</a></li>
+          <li class = "about-us-nav"><a  href="about.html" name="header">About Us</a>
+            <div class = about-dropdown>
+              <a href="about.html">Who We Are</a>
+              <a href="whatAreWe.html">What We Do</a>
+            </div>
+          </li>
+          <li><a  href="sponsors.html">Sponsors</a></li>
+        </ul>
+      </div>
+      <div class="logos" style="margin-left: 30px;">
+        <a target="_blank" href="https://www.facebook.com/betterworldbydesign/"><img src="images/social/Fb.png" alt = "Facebook social media logo"/></a><a target="_blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/Twitter.png" alt = "Twitter social media logo"/></a><a target="_blank" href="https://www.instagram.com/betterworldxdesign/"><img src="images/social/Insta.png" alt = "Instagram social media logo"/></a>
+      </div>
+    </nav>
+
+    <div class="navbarDiv">
+      <h3 class="mobileOnly navTitle ">Conference</h3>
+
+      <div class = "menu-wrap">
+        <ul class="desktopOnly">
+          <div class="leftNav">
+            <li class = "otherSauce"><a  href="index.html"><img src='images/SidebarNav.png' class='navbar-logo'/></a></li>
+            <li class = "otherSauce"><a  href="index.html">Home</a></li>
+            <li class = "active otherSauce"><a class="inpagelink selectedPage" href="conference.html">Conference</a></li>
+            <li class = "otherSauce about-us-nav"><a  href="about.html">About Us</a>
+              <div class = about-dropdown>
+                <a href="about.html">Who We Are</a>
+                <a href="whatAreWe.html">What We Do</a>
+              </div>
+            </li>
+            <li class = "otherSauce"><a href="sponsors.html">Sponsors</a></li>
+
+
+          </div>
+
+        </ul>
+      </div>
+
+      <button id="hamburger" class="hamburger hamburger--squeeze mobileOnly toggle-button js-slideout-toggle" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+
+    <main id="panel">
+      <div class="content whiteBG contentContainer">
+        <div class="conferenceContent">
+          <!-- website schedule -->
+          <div class="conferenceHeader">
+            <div class='conferenceBlock conferenceBlock1'>
+              <p class='conferenceIntro'>BWxD 2019</p>
+              <h3 class='conferenceHeading'>Noise disrupts dominant wavelengths.</h3>
+              <div class='conferenceContent1'>
+                <p>
+                  While this disturbance is often considered negative, we have chosen Noise as this year’s theme as an opportunity to embrace imperfection while challenging distortion. Through auditory, visual and physical forms of noise, we consider how design and social practices can create major shock waves that disrupt traditional methods and generate new ideas.
+                </p>
+              </div>
+            </div>
+            <div class='conferenceBlock conferenceBlock2'>
+              <h3 class='conferenceHeading'>Muffled noises to the foreground.</h3>
+              <p>
+                Our goal is to generate discussion around the creation of noise, in all its different forms, and to ask how muffled noises can be brought to the foreground through interdisciplinary and collaborative problemsolving. We hope to explore practices that challenge and disrupt traditional conventions, amplify historically underrepresented voices, and draw attention to personal, local and global inequalities. To drive our exploration, we bring together a diverse community of designers, activists, artists, musicians, and scientists.
+              </p>
+            </div>
+          </div>
+
+          <div id="mobileschedule"  style="margin-top: 5px; padding-bottom: 122px;">
+            <div class="scheduleTitle">Schedule</div>
+
+            <!-- mobile friday -->
+            <div class="tab">
+              <input id="tab-one" type="checkbox" name="tabs">
+              <label for="tab-one">Friday</label>
+              <div class="tab-content">
+
+                <div class="mobilelunch" style="background: #00B5AD; color: rgb(249,249,249); font-size: 1.1em; padding-top: 14px; padding-bottom: 14px;">
+                  <span style="font-weight: 500;">4:00&mdash;5:00PM  &#8226  Registration</span><br/>
+                  Chace Center Lobby, RISD <a href="https://www.google.com/maps/place/RISD+Museum,+Chace+Center+entrance/@41.826106,-71.407984,15z/data=!4m2!3m1!1s0x0:0x49112556d05817bc?sa=X&ved=2ahUKEwie99Kok9rdAhUJHzQIHYYqBfUQ_BIwEXoECAkQCw">   
+                  <img class="marker" src="images/teal.svg" />
+                  </a>
+                </div>
+
+                <div class="mobiletimeblock">
+                  <span class="mobiletime">5:30&mdash;6:30PM</span>
+                  <div class="mobileevent">
+                    <div class="icon">
+                      <!-- <img src="images/socialevents.svg"> -->
+                    </div>
+                    <div class="info mobileinfo">
+                      <div class="title"> Ayako Maruyama, Lori Lobenstine & Kenneth Bailey &#8226 Opening Keynote: We are in a Social Emergency. Now What? </div>
+                      <div class="location">
+                        Chace Auditorium, RISD Museum 
+                        <a href="https://www.google.com/maps/place/RISD+Museum,+Chace+Center+entrance/@41.826106,-71.407984,15z/data=!4m2!3m1!1s0x0:0x49112556d05817bc?sa=X&ved=2ahUKEwixk7_zj9rdAhV4IjQIHQpxDyAQ_BIwEXoECAkQCw">  
+                          <img class="marker" src="images/teal.svg" />
+                        </a>
+                      </div>
+                      <div class="description">
+                        <div id="mm28" class="details">
+                          <a href="javascript:void(0)" onclick="dropdown('#mm29', '#mm28')">Details</a>
+                        </div>
+                        <div class="dropdown" id="mm29" style="display: none;">
+                          Design Studio for Social Intervention will challenge the audience to step into designing social emergency procedures, infrastructures and affective forms of resistance to navigate the tensions of what is threatening to be the aggressive new normal. <br/><br/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mobilelunch" style="background: #00B5AD; color: rgb(249,249,249); font-size: 1.1em; padding-top: 14px; padding-bottom: 14px;">
+                  <span style="font-weight: 500;">6:30&mdash;8:30PM  &#8226 Dinner</span><br/>
+                  Moore Terrace, RISD Museum <a href="https://www.google.com/maps/place/RISD+Museum,+Chace+Center+entrance/@41.826106,-71.407984,15z/data=!4m2!3m1!1s0x0:0x49112556d05817bc?sa=X&ved=2ahUKEwixk7_zj9rdAhV4IjQIHQpxDyAQ_BIwEXoECAkQCw">   
+                  <img class="marker" src="images/white.svg" />
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- mobile saturday -->
+            <div class="tab">
+              <input id="tab-two" type="checkbox" name="tabs">
+              <label for="tab-two">Saturday</label>
+              <div class="tab-content">
+
+                <div class="mobilelunch" style="background: #00B5AD; color: rgb(249,249,249); font-size: 1.1em; padding-top: 14px; padding-bottom: 14px; border-bottom-color: gray; border-bottom: 1px solid #BFBFBF;">
+                  <span style="font-weight: 500;">8:30&mdash;9:30AM  &#8226  Registration</span><br/>
+                  RISD Beach <a href="https://www.google.com/maps/place/41%C2%B049'38.6%22N+71%C2%B024'26.5%22W/@41.827376,-71.4086625,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d41.8273758!4d-71.4073521">   
+                  <img class="marker" src="images/white.svg" />
+                  </a>
+                </div>
+
+                <div class="mobilelunch" style="background: #00B5AD; color: rgb(249,249,249); font-size: 1.1em; padding-top: 14px; padding-bottom: 14px;">
+                  <span style="font-weight: 500;">8:30&mdash;9:30AM  &#8226  Breakfast</span><br/>
+                  Upper Quad, The MET, 30 Waterman St.<a href="https://www.google.com/maps/place/The+Met/@41.8269764,-71.4062854,15z/data=!4m2!3m1!1s0x0:0x8e4bfbb9ae285ecf?sa=X&ved=2ahUKEwj9967mnuDdAhXPzlkKHfdsBCoQ_BIwCnoECAoQCw">   
+                  <img class="marker" src="images/white.svg" />
+                  </a>
+                </div>
+
+                <div class="mobiletimeblock">
+                  <span class="mobiletime">9:30&mdash;10:30AM</span>
+                  <div class="mobileevent">
+                    <div class="icon">
+                      <!-- <img src="images/socialevents.svg"> -->
+                    </div>
+
+                    <div class="info mobileinfo">
+                      <div class="title"> Tei Carpenter &#8226 Of Architecture, Infrastructure and Other Futures</div>
+                      <div class="location">
+                        Tap room, Memorial Hall 
+                        <a href="https://www.google.com/maps/place/226+Benefit+St,+Providence,+RI+02903/data=!4m2!3m1!1s0x89e44517cbf0b68f:0xd8196dd0234e339b?sa=X&ved=2ahUKEwislvfaj9rdAhW0PH0KHYfZDGkQ8gEwAHoECAQQAQ">
+                          <img class="marker" src="images/teal.svg" />
+                        </a>
+                      </div>
+                      <div class="description">
+                        <div id="mm30" class="details">
+                          <a href="javascript:void(0)" onclick="dropdown('#mm31', '#mm30')">Details</a>
+                        </div>
+                        <div class="dropdown" id="mm31" style="display: none;">
+                          This talk will explore Agency—Agency’s speculative and built work at the intersection of architecture, infrastructure and the environment that open up alternative possibilities and agency for design. It will focus on recent work that deals with, for example, water infrastructure, non-profit community design and public space.<br/><br/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mobileevent">
+                    <div class="icon">
+                      <!-- <img src="images/socialevents.svg"> -->
+                    </div>
+
+                    <div class="info mobileinfo">
+                      <div class="title"> Kathryn Potts &#8226 Where We Are (Now): Art Museums in the Age of Protest</div>
+                      <div class="location">
+                        Chace Auditorium, RISD Museum
+                        <a href="https://www.google.com/maps/place/RISD+Museum,+Chace+Center+entrance/@41.826106,-71.407984,15z/data=!4m2!3m1!1s0x0:0x49112556d05817bc?sa=X&ved=2ahUKEwjWnLyZj9_dAhVACTQIHb5CBvEQ_BIwEXoECAoQCw">
+                          <img class="marker" src="images/teal.svg" />
+                        </a>
+                      </div>
+                      <div class="description">
+                        <div id="mm32" class="details">
+                          <a href="javascript:void(0)" onclick="dropdown('#mm33', '#mm32')">Details</a>
+                        </div>
+                        <div class="dropdown" id="mm33" style="display: none;">
+                          Since opening its new downtown building, the Whitney Museum of American Art has responded to the rapidly changing political and cultural climate in the U.S. This presentation looks at how the Museum has worked with artists to create programming that explores urgent issues such as immigration, gentrification, and white supremacy, and engages diverse communities in New York City.<br/><br/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="mobiletimeblock">
+                  <span class="mobiletime">1:30&mdash;3:00PM</span>
+                  <div class="mobileevent">
+                    <div class="icon">
+                      <!-- <img src="images/socialevents.svg"> -->
+                    </div>
+
+                    <div class="info mobileinfo">
+                      <div class="title"> Amanda Finuccio, Nicholas Chan, Hrudaya Veena Yanamandala, Jessie Silver, Stephen Morrison & Maria Alejandra Sandoval &#8226 Alumni from the School of Visual Arts, MFA in Design for Social Innovation | Panel & Q+A</div>
+                      <div class="location">
+                        Chace Auditorium, RISD Museum
+                        <a href="https://www.google.com/maps/place/RISD+Museum,+Chace+Center+entrance/@41.826106,-71.407984,15z/data=!4m2!3m1!1s0x0:0x49112556d05817bc?sa=X&ved=2ahUKEwixk7_zj9rdAhV4IjQIHQpxDyAQ_BIwEXoECAkQCw">
+                          <img class="marker" src="images/teal.svg" />
+                        </a>
+                      </div>
+                      <div class="description">
+                        <div id="mm44" class="details">
+                          <a href="javascript:void(0)" onclick="dropdown('#mm45', '#mm44')">Details</a>
+                        </div>
+                        <div class="dropdown" id="mm45" style="display: none;">
+                          In this discussion recent graduates of the School of VIsual Arts MFA in Design for Social Innovation program, facilitated by Cheryl Heller the founding chair of the program, will present their MFA thesis projects and reflect upon the tensions that arise while designing for social impact.<br/><br/>
+
+                          Below are brief descriptions of each of the presenter’s projects:<br/><br/>
+
+                          <b>Jessie Silver: Just Ask  </b> <br/>
+                          How can the design of health clinics inside jails improve people’s ability to give and receive healthcare?Jessie will present and reflect on a year of collaborative work, based inside jails, that surfaced catalytic design solutions by patients and providers themselves. <br/><br/>
+
+                          <b>Amanda Finuccio: Mom’s Make Books </b><br/>
+                          In every project there are two stories: Story A is the story about the community you collaborate with—the design process you explore together and what you create in response to what you learn and understand about the challenge at hand. Story B is the story about the collaboration that takes place with yourself—how do you design for the stake you have in your work?<br/><br/>
+
+                          <b>Maria Sandolva and Nicholas Chan: The MakeGuffin Project </b><br/>
+                          Improving social service delivery demands confronting our own biases; shifting focus from the diagnosis, to the passions of the humans behind the stigma. The MakeGuffin Project is a program for and by individuals on the Autism spectrum.<br/><br/>
+
+                          <b>Hrudaya Veena Yanamandala and Stephen Morrison: Headway, A Survivors’ Guide to Survivorship </b><br/>
+                          The project involved working and designing closely with Cancer Survivors, the process of conducting Human Centered Design within healthcare. Through the talk we uncover the tensions of designing within the field of healthcare in the United States.<br/><br/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+            <!-- mobile sunday -->
+            <div class="tab">
+              <input id="tab-three" type="checkbox" name="tabs">
+              <label for="tab-three">Sunday</label>
+              <div class="tab-content">
+
+                <div class="mobilelunch" style="background: #00B5AD; color: rgb(249,249,249); font-size: 1.1em; padding-top: 14px; padding-bottom: 14px;">
+                  <span style="font-weight: 500;">4:10&mdash;4:30PM  &#8226  Snack Break</span><br/>
+                  Outside Martinos Auditorium <br/> Granoff Center <a href="https://www.google.com/maps/place/Perry+and+Marty+Granoff+Center+for+the+Creative+Arts,+Providence,+RI+02906/@41.8282357,-71.4036225,17z/data=!3m1!4b1!4m5!3m4!1s0x89e4452346905f35:0xd7577ffb1434c6af!8m2!3d41.8282357!4d-71.4014338">   
+                  <img class="marker" src="images/white.svg" />
+                  </a>
+                </div>
+
+                <div class="mobiletimeblock">
+                  <span class="mobiletime">4:30&mdash;5:30PM</span>
+                  <div class="mobileevent">
+                    <div class="icon">
+                      <!-- <img src="images/socialevents.svg"> -->
+                    </div>
+                    <div class="info mobileinfo">
+                      <div class="title"> BAI &#8226 On Protest, Art and Activism </div>
+                      <div class="location">
+                        Cohen Gallery, Granoff Center
+                        <a href="https://www.google.com/maps/place/Perry+and+Marty+Granoff+Center+for+the+Creative+Arts,+Providence,+RI+02906/@41.8282357,-71.4036225,17z/data=!3m1!4b1!4m5!3m4!1s0x89e4452346905f35:0xd7577ffb1434c6af!8m2!3d41.8282357!4d-71.4014338">
+                          <img class="marker" src="images/teal.svg" />
+                        </a>
+                      </div>
+                      <div class="description">
+                        <div id="mm78" class="details">
+                          <a href="javascript:void(0)" onclick="dropdown('#mm79', '#mm78')">Details</a>
+                        </div>
+                        <div class="dropdown" id="mm79" style="display: none;">
+                          On Protest, Art and Activism is an exhibition series in the Cohen Gallery at Granoff Center for the Creative Arts on the Brown University campus that explores differing ways artists engage the political and social issues of their time. Part 1 of the series features works by Ja’Tovia Gary, Theaster Gates, Josephine Meckseper and Dread Scott, and examines how artists use histories of protest to create artworks in response to contemporary activism and ongoing struggles. The works included here collapse temporal distance, finding solidarity and continuity between past and present civil rights and anti-war activism. The exhibition will be on view from October 1, 2018 - December 15, 2018. <br/><br/>
+
+
+                          As part of the Better World by Design 2018 Conference, there will be a special exhibition preview and workshop on Sunday, September 30th from 4:30 - 5:30 pm, facilitated by Sydney Skybetter.<br/><br/>
+
+
+                          On Protest, Art & Activism is presented by David Winton Bell Gallery and Brown Arts Initiative.<br/><br/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- SPEAKERS -->
+
+          <div class="conferenceSpeaker">
+            <div class="speakerTitle">Speakers</div>
+
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+            <div class="personProfile" id="ayako">
+              <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-img" href="#modalPopup"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="ayako-d">
+                <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink-txt" href="#modalPopup">Ayako Maruyama</a>
+                <p class="companyTag">Design Studio for Social Intervention</p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- footer -->
+          <div class="footer" div style="clear:both; padding-bottom: 70px">
+            <div class="contactInformation">
+              <p class="detailsBottom ">Better World by Design <br/> </p>
+              <p class="detailsBottom ">Providence, Rhode Island <br/> </p>
+              <p class="detailsBottom ">hello@betterworldxdesign.com<br/> </p>
+              <a target="blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/2facebook.svg"></a>
+              <a target="blank" href="https://www.instagram.com/betterworldxdesign/"><img src="images/social/2instagram.svg"></a>
+              <a target="blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/2twitter.svg"></a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+
+    <div id='modalPopup'>
+      <a class="modal_close">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 313.4 313.4" style="enable-background:new 0 0 313.4 313.4;" xml:space="preserve">
+          <style type="text/css">
+            .X {fill:#00B5AD;}
+          </style>
+          <title>X</title>
+          <polygon class="X" points="313.4,26.2 287.2,0 156.7,130.5 26.2,0 0,26.2 130.5,156.7 0,287.2 26.2,313.4 156.7,182.9 287.2,313.4 313.4,287.2 182.9,156.7 "/>
+        </svg>
+      </a>
+
+      <div class="imgDiv">
+        <div class="personImg"></div>
+        <img class="personImg-border" src="images/circleBorder-blue.svg" />
+      </div>
+
+      <div class="textDiv">
+        <a target="_blank" onclick="return clickable($(this));" href="#" class="name"></a>
+        <p class="bio"></p>
+      </div>
+    </div>
+
+
+    <div id='modalPopupNoLink'>
+      <a class="modal_close">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 313.4 313.4" style="enable-background:new 0 0 313.4 313.4;" xml:space="preserve">
+          <style type="text/css">
+            .X {fill:#00B5AD;}
+          </style>
+          <title>X</title>
+          <polygon class="X" points="313.4,26.2 287.2,0 156.7,130.5 26.2,0 0,26.2 130.5,156.7 0,287.2 26.2,313.4 156.7,182.9 287.2,313.4 313.4,287.2 182.9,156.7 "/>
+        </svg>
+      </a>
+
+      <div class="imgDiv">
+        <div class="personImg"></div>
+        <img class="personImg-border" src="images/circleBorder-blue.svg" />
+      </div>
+
+      <div class="textDiv">
+        <a class="nameNoLink"></a>
+        <p class="bio"></p>
+      </div>
+    </div>
+  </body>
+
+  <script src="scripts/checkBrowser.js"></script>
+  <script src="scripts/layout.js"></script>
+  <script src="scripts/slideout.min.js"></script>
+  <script src="scripts/slideout-init.js"></script>
+  <script src="scripts/smoothScroll.js"></script>
+  <script src="scripts/jquery.leanModal.min.js"></script>
+  <script src="scripts/modalPopup-speakers.js"></script>
+
+</html>
