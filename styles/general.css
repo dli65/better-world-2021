@@ -36,6 +36,8 @@ body {
     z-index: 99;
 
     transition: all 0.2s;
+    
+    padding: 0px 10px;
 
     border-bottom: 2px solid #00ADA6;
     padding-bottom: 0px;
@@ -65,7 +67,7 @@ body {
     float: none;
     display: inline-block;
     /* margin: 0 1%; */
-    padding: 0 2%
+    /* padding: 0 2% */
     /*font-size: 1.25em;*/
 }
 .navbarDiv a {
