@@ -156,21 +156,20 @@ table, th, td {
 }
 
 .title {
-    font-size: 1.471em;
-    font-weight: 300;
-    padding-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 400;
     margin-top: -6px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .location {
-    font-size: 1.351em;
-    margin-bottom: 8px;
-    font-weight: 600;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    font-weight: 300;
 }
 
 .details {
-	font-size: 1.211em;
+	font-size: 1.1em;
 	font-weight: 300;
 	text-decoration: underline;
 }
@@ -231,7 +230,7 @@ table, th, td {
 	font-size: 1.0em;
 /*	margin-left: 165px;*/
 	margin-top: 10px;
-	font-weight: 300;
+	font-weight: 100;
 }
 
 .marker {
