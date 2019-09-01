@@ -81,8 +81,12 @@ h1 {
 	font-size: 1.5em;
 }
 .navbarDiv li {
-  font-size: 1.2em;
+  font-size: 1.05em;
   font-weight: 500;
+}
+
+.footer .contactInformation {
+    font-size: 0.8em;
 }
 
 .nav-dropdown {
