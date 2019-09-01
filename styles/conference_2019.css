@@ -77,11 +77,20 @@
 }
 
 .mobiletimeblock {
-  margin-top: 35px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding: 30px 10px 30px 10px;
   border-bottom: 1px solid #BFBFBF;
+}
+
+.scheduleBotLine {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.scheduleLogstics {
+  color: #00B5AD; 
+  font-size: 1.1em; 
+  padding-top: 14px; 
+  padding-bottom: 14px;
+  padding-left: 30px;
 }
 
 @media (max-width: 1100px) {
