@@ -175,10 +175,12 @@ function draw() {
     } else {
       noFill();
     }
-    rect(windowWidth-120, windowHeight-120, 100, 50);
     strokeWeight(1);
+    rect(windowWidth-120, windowHeight-122, 120, 50, 40);
+    strokeWeight(0.7);
     fill(255, 255, 255);
-    textSize(20);
+    textSize(18);
+    textFont(fontRegular);
     if (animationOn) {
       text(buttonTextOn, windowWidth-120, windowHeight-120, 100, 40);
     } else {
@@ -191,10 +193,12 @@ function draw() {
     } else {
       noFill();
     }
-    rect(windowWidth-120, windowHeight-110, 60, 40);
     strokeWeight(1);
+    rect(windowWidth-120, windowHeight-112, 80, 40, 40);
+    strokeWeight(0.7);
     fill(255, 255, 255);
-    textSize(13);
+    textSize(14);
+    textFont(fontRegular);
     if (animationOn) {
       text(buttonTextOn, windowWidth-120, windowHeight-105, 60, 40);
     } else {
