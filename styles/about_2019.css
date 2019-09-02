@@ -1,0 +1,114 @@
+.aboutCover {
+  display: block;
+  background-image: url(../images/2019/aboutCoverPhoto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+  min-height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.aboutBlock {
+  display: block;
+  min-height: 500px;
+  padding: 60px 0% 30px 10%;
+}
+
+.aboutPhoto {
+  display: inline-block;
+  min-height: 500px;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+}
+
+.aboutPhotoLeft {
+  margin-right: 10%;
+}
+
+.aboutPhotoRight {
+  margin-left: 10%;
+}
+
+.aboutPhoto1 {
+  background-image: url(../images/2019/aboutPhoto1.png);
+}
+
+.aboutPhoto2 {
+  background-image: url(../images/2019/aboutPhoto2.png);
+}
+
+.aboutPhoto3 {
+  background-image: url(../images/2019/aboutPhoto3.png);
+}
+
+.aboutContent {
+  display: inline-block;
+  min-height: 300px;
+  width: 30%;
+  vertical-align:top;
+  padding-top: 10%;
+}
+
+.aboutContentTitle {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.aboutContentParagraph {
+  font-weight: 100;
+}
+
+.pastConferences {
+  padding: 20px 10%;
+}
+
+.conferenceTable {
+  text-align: left;
+}
+
+.conferenceTable tr td {
+  font-weight: 300;
+  padding: 3px 30px 3px 0px;
+}
+
+.conferenceName {
+  padding-right: 60px !important;
+}
+
+.conferenceName a {
+  border-bottom: 1px solid #241F59;
+}
+
+.blocker {
+  display: block;
+  min-height: 100px;
+}
+
+@media (max-width: 800px) {
+  .aboutBlock {
+    padding: 0px 10% 0px 10%;
+  }
+  .aboutPhoto {
+    width: 100%;
+  }
+
+  .aboutPhotoLeft {
+    margin-right: 0%;
+  }
+
+  .aboutPhotoRight {
+    margin-left: 0%;
+  } 
+  
+  .aboutContent {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    min-height: 220px;
+  }
+}
