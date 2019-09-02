@@ -1,4 +1,4 @@
-var g, r, y, b, g2, r2, y2, b2;
+var g, r, b, g2, r2, b2;
 var color1, color2;
 var rectSize = 7;
 var z = 0;
@@ -31,20 +31,15 @@ function setup() {
   g2 = color(0, 129, 123);
   r = color(238, 64, 61);
   r2 = color(175, 47, 44);
-  y = color(255, 211, 0);
-  y2 = color(255, 171, 0);
   b = color(36, 31, 89);
   b2 = color(26, 22, 63);
-  n = Math.floor(random(4));
+  n = Math.floor(random(3));
   if (n == 0) {
     color1 = g2;
     color2 = g;
   } else if (n == 1) {
     color1 = r2;
     color2 = r;
-  } else if (n == 2) {
-    color1 = y2;
-    color2 = y;
   } else {
     color1 = b2;
     color2 = b;
@@ -77,6 +72,7 @@ function draw() {
   fill(255, 255, 255);
   var halfWidth = windowWidth/2;
   if (windowWidth < 520) {
+    textAlign(CENTER);
     textFont(fontMedium);
     textSize(30);
     text(themeTop, halfWidth, 80);
@@ -88,6 +84,7 @@ function draw() {
     text(time, halfWidth, 185);
     if (windowHeight > 400) {
       textSize(15);
+      textAlign(LEFT);
       text(description, halfWidth, 450, 280, 500);
     }
     xlo = 100;
@@ -95,42 +92,47 @@ function draw() {
     ylo = 160;
     yhi = 200;
   } else if (windowWidth < 620) {
+    textAlign(CENTER);
     textFont(fontMedium);
     textSize(40);
-    text(themeTop, halfWidth, 100);
+    text(themeTop, halfWidth, 80);
     textFont(fontBold);
     textSize(90);
+    text(theme, halfWidth, 180);
+    textFont(fontMedium);
+    textSize(26);
+    text(time, halfWidth, 230);
+    if (windowHeight > 400) {
+      textSize(18);
+      textAlign(LEFT);
+      text(description, halfWidth, 450, 430, 400);
+    }
+    xlo = int(windowWidth/4);
+    xhi = int(windowWidth/1.2);
+    ylo = 230;
+    yhi = 290;
+  } else if (windowWidth < 800) {
+    textAlign(CENTER);
+    textFont(fontMedium);
+    textSize(50);
+    text(themeTop, halfWidth, 100);
+    textFont(fontBold);
+    textSize(100);
     text(theme, halfWidth, 200);
     textFont(fontMedium);
     textSize(26);
     text(time, halfWidth, 250);
     if (windowHeight > 400) {
-      textSize(18);
-      text(description, halfWidth, 470, 430, 400);
+      textSize(20);
+      textAlign(LEFT);
+      text(description, halfWidth, 480, 520, 400);
     }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
     ylo = 240;
-    yhi = 300;
-  } else if (windowWidth < 800) {
-    textFont(fontMedium);
-    textSize(50);
-    text(themeTop, halfWidth, 120);
-    textFont(fontBold);
-    textSize(100);
-    text(theme, halfWidth, 220);
-    textFont(fontMedium);
-    textSize(26);
-    text(time, halfWidth, 270);
-    if (windowHeight > 400) {
-      textSize(20);
-      text(description, halfWidth, 500, 520, 400);
-    }
-    xlo = int(windowWidth/4);
-    xhi = int(windowWidth/1.2);
-    ylo = 260;
-    yhi = 330;
+    yhi = 310;
   } else {
+    textAlign(CENTER);
     textFont(fontMedium);
     textSize(53);
     text(themeTop, halfWidth, 120);
@@ -141,6 +143,7 @@ function draw() {
     textSize(30);
     text(time, halfWidth, 270);
     textSize(20);
+    textAlign(LEFT);
     text(description, halfWidth, 495, 550, 400);
     xlo = int(windowWidth/3);
     xhi = int(windowWidth/1.5);
@@ -167,6 +170,7 @@ function draw() {
   }
 
   // Disable/Enable Animation Button
+  textAlign(CENTER);
   stroke(255, 255, 255);
   if (windowWidth > 600) {
     strokeWeight(3);
@@ -219,13 +223,11 @@ function mousePressed() {
     g2 = color(0, 129, 123);
     r = color(238, 64, 61);
     r2 = color(175, 47, 44);
-    y = color(255, 211, 0);
-    y2 = color(255, 171, 0);
     b = color(36, 31, 89);
     b2 = color(26, 22, 63);
-    var newN = Math.floor(random(4));
+    var newN = Math.floor(random(3));
     if (newN == n) {
-      newN = (newN + 1) % 4;
+      newN = (newN + 1) % 3;
     }
     n = newN;
     if (n == 0) {
@@ -234,12 +236,9 @@ function mousePressed() {
     } else if (n == 1) {
       color1 = r2;
       color2 = r;
-    } else if (n == 2) {
-      color1 = y2;
-      color2 = y;
     } else {
       color1 = b2;
       color2 = b;
-    } 
+    }
   }
 }
