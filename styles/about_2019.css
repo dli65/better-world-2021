@@ -63,7 +63,7 @@
   font-weight: 100;
 }
 
-.pastConferences {
+.pastConferences, .alumni{
   margin-top: 60px;
   padding: 20px 10%;
 }
@@ -72,9 +72,17 @@
   text-align: left;
 }
 
-.conferenceTable tr td {
+.conferenceTable tr td, .alumniTable tr td {
   font-weight: 300;
   padding: 3px 30px 3px 0px;
+}
+
+.alumniTable {
+    margin-bottom: 60px;
+}
+
+.alumniTable tr td {
+    padding: 3px 30px 3px 0px;
 }
 
 .conferenceName {
