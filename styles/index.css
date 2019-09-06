@@ -1,58 +1,60 @@
 html,
 body {
-    overflow: hidden;
-    position: relative;
-    height: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
 
-    height: 100%; 
-    overflow: hidden; 
-    width: 100%; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  height: 100%; 
+  overflow: hidden; 
+  width: 100%; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .wrapper {
-    
-    height: 100%;
-    position:relative;
-    display: flex;
-    /* overflow-y: auto; */
-  }
+
+  height: 100%;
+  position:relative;
+  display: flex;
+  /* overflow-y: auto; */
+}
 
 
 .shell {
-    height: 100%;
-    z-index: 1;
-    margin: 0;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .shell:before {
-    content: ' ';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    margin-right: -0.25em;
-  }
-  
-  .container {
-    padding-top: 10%;
-    width: 800px;
-    height:1000px;
-    color: #fff;
-    display: inline-block;
-    margin: auto;
-    vertical-align: middle;
-  }
+  height: 100%;
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
 
+.shell:before {
+  content: ' ';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.container {
+  padding-top: 10%;
+  width: 800px;
+  height:1000px;
+  color: #fff;
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+}
+.mobileBreak {
+  display: none;
+}
 
 .logosDesktop {
-    display: visible;
-    margin-top: 80px;
+  display: visible;
+  margin-top: 80px;
 }
 @media only screen and (max-width: 1024px) {
   .logosDesktop {
@@ -60,55 +62,220 @@ body {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .logosDesktop {
-    margin-top: 180px;
+    margin-top: 100px;
   }
 }
-
+@media only screen and (max-width: 640px) {
+  .logosDesktop {
+    margin-top: 120px;
+  }
+}
 @media only screen and (max-width: 520px) {
   .logosDesktop {
     margin-top: 110px;
   }
+  .mobileBreak {
+    display: block;
+  }
 }
 
 .logosDesktop a {
-    margin: 1%;
-    margin-top: -10px;
-    margin-bottom: 20px;
+  margin: 1%;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 .logosDesktop img {
   width: 40px;
 }
 
 
-  .themeDate{
-    font-weight: 500;
-	color: white;
-    font-size: 1.3em;
-    text-align: center;
-    padding-top: 10px;
-  }
+.themeDate{
+  font-weight: 500;
+  color: white;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 10px;
+}
 
-  .themePlace{
-    font-weight: 500;
-	color: white;
-    font-size: 1.3em;
-    text-align: center;
-   
-  }
-  
+.themePlace{
+  font-weight: 500;
+  color: white;
+  font-size: 1.3em;
+  text-align: center;
 
-  .logo{
-      width: 20%;
+}
+
+
+.logo{
+  width: 20%;
+}
+.red {
+  /* background: red; */
+  height: 130px;
+  /* line-height: 100px; */
+  width: 100%;
+  border-radius: 50%;
+  /* margin-bottom: 40px; */
+  text-align:center;
+}
+
+.green {
+  height: 130px;
+  /* line-height: 100px; */
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  text-align:center;
+
+}
+#sketch-holder {
+  position:absolute;
+  /* position:fixed; */
+}
+
+
+.themeText {
+  visibility: hidden;
+  font-weight: 500;
+  color: white;
+  font-size: 10em;
+  font-family: "calibre";
+  text-align: center;
+}
+
+.themeTopper {
+  visibility: hidden;
+  font-weight: 500;
+  color: white;
+  font-size: 2.0em;
+  text-align: center;
+  padding-bottom:15px;
+}
+
+.themeDescription{
+  visibility: hidden;
+  font-weight: 500;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.eventsButton {
+  display: inline-block;
+  border: 4px solid white;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  font-family: "calibre";
+  font-weight: 300;
+  font-size: 1.5em;
+  transition: background-color 0.2s ease;
+  transition: color 0.1s ease;
+  margin-top: 20px;
+}
+
+.eventsButton:hover {
+  background: lightgray;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width:360px) {
+  .themeTopper {
+    font-size: 1.0em;
+  }
+  .themeText {
+    font-size: 5.0em;
+  }
+  .themeDescription{
+    font-size: 1.0em;
+  }
+  .green{
+    padding-left:15px;
+    width:90%;
   }
   .red {
     /* background: red; */
-    height: 130px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .container {
+    height:600px;
+    width: 300px;
+    padding-top: 40%;
+  }
+  .eventsButton {
+    font-size: 0.8em;
+  }
+
+  .themeDate{
+    font-size: 0.7em;
+  }
+  .themePlace{
+    font-size: 0.7em;
+  }
+}
+
+@media (min-width:360px) and (max-width:500px) {
+  .themeTopper {
+    font-size: 1.0em;
+  }
+  .themeText {
+    font-size: 3.3em;
+  }
+  .themeDescription{
+    font-size: 0.8em;
+  }
+  .green{
+    padding-left:15px;
+    width:90%;
+  }
+  .red {
+    /* background: red; */
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .container {
+    height:600px;
+    width: 350px;
+    padding-top: 40%;
+  }
+  .eventsButton {
+    font-size: 0.8em;
+  }
+
+  .themeDate{
+    font-size: 0.7em;
+  }
+  .themePlace{
+    font-size: 0.7em;
+  }
+
+}
+
+@media (min-width:500px) and (max-width:812px) {
+  .themeTopper {
+    font-size: 1.4em;
+  }
+  .themeText {
+    font-size: 4.5em;
+  }
+  .themeDescription{
+    font-size: 1.0em;
+  }
+  .container {
+    padding-top: 30%;
+    width: 500px;
+  }
+  .red {
+    /* background: red; */
+    height: 100px;
     /* line-height: 100px; */
     width: 100%;
-    border-radius: 50%;
-    /* margin-bottom: 40px; */
+    border-radius: 0%;
+    margin-bottom: 0px;
     text-align:center;
   }
 
@@ -117,202 +284,45 @@ body {
     /* line-height: 100px; */
     width: 100%;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-align:center;
-    
+
   }
-#sketch-holder {
-    position:absolute;
-    /* position:fixed; */
-}
-
-
-.themeText {
-  visibility: hidden;
-	font-weight: 500;
-	color: white;
-    font-size: 10em;
-    font-family: "calibre";
-    text-align: center;
-}
-
-.themeTopper {
-  visibility: hidden;
-	font-weight: 500;
-	color: white;
-    font-size: 2.0em;
-    text-align: center;
-    padding-bottom:15px;
-}
-
-.themeDescription{
-  visibility: hidden;
-	font-weight: 500;
-	color: white;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.eventsButton {
-    display: inline-block;
-    border: 4px solid white;
-    padding: 10px;
-    background: transparent;
-    color: white;
-    font-family: "calibre";
-    font-weight: 300;
-    font-size: 1.5em;
-    transition: background-color 0.2s ease;
-    transition: color 0.1s ease;
-    margin-top: 20px;
-}
-
-.eventsButton:hover {
-    background: lightgray;
-    color: white;
-    cursor: pointer;
-}
-
-@media (max-width:360px) {
-    .themeTopper {
-        font-size: 1.0em;
-    }
-    .themeText {
-        font-size: 5.0em;
-    }
-    .themeDescription{
-        font-size: 1.0em;
-    }
-    .green{
-        padding-left:15px;
-        width:90%;
-    }
-    .red {
-        /* background: red; */
-        height: 50px;
-        margin-bottom: 15px;
-    }
-    .container {
-        height:600px;
-        width: 300px;
-        padding-top: 40%;
-    }
-    .eventsButton {
-        font-size: 0.8em;
-    }
-      
-    .themeDate{
-        font-size: 0.7em;
-    }
-    .themePlace{
-      font-size: 0.7em;
-    }
-}
-
-@media (min-width:360px) and (max-width:500px) {
-    .themeTopper {
-        font-size: 1.0em;
-    }
-    .themeText {
-        font-size: 3.3em;
-    }
-    .themeDescription{
-        font-size: 0.8em;
-    }
-    .green{
-        padding-left:15px;
-        width:90%;
-    }
-    .red {
-        /* background: red; */
-        height: 50px;
-        margin-bottom: 15px;
-    }
-    .container {
-        height:600px;
-        width: 350px;
-        padding-top: 40%;
-    }
-    .eventsButton {
-        font-size: 0.8em;
-    }
-
-    .themeDate{
-        font-size: 0.7em;
-    }
-    .themePlace{
-      font-size: 0.7em;
-    }
-
-}
-
-@media (min-width:500px) and (max-width:812px) {
-    .themeTopper {
-        font-size: 1.4em;
-    }
-    .themeText {
-        font-size: 4.5em;
-    }
-    .themeDescription{
-        font-size: 1.0em;
-    }
-    .container {
-        padding-top: 30%;
-        width: 500px;
-    }
-    .red {
-        /* background: red; */
-        height: 100px;
-        /* line-height: 100px; */
-        width: 100%;
-        border-radius: 0%;
-        margin-bottom: 0px;
-        text-align:center;
-      }
-    
-      .green {
-        height: 130px;
-        /* line-height: 100px; */
-        width: 100%;
-        border-radius: 50%;
-        margin-bottom: 0px;
-        text-align:center;
-        
-      }
-      .eventsButton {
-        font-size: 1.0em;
-    }
+  .eventsButton {
+    font-size: 1.0em;
+  }
 }
 
 @media (max-height:450px){
-    .themeText {
-        font-size: 4.0em;
-    }
-    .container {
-        padding-top: 10%;
-        width: 500px;
-    }
+  .themeText {
+    font-size: 4.0em;
+  }
+  .container {
+    padding-top: 10%;
+    width: 500px;
+  }
 }
 
 
 @media (min-width:820) and (max-width:850){
-    .themeText {
-        font-size: 2.5em;
-    }
+  .themeText {
+    font-size: 2.5em;
+  }
 }
 
 .ticketButton {
-    display: inline-block;
-    border: 4px solid white;
-    padding: 6px;
-    background: rgba(255, 255, 255, 0);
-    color: white;
-    font-family: "calibre";
-    font-weight: 900;
-    font-size: 1.4em;
-    margin-top: 10px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 2px 10px;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  font-family: "calibre";
+  font-weight: 300;
+  font-size: 1.2em;
+  margin-top: 10px;
+  border-radius: 25px;
 }
 .ticketButton:hover {
-    background: rgba(255, 255, 255, 0.4);
-    cursor: pointer;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
 }

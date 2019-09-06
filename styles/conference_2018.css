@@ -129,3 +129,24 @@
 		width:600px;
 	}
 }
+
+#mobileschedule {
+  display: block;
+  padding-bottom: 50px !important;
+}
+
+.mobileevent {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.mobiletime {
+  margin-left: 20px;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+.mobiletimeblock {
+  padding: 30px 10px 30px 10px;
+  border-bottom: 1px solid #BFBFBF;
+}

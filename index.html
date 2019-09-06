@@ -75,17 +75,14 @@
     <nav id="menu" class="menu" style="display: none;">
       <div style="height: calc(100% - 100px);">
         <ul class="menu-l1">
-          <a href="index.html"><img src="images/SidebarNav2019.png" style="width: 100px; margin-bottom: 5px;"/></a>
-          <li><a  href="conference.html">2018 Conference</a></li>
-          <li class = "about-us-nav"><a  href="about.html" name="header">About Us</a>
-            <div class = about-dropdown>
-              <a href="about.html">Who We Are</a>
-              <a href="whatAreWe.html">What We Do</a>
-            </div>
+          <a href="index.html"><img src="images/SidebarNav2019.png" alt = "Better World By Design logo" style="width: 100px; margin-bottom: 5px;"/></a>
+          <li><a  href="conference2018.html">2018 Conference</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+          <li>
+              <a class = "button" href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=2923&SINGLESTORE=true" target="_blank">Get Tickets</a>
           </li>
-          <li><a  href="sponsors.html">Sponsors</a></li>
-
-          <!-- <li><a  href="http://www.brownbsa.com/students/marketplace/" target="_blank">Buy Tickets</a></li> -->
         </ul>
       </div>
       <div class="logos" style="margin-left: 30px;">
@@ -99,17 +96,17 @@
       <div class = "menu-wrap">
         <ul class="desktopOnly">
           <div class = "topNav">
-              <li class = "otherSauce"><a  href="index.html"><img src='images/SidebarNav2019.png' class='navbar-logo'/></a></li>
-              <div class="leftNav">
-                <li class = "otherSauce"><a href="conference.html">2018 Conference</a></li>
-                <li class = "otherSauce"><a  href="about.html">About</a>
-                </li>
-                <li class = "otherSauce">
+            <li class = "otherSauce"><a  href="index.html"><img src='images/SidebarNav2019.png' class='navbar-logo'/></a></li>
+            <div class="leftNav">
+              <li class = "otherSauce"><a href="conference2018.html">2018 Conference</a></li>
+              <li class = "otherSauce"><a  href="about.html">About</a>
+              </li>
+              <li class = "otherSauce">
                 <a href="team.html">Team</a>
-                </li>
-                <li class = "otherSauce"><a href="sponsors.html">Sponsors</a></li>
-                <li class = "otherSauce" style = "margin-left: -5px"><a class = "button" href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=2923&SINGLESTORE=true" target="_blank">Get Tickets</a></li>
-              </div>
+              </li>
+              <li class = "otherSauce"><a href="sponsors.html">Sponsors</a></li>
+              <li class = "otherSauce" style = "margin-left: -5px"><a class = "button" href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=2923&SINGLESTORE=true" target="_blank">Get Tickets</a></li>
+            </div>
           </div>
         </ul>
       </div>
@@ -137,6 +134,8 @@
               <div class="logosDesktop">
                 <a target="_blank" href="https://www.facebook.com/betterworldxdesign/"><img src="images/social/2facebook.svg"/></a><a target="_blank" href="https://twitter.com/betterxdesign?lang=en"><img src="images/social/2twitter.svg"/></a><a target="_blank" href="https://www.instagram.com/betterworldxdesign/"><img src="images/social/2instagram.svg"/></a><br/>
                 <a target="_blank" href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=2923&SINGLESTORE=true"><button class="ticketButton">Get Tickets Now</button></a>
+                <br class='mobileBreak'>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfbsycyOPYj7rSZAo8_mvWfae7vmM--dR1thnBeWMPCcigucw/viewform?fbclid=IwAR2RJqUtbfik7lxctoX5hAJlQU9Y8lCPXFiRQWGhBCC5gdcVwwhQ2O5_YAQ"><button class="ticketButton">Volunteer for Free Entry</button></a>
               </div> 
             </div>
             <div class="green">
@@ -146,30 +145,6 @@
       </div>
     </main>
 
-
-    <div id='modalPopup'>
-      <a class="modal_close">
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             viewBox="0 0 313.4 313.4" style="enable-background:new 0 0 313.4 313.4;" xml:space="preserve">
-          <style type="text/css">
-            .X {fill:#00B5AD;}
-          </style>
-          <title>X</title>
-          <polygon class="X" points="313.4,26.2 287.2,0 156.7,130.5 26.2,0 0,26.2 130.5,156.7 0,287.2 26.2,313.4 156.7,182.9
-                                     287.2,313.4 313.4,287.2 182.9,156.7 "/>
-        </svg>
-      </a>
-
-      <div class="imgDiv">
-        <div class="personImg"></div>
-        <img class="personImg-border" src="images/circleBorder-blue.svg" />
-      </div>
-
-      <div class="textDiv">
-        <a target="_blank" onclick="return clickable($(this));" href="#" class="name"></a>
-        <p class="bio"></p>
-      </div>
-    </div>
   </body>
 
   <script src="scripts/checkBrowser.js"></script>
