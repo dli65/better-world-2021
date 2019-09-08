@@ -80,16 +80,45 @@
   margin-top: 15px;
   margin-bottom: 30px;
   position: relative;
+  min-height: 270px;
 }
-@media (max-width: 800px) {
+
+@media (max-width: 860px) {
   .personProfile {
-    float: left;
     width: 28%;
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 15px;
     margin-bottom: 30px;
-    position: relative;
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 680px) {
+  .personProfile {
+    float: left;
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .personProfile {
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 500px) {
+  .personProfile {
+    min-height: 220px;
   }
 }
 
@@ -430,13 +459,5 @@ display: none;  visibility settings in individual page styles
   width:100%;
   background: #000;
   display: none;
-}
-
-#ayako .personLink-img {
-  background: linear-gradient(transparent, transparent),
-    url('../images/2018/speakers/ayako-maruyama.jpg') no-repeat;
-  background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2018/speakers/ayako-maruyama.jpg') no-repeat;
-  background-size: contain;
 }
 

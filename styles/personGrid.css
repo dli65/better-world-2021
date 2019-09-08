@@ -27,7 +27,7 @@
 		display: block;
 	}
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
 	.personProfile {
 		width: 25%;
 		margin-right: 5%;
