@@ -42,11 +42,11 @@ var speakerInfo = {
   'kevin-yoo-name': 'Kevin Yoo',
   'kevin-yoo-company': 'WearWorks',
   'kevin-yoo-bio': "Kevin is a born entrepreneur with a heavy focus in Product Design and Sustainability. Combined with passion for human-centric innovation and background in haptics. He has a keen sense for new growth in business, the market and technology.  Kevin expands fearlessly.",
-  'kevin-yoo-img': 'url(images/2019/speakers/kevin-yoo.jpg)',
+  'kevin-yoo-img': 'url(images/2019/speakers/kevin-yoo.png)',
   'ekene-ijeoma-name': 'Ekene Ijeoma',
   'ekene-ijeoma-company': 'MIT Media Lab',
   'ekene-ijeoma-bio': 'Ekene Ijeoma is an artist and founder/director of Poetic Justice at MIT Media Lab. He was featured in What Can Design Do’s 31 Designers Fighting for a Better World, GOOD\'s GOOD 100 "tackling pressing global issues," Adweek\'s Creative 100 "visual artist whose imagination and intellect will inspire you," and GDUSA\'s People to Watch "who embody the spirit of the creative community."',
-  'ekene-ijeoma-img': 'url(images/2019/speakers/ekene-ijeoma.jpg)',
+  'ekene-ijeoma-img': 'url(images/2019/speakers/ekene-ijeoma.png)',
 };
 
 function populateModal(elt) {
