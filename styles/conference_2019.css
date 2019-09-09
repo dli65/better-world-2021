@@ -235,11 +235,4 @@
 	background-size: contain;
 }
 
-#ekene-ijeoma .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/ekene-ijeoma.png') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/ekene-ijeoma.png') no-repeat;
-	background-size: contain;
-}
 
