@@ -199,7 +199,7 @@ function draw() {
     }
     strokeWeight(1);
     rect(windowWidth-50, windowHeight-112, 80, 40, 40);
-    strokeWeight(0.7);
+    strokeWeight(0.3);
     fill(255, 255, 255);
     textSize(14);
     textFont(fontRegular);
