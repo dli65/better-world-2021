@@ -56,30 +56,41 @@ body {
   display: visible;
   margin-top: 80px;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .logosDesktop {
     margin-top: 120px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .logosDesktop {
     margin-top: 100px;
   }
 }
-@media only screen and (max-width: 640px) {
+@media (max-width: 640px) {
   .logosDesktop {
     margin-top: 120px;
   }
 }
-@media only screen and (max-width: 520px) {
+@media (max-width: 520px) {
   .logosDesktop {
-    margin-top: 110px;
+    margin-top: 80px;
   }
   .mobileBreak {
     display: block;
   }
 }
+
+@media (max-width: 400px) {
+  .logos {
+    display: none;
+  }
+  .logosDesktop {
+    margin-top: -25px;
+    font-size: 0.8em;
+  }
+}
+
 
 .logosDesktop a {
   margin: 1%;
