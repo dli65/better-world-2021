@@ -74,23 +74,23 @@ function draw() {
   if (windowWidth < 520) {
     textAlign(CENTER);
     textFont(fontMedium);
-    textSize(30);
-    text(themeTop, halfWidth, 80);
+    textSize(20);
+    text(themeTop, halfWidth, 70);
     textFont(fontBold);
-    textSize(70);
-    text(theme, halfWidth, 150);
+    textSize(60);
+    text(theme, halfWidth, 130);
     textFont(fontMedium);
     textSize(20);
-    text(time, halfWidth, 185);
+    text(time, halfWidth, 165);
     if (windowHeight > 400) {
-      textSize(15);
+      textSize(14);
       textAlign(LEFT);
-      text(description, halfWidth, 450, 280, 500);
+      text(description, halfWidth, 430, 280, 500);
     }
     xlo = 100;
     xhi = 350;
-    ylo = 160;
-    yhi = 200;
+    ylo = 150;
+    yhi = 180;
   } else if (windowWidth < 620) {
     textAlign(CENTER);
     textFont(fontMedium);
