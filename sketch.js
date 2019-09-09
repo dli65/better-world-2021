@@ -216,9 +216,9 @@ function windowResized() {
 }
 
 function mousePressed() {
-  if (windowWidth > 600) && (mouseX > (windowWidth-170) && mouseX < (windowWidth-70) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)) {
+  if (windowWidth > 600 && mouseX > (windowWidth-170) && mouseX < (windowWidth-70) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)) {
     animationOn = !animationOn;
-  } else if (windowWidth <= 600) && (mouseX > (windowWidth-100) && mouseX < (windowWidth-20) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)){
+  } else if (windowWidth <= 600 && mouseX > (windowWidth-100) && mouseX < (windowWidth-20) && mouseY > (windowHeight-145) && mouseY < (windowHeight-95)){
     animationOn = !animationOn;
   } else {
     g = color(0, 180, 172);
