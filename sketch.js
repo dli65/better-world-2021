@@ -198,15 +198,15 @@ function draw() {
       noFill();
     }
     strokeWeight(1);
-    rect(windowWidth-120, windowHeight-112, 80, 40, 40);
+    rect(windowWidth-50, windowHeight-112, 80, 40, 40);
     strokeWeight(0.7);
     fill(255, 255, 255);
     textSize(14);
     textFont(fontRegular);
     if (animationOn) {
-      text(buttonTextOn, windowWidth-120, windowHeight-105, 60, 40);
+      text(buttonTextOn, windowWidth-50, windowHeight-105, 60, 40);
     } else {
-      text(buttonTextOff, windowWidth-120, windowHeight-105, 60, 40);    
+      text(buttonTextOff, windowWidth-50, windowHeight-105, 60, 40);    
     }    
   }
 }
