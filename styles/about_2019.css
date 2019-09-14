@@ -82,7 +82,11 @@
 }
 
 .alumniTable tr td {
-    padding: 3px 30px 3px 0px;
+    padding: 3px 50px 3px 0px;
+}
+
+.alumniTable td a {
+    font-weight: 400;
 }
 
 .conferenceName {

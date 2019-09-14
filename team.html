@@ -84,19 +84,12 @@
 
     <main id="panel">
       <div class="content whiteBG contentContainer">
-        <div class="bannerWrapper" style = "padding-top: 15px; padding-left: 60px;">
+        <div class="bannerWrapper">
           <div class="banner">
             <img id="teamBanner" alt = "Group picture with all of the 2018 BWxD members" src="images/2019team.jpg"/>
           </div>
-          <div class="infoSection">
-            <h1 class="desktopOnly" style="padding-bottom: 10px">Hello!</h1>
-            <h2>Who we are:</h2>
-            <p>
-              Better World by Design is a student-led initiative at Brown University and Rhode Island School of Design that celebrates interdisciplinary collaboration between designers, educators, innovators, and learners. We envision a world where design-thinking is accessible to everyone in order to catalyze positive change on a local and global scale.
-            </p>
-          </div>
         </div>
-        <div class="subsection" style = "padding-bottom: 50px; padding-top: 30px;">
+        <div class="subsection" style = "padding-top: 30px;">
           <div class="photoSection" id="team">
             <div class="subsection" id="photosSubsection-Team">
               <h1>Committee of 2019:</h1>
@@ -208,6 +201,14 @@
                   <p class="schoolTag">Brown 2021</p>
                   <p class="pronoun">she/her/hers</p>
                 </div>
+                <div class="personProfile" id="jonathan">
+                  <a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-img" href="#modalPopupNoLink"></a>
+                  <img class="personImg-border" alt = "Jonathan Katz" src="images/circleBorder-blue.svg" />
+                  <br />
+                  <a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink personLink-txt" href="#modalPopupNoLink">Jonathan <br class="nameBreak"/>Katz</a>
+                  <p class="schoolTag">Brown 2022</p>
+                  <p class="pronoun">he/him/his</p>
+                </div>
                 <h1 class="rightSpace"> &nbsp; </h1>
               </div>
               <h3 div style="clear:both;">Operations and Sustainability</h3>
@@ -220,6 +221,14 @@
                   <p class="schoolTag">RISD 2021</p>
                   <p class="pronoun">she/her/hers</p>
                 </div>
+                <!--<div class="personProfile" id="stella">
+                  <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
+                  <img class="personImg-border" alt = "Stella Li" src="images/circleBorder-blue.svg" />
+                  <br />
+                  <a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-txt" href="#modalPopup">Stella <br class="nameBreak"/>Li</a>
+                  <p class="schoolTag">Brown 2022</p>
+                  <p class="pronoun">she/her or they/them</p>
+                </div>-->
                 <h1 class="rightSpace"> &nbsp; </h1>
               </div>
               <h3 div style="clear:both;">Graphics and Branding:</h3>
@@ -324,6 +333,7 @@
         </div>
 
 
+        <div class = "spacer" style = "height: 5vw; width: 100%; display: flex"></div>
         <div class="footer" div style="clear:both;">
           <div class="contactInformation">
             <p class="detailsBottom ">hello@betterworldxdesign.com</p>
