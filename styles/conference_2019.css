@@ -1,3 +1,15 @@
+.conferenceCover {
+  display: block;
+  background-image: url(../images/2019/noise.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+  min-height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 .conferenceHeader {
   display: block;
   background-image: url(../images/2019/conferenceBackground.png);
@@ -64,7 +76,7 @@
   margin-top: 50px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 700px) { 
   .speakerTitle {
     padding-left: 10px;
   }
@@ -130,6 +142,10 @@
 
 
 @media (max-width: 1000px) {
+  .conferenceCover {
+    display: none;
+  }
+  
   .conferenceBlock1 {
     padding: 10px;
   }
@@ -149,136 +165,136 @@
   .conferenceHeading {
     font-size: 2.3em;
   }
-  
+
   .moreSpeakers {
     padding-left: 10px;
   }
 }
 
 #barbara-london .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/barbara-london.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/barbara-london.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/barbara-london.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/barbara-london.jpg') no-repeat;
+  background-size: contain;
 }
 
 #tendernet .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/tendernet.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/tendernet.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/tendernet.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/tendernet.jpg') no-repeat;
+  background-size: contain;
 }
 
 #danny-chapman .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/danny-chapman.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/danny-chapman.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/danny-chapman.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/danny-chapman.jpg') no-repeat;
+  background-size: contain;
 }
 
 #karen-krolak .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/karen-krolak.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/karen-krolak.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/karen-krolak.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/karen-krolak.jpg') no-repeat;
+  background-size: contain;
 }
 
 #deroy-peraza .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/deroy-peraza.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/deroy-peraza.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/deroy-peraza.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/deroy-peraza.jpg') no-repeat;
+  background-size: contain;
 }
 
 #irene-alvarado .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/irene-alvarado.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/irene-alvarado.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/irene-alvarado.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/irene-alvarado.jpg') no-repeat;
+  background-size: contain;
 }
 
 #alex-chen .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/alex-chen.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/alex-chen.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/alex-chen.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/alex-chen.jpg') no-repeat;
+  background-size: contain;
 }
 
 #pinar-guvenc .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
+  background-size: contain;
 }
 
 #brendan-ciecko .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+  background-size: contain;
 }
 
 #kevin-yoo .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/kevin-yoo.png') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/kevin-yoo.png') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/kevin-yoo.png') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/kevin-yoo.png') no-repeat;
+  background-size: contain;
 }
 
 #clare-stanton .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/clare-stanton.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/clare-stanton.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/clare-stanton.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/clare-stanton.jpg') no-repeat;
+  background-size: contain;
 }
 
 #anastasia-aizman .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/anastasia-aizman.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/anastasia-aizman.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/anastasia-aizman.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/anastasia-aizman.jpg') no-repeat;
+  background-size: contain;
 }
 
 #matthew-battles .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/matthew-battles.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/matthew-battles.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/matthew-battles.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/matthew-battles.jpg') no-repeat;
+  background-size: contain;
 }
 
 #molly-surno .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/molly-surno.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/molly-surno.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/molly-surno.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/molly-surno.jpg') no-repeat;
+  background-size: contain;
 }
 
 #dhairya-pujara .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/dhairya-pujara.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/dhairya-pujara.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/dhairya-pujara.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/dhairya-pujara.jpg') no-repeat;
+  background-size: contain;
 }
 
 #brendan-ciecko .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
-	background-size: contain;
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+  background-size: contain;
 }
