@@ -235,4 +235,50 @@
 	background-size: contain;
 }
 
+#clare-stanton .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/clare-stanton.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/clare-stanton.jpg') no-repeat;
+	background-size: contain;
+}
 
+#anastasia-aizman .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/anastasia-aizman.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/anastasia-aizman.jpg') no-repeat;
+	background-size: contain;
+}
+
+#matthew-battles .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/matthew-battles.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/matthew-battles.jpg') no-repeat;
+	background-size: contain;
+}
+
+#molly-surno .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/molly-surno.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/molly-surno.jpg') no-repeat;
+	background-size: contain;
+}
+
+#dhairya-pujara .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/dhairya-pujara.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/dhairya-pujara.jpg') no-repeat;
+	background-size: contain;
+}
+
+#brendan-ciecko .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+	background-size: contain;
+}
