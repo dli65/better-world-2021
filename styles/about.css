@@ -411,6 +411,13 @@ p {
                  url('../images/team2019/ope_aishwarya.jpg') no-repeat;
 	background-size: contain;
 }
+#stella .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2019/ope_stella.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2019/ope_stella.jpg') no-repeat;
+	background-size: cover;
+}
 #sophia .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2019/gra_sophia.jpg') no-repeat;
@@ -580,6 +587,13 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2019/ope_aishwarya2.jpg') no-repeat;
     background-size: contain;
+  }
+  #stella .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2019/ope_stella2.jpg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2019/ope_stella2.jpg') no-repeat;
+    background-size: cover;
   }
   #sophia .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
