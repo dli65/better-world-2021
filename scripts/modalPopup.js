@@ -18,7 +18,7 @@ var bioInfo = {
   'isabel-name'   : 'Isabel Scanlon',
   'jonathan-name' : 'Jonathan Katz',
   'aishwarya-name': 'Aishwarya Bagaria',
-  'stella-li'     : 'Stella Li',
+  'stella-name'   : 'Stella Li',
   'sophia-name'   : 'Sophia Meng',
   'christie-name' : 'Christie Zhong',
   'claire-name'   : 'Claire Chen',
@@ -118,6 +118,7 @@ function populateModal(elt) {
 	modal.find('.name').html(name);
 	modal.find('.name').attr('href', link);
 	modal.find('.bio').html(bio);
+    
 }
 
 function populateModalNoLink(elt) {

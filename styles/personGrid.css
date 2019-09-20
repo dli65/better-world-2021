@@ -224,8 +224,9 @@
 
 	margin: 0 auto;
 
-	background-size: contain;
+	background-size: cover;
 }
+
 #modalPopupNoLink .personImg {
 	border-radius: 50%;
 	width: 200px;
