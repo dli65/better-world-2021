@@ -171,6 +171,10 @@
   }
 }
 
+.bio a {
+  text-decoration-line: none;
+}
+
 #barbara-london .personLink-img {
   background: linear-gradient(transparent, transparent),
     url('../images/2019/speakers/barbara-london.jpg') no-repeat;
@@ -296,5 +300,13 @@
     url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
     url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+  background-size: contain;
+}
+
+#pinar-guvenc .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
   background-size: contain;
 }
