@@ -1,3 +1,7 @@
+/*yellow: #ffd400*/
+/*green: #00B5AD*/
+/*blue: #241F59*/
+/*red: #EF413D*/
 .conferenceCover {
   display: block;
   background-image: url(../images/2019/noise.gif);
@@ -88,7 +92,7 @@
 }
 
 .mobileevent {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.1em;
 }
 
@@ -99,20 +103,53 @@
 }
 
 .mobiletimeblock {
-  padding: 30px 10px 30px 10px;
-  border-bottom: 1px solid #BFBFBF;
+  padding: 0px 10px 0px 0px;
+  margin: 20px 10px 20px 15px;
+/*  border-bottom: 1px solid #BFBFBF;*/
+  border-bottom: none;
 }
 
+/*
 .scheduleBotLine {
   border-bottom: 1px solid #BFBFBF;
 }
+*/
+
+.title {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.location {
+  padding: 0px;
+  font-size: 1em;
+/*  font-weight: 400;*/
+}
+
+.speaker {
+  margin-bottom: 5px;
+}
+
+.keynote {
+  border-left: 3px solid #ffd400;
+}
+
+.lecture {
+  border-left: 3px solid #241F59;
+}
+
+.workshop {
+  border-left: 3px solid #EF413D;
+}
 
 .scheduleLogistics {
-  color: #00B5AD; 
+  color: #241F59; 
   font-size: 1.1em; 
-  padding-top: 14px; 
-  padding-bottom: 14px;
-  padding-left: 30px;
+  margin-top: 14px; 
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 3px solid #00B5AD;
 }
 
 .scheduleLogTime {
