@@ -75,6 +75,8 @@
 .scheduleTitleWords {
   display: inline-block;
   margin-right: 30px;
+  font-weight: 600;
+  font-size: 1.2em;
 }
 
 .legends {
@@ -111,8 +113,8 @@
 .speakerTitle {
   display: block;
   padding-left: 30px;
-  font-size: 2em;
-  font-weight: 300;
+  font-size: 2.5em;
+  font-weight: 600;
   margin-bottom: 20px;
   margin-top: 50px;
 }
@@ -133,9 +135,14 @@
   .scheduleTitleWords {
     width: 100%;
     margin-right: 0px;
+    font-size: 1em;
   }
   .legends {
     float: none;
+  }
+  .speakerTitle {
+    font-size: 2em;
+    margin-left: -30px;
   }
 }
 
