@@ -69,6 +69,43 @@
   font-size: 2em;
   font-weight: 300;
   margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.scheduleTitleWords {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.legends {
+  float: right;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.legendBlock {
+  width: 10px;
+  height: 13px;
+  display: inline-block;
+}
+
+.blockRed{
+  background: #EF413D;
+}
+.blockYellow{
+  background: #FFD400;
+}
+.blockGreen{
+  background: #00B5AD;
+}
+.blockBlue{
+  background: #241F59;
+}
+
+.legendKey {
+  color: #241F59;
+  font-size: 0.4em;
+  display: inline-block;
 }
 
 .speakerTitle {
@@ -90,9 +127,16 @@
     padding-left: 10px;
   }
   #mobileschedule {
-  display: block;
-  padding: 0px 0px 40px 0px;
-}
+    display: block;
+    padding: 0px 0px 40px 0px;
+  }
+  .scheduleTitleWords {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .legends {
+    float: none;
+  }
 }
 
 
@@ -110,13 +154,13 @@
 .mobiletimeblock {
   padding: 0px 10px 0px 0px;
   margin: 20px 10px 20px 15px;
-/*  border-bottom: 1px solid #BFBFBF;*/
+  /*  border-bottom: 1px solid #BFBFBF;*/
   border-bottom: none;
 }
 
 /*
 .scheduleBotLine {
-  border-bottom: 1px solid #BFBFBF;
+border-bottom: 1px solid #BFBFBF;
 }
 */
 
@@ -128,7 +172,7 @@
 .location {
   padding: 0px;
   font-size: 1em;
-/*  font-weight: 400;*/
+  /*  font-weight: 400;*/
 }
 
 .speaker {
@@ -187,7 +231,7 @@
   .conferenceCover {
     display: none;
   }
-  
+
   .conferenceBlock1 {
     padding: 10px;
   }
