@@ -1,3 +1,7 @@
+/*yellow: #ffd400*/
+/*green: #00B5AD*/
+/*blue: #241F59*/
+/*red: #EF413D*/
 .conferenceCover {
   display: block;
   background-image: url(../images/2019/noise.gif);
@@ -65,30 +69,86 @@
   font-size: 2em;
   font-weight: 300;
   margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.scheduleTitleWords {
+  display: inline-block;
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.legends {
+  float: right;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.legendBlock {
+  width: 10px;
+  height: 13px;
+  display: inline-block;
+}
+
+.blockRed{
+  background: #EF413D;
+}
+.blockYellow{
+  background: #FFD400;
+}
+.blockGreen{
+  background: #00B5AD;
+}
+.blockBlue{
+  background: #241F59;
+}
+
+.legendKey {
+  color: #241F59;
+  font-size: 0.4em;
+  display: inline-block;
 }
 
 .speakerTitle {
   display: block;
   padding-left: 30px;
-  font-size: 2em;
-  font-weight: 300;
+  font-size: 2.5em;
+  font-weight: 600;
   margin-bottom: 20px;
   margin-top: 50px;
+}
+
+#mobileschedule {
+  display: block;
+  padding: 0px 10% 40px 10%;
 }
 
 @media (max-width: 700px) { 
   .speakerTitle {
     padding-left: 10px;
   }
+  #mobileschedule {
+    display: block;
+    padding: 0px 0px 40px 0px;
+  }
+  .scheduleTitleWords {
+    width: 100%;
+    margin-right: 0px;
+    font-size: 1em;
+  }
+  .legends {
+    float: none;
+  }
+  .speakerTitle {
+    font-size: 2em;
+    margin-left: -30px;
+  }
 }
 
-#mobileschedule {
-  display: block;
-  padding: 0px 10% 40px 10% !important;
-}
 
 .mobileevent {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.1em;
 }
 
@@ -99,20 +159,53 @@
 }
 
 .mobiletimeblock {
-  padding: 30px 10px 30px 10px;
-  border-bottom: 1px solid #BFBFBF;
+  padding: 0px 10px 0px 0px;
+  margin: 20px 10px 20px 15px;
+  /*  border-bottom: 1px solid #BFBFBF;*/
+  border-bottom: none;
 }
 
+/*
 .scheduleBotLine {
-  border-bottom: 1px solid #BFBFBF;
+border-bottom: 1px solid #BFBFBF;
+}
+*/
+
+.title {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.location {
+  padding: 0px;
+  font-size: 1em;
+  /*  font-weight: 400;*/
+}
+
+.speaker {
+  margin-bottom: 5px;
+}
+
+.keynote {
+  border-left: 3px solid #ffd400;
+}
+
+.lecture {
+  border-left: 3px solid #241F59;
+}
+
+.workshop {
+  border-left: 3px solid #EF413D;
 }
 
 .scheduleLogistics {
-  color: #00B5AD; 
+  color: #241F59; 
   font-size: 1.1em; 
-  padding-top: 14px; 
-  padding-bottom: 14px;
-  padding-left: 30px;
+  margin-top: 14px; 
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 3px solid #00B5AD;
 }
 
 .scheduleLogTime {
@@ -145,7 +238,7 @@
   .conferenceCover {
     display: none;
   }
-  
+
   .conferenceBlock1 {
     padding: 10px;
   }
@@ -169,6 +262,10 @@
   .moreSpeakers {
     padding-left: 10px;
   }
+}
+
+.bio a {
+  text-decoration-line: none;
 }
 
 #barbara-london .personLink-img {
@@ -296,5 +393,13 @@
     url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
     url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+  background-size: contain;
+}
+
+#pinar-guvenc .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
   background-size: contain;
 }
