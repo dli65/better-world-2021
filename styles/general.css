@@ -432,3 +432,15 @@ a {
 		display: block;
 	}
 }
+
+@media (max-width: 550px) {
+    .footer {
+        flex-direction: column;
+    }
+    
+    .footer .socialMedia {
+        text-align: left;
+        padding-left: 65px;
+        padding-top: 0px;
+    }
+}
