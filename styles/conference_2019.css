@@ -131,6 +131,10 @@
 @media (max-width: 700px) { 
   .speakerTitle {
     padding-left: 10px;
+    font-size: 2em;
+  }
+  .scheduleTitle {
+    padding-left: 50px;
   }
   #mobileschedule {
     display: block;
@@ -143,10 +147,6 @@
   }
   .legends {
     float: none;
-  }
-  .speakerTitle {
-    font-size: 2em;
-    margin-left: -30px;
   }
 }
 
