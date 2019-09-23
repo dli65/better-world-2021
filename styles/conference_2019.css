@@ -110,6 +110,10 @@
   display: inline-block;
 }
 
+.legendsWrapper {
+  display: inline-block;
+}
+
 .speakerTitle {
   display: block;
   padding-left: 30px;
@@ -143,6 +147,12 @@
   .speakerTitle {
     font-size: 2em;
     margin-left: -30px;
+  }
+}
+
+@media (max-width: 600px) { 
+  .legendsWrapper {
+    width: 100%;
   }
 }
 
