@@ -308,6 +308,20 @@ border-bottom: 1px solid #BFBFBF;
   margin-top: -2px;
 }
 
+.pdfDownload {
+  margin: 30px 10px 10px 20px;
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+.pdfLink {
+  border-bottom: solid 1px #241F59; 
+}
+
+.pdfLink:hover {
+  border-bottom: solid 1px #00B5AD; 
+}
+
 #barbara-london .personLink-img {
   background: linear-gradient(transparent, transparent),
     url('../images/2019/speakers/barbara-london.jpg') no-repeat;
