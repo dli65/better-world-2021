@@ -302,6 +302,12 @@ border-bottom: 1px solid #BFBFBF;
   text-decoration-line: none;
 }
 
+.pronounTag {
+  font-weight: 100;
+  font-size: 0.9em;
+  margin-top: -2px;
+}
+
 #barbara-london .personLink-img {
   background: linear-gradient(transparent, transparent),
     url('../images/2019/speakers/barbara-london.jpg') no-repeat;
