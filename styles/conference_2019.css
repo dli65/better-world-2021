@@ -81,6 +81,10 @@
   font-size: 1.2em;
 }
 
+.sensitiveMaterial {
+    font-style: italic;
+}
+
 .legends {
   float: right;
   margin-right: 20px;
