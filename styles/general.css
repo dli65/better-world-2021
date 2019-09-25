@@ -70,6 +70,7 @@ body {
     /* padding: 0 2% */
     /*font-size: 1.25em;*/
 }
+
 .navbarDiv a {
   display: inline-block;
   width: calc(100% + 50px);
@@ -93,43 +94,53 @@ body {
     border: 1.2px solid #1C1847;
 }
 
+.navbarDiv ul li ul {
+	background: orange;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+.navbarDiv ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
 .spacer {
     flex: 1;
 }
 
-.about-dropdown {
+.conference-dropdown {
   display: none;
   position: absolute;
   background-color: #FFFFFF;
-  min-width: 120px;
+  min-width: 110px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-.about-dropdown {
-  display: none;
-  position: absolute;
-  background-color: #FFFFFF;
-  min-width: 125px;
-/*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  z-index: 1;
-  float: left;
-  margin-left: -15px;
-}
-
 /* Links inside the dropdown */
-.about-dropdown a {
+.conference-dropdown a {
+    line-height: 25px;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
   color: black;
-  padding: 5px 12px;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.about-dropdown a:hover {color: #00ADA6;}
+.conference-dropdown a:hover {color: #00ADA6;}
 
 /* Show the dropdown menu on hover */
-.about-us-nav:hover .about-dropdown {display: block;}
+.conference-nav:hover .conference-dropdown {display: block;}
 
 .navTitle {
   padding-top: 0px;
