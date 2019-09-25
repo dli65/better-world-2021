@@ -115,6 +115,10 @@ p {
     height: "auto";
 }
 
+[role=main] {
+    display: none;
+}
+
 @media (max-width: 999px) {
 	/* .greaterthan1000 {
 		display: none;
