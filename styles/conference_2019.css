@@ -465,3 +465,11 @@ border-bottom: 1px solid #BFBFBF;
     url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
   background-size: contain;
 }
+
+#miya-osaki .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/miya-osaki.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/miya-osaki.jpg') no-repeat;
+  background-size: contain;
+}

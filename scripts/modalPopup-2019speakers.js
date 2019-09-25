@@ -77,6 +77,11 @@ var speakerInfo = {
   'dhairya-pujara-company': 'Ycenter',
   'dhairya-pujara-bio': "Dhairya Pujara is the Founder, CEO at Ycenter. Dhairya has designed and delivered programs and keynotes on the topics of Innovation, Entrepreneurship and Creative Problem Solving. In 2015, Dhairya was awarded an O1A Visa by the US Government - a visa reserved for individuals of extra-ordinary abilities. He was a contributor at The HuffPost, ex-curator for World Economic Forum's Global Shaper Philadelphia HUB and an Entrepreneur-in-Residence at 1776. <br/> Ycenter is a Global Design Thinking Enterprise. It offers collaborative, hands on and sector agnostic programs with measurable impact. It has successfully completed Design Thinking workshops in reputed universities like Wharton and Stanford and co-created solutions with reputed organizations in 10 countries across 4 continents.",
   'dhairya-pujara-img': 'url(images/2019/speakers/dhairya-pujara.jpg)',
+    
+  'miya-osaki-name': 'Miya Osaki',
+  'miya-osaki-company': 'SVA',
+  'miya-osaki-bio': "Miya Osaki is the chair of the Design For Social Innovation MFA program at School of Visual Arts. In addition, Miya is the founding partner at Diagram a New York-based, women- and minority-owned healthcare design studio. Miya brings her skills in interaction design, human-centered research, storytelling, and behavior design to create experiences aiming to better outcomes and enable patients to better improve their health, wellbeing, care, and quality of life. She is also the co-host of the podcast, Yah, No, focused on the intersection of design, business, and healthcare. Prior to Diagram, Miya served as Director of Experience Design at Johnson & Johnson’s Global Strategic Design Office creating innovative solutions chronic conditions such as diabetes, cardiovascular disease and chronic pain. She is a pioneer recipient of the DesignMatters Fellowship at Art Center College of Design where she collaborated with the UNICEF Innovation Team. A west-coast native, Miya currently lives in Brooklyn, NY.",
+  'miya-osaki-img': 'url(images/2019/speakers/miya-osaki.jpg)',
 };
 
 function populateModal(elt) {
