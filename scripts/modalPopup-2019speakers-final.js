@@ -110,8 +110,23 @@ var speakerInfo = {
 
   'joao-caeiro-name': 'Joao Caeiro',
   'joao-caeiro-company': 'RootStudio',
-  'joao-caeiro-bio': "Joao Caeiro, previously a skipper of sailing boats and dive instructor, is an architect and the founder of RootStudio in Oaxaca, Mexico. Joao will be at our conference speaking on his specialized work in Bamboo construction, community service, and social impact projects in rural areas of Oaxaca. An integral component of RootStudio is the investigation and use of low tech and sustainable techniques and processes in design and building.",
+  'joao-caeiro-bio': "Born in Lisbon, Portugal, Joao Boto Caeiro studied fine arts at the Lisbon Architecture School, founded RootStudio with his business partner Fulvio Capurso. RootStudio began with community service and social impact projects in rural areas of Oaxaca. After a 10-year practice through the present time, Rootstudio’s organic evolution extends across a myriad of disciplines and includes many collaborations. An integral component of the studio is the investigation and use of low tech and sustainable techniques and processes in design and building. Rootstudio’s portfolio encompasses both public and private work, including museums, universities, housing, landscapes, gardens, and sculpture.",
   'joao-caeiro-img': 'url(images/2019/speakers/joao-caeiro.jpg)',
+
+  'luciana-rodrigues-name': 'Luciana Rodrigues',
+  'luciana-rodrigues-company': 'SVA DSI',
+  'luciana-rodrigues-bio': "Luciana Rodrigues is a strategy designer with a passion for working within the healthcare space. Upon recently completing her MFA in Design for Social Innovation, Lu sought out opportunities that would allow her to bring her talents in design research together with her passion for working with creating a more equitable healthcare system. Lu is beginning a position with the Siebel Center for Design in Champaign-Urbana, Illinois as a senior strategy designer, leading a team on a project focused on rural healthcare and improving the outcomes of the 75 and up community living within towns of 5,000 to 15,000 people. Born and raised in the DC area as the daughter of two incredibly hardworking immigrants from Brazil, Lu is in the process of moving to Champaign-Urbana and as a self-proclaimed concert aficionado, can usually be found anywhere that there is live music involved.",
+  'luciana-rodrigues-img': 'url(images/2019/speakers/luciana-rodrigues.JPG)',
+
+  'ceara-oleary-name': "Ceara O'Leary",
+  'ceara-oleary-company': 'Detroit Collaborative Design Center',
+  'ceara-oleary-bio': "Ceara O’Leary, AIA, is the Co-Executive Director at the Detroit Collaborative Design Center (DCDC), where she leads collaborative community design and planning projects citywide. She is also a Professor of Practice at the University of Detroit Mercy School of Architecture, teaching public interest design and community development courses. Ceara joined the DCDC in 2012 as an Enterprise Rose Architectural Fellow. She speaks nationally on DCDC’s work and community design and development and is the current Chair of the AIA Housing and Community Development Knowledge Community Advisory Group. In 2015 Ceara was named a “Top Urban Innovator” by Next City Vanguard and completed a fellowship with the ULI Larsen Center for Leadership. Previously, Ceara worked as a Community Designer with bcWORKSHOP and a Public Design Intern at the Gulf Coast Community Design Studio in Biloxi, Mississippi. Ceara graduated from the University of California, Berkeley with Masters degrees in Architecture and City & Regional Planning and she earned her undergraduate degree from Brown University.",
+  'ceara-oleary-img': 'url(images/2019/speakers/ceara-oleary.jpg)',
+
+  'julia-kowalski-name': 'Julia Kowalski',
+  'julia-kowalski-company': 'Detroit Collaborative Design Center',
+  'julia-kowalski-bio': "Julia Kowalski is a designer and project manager at the Detroit Collaborative Design Center (DCDC). She holds a Master of Architecture from the University of Detroit Mercy School of Architecture. She is continually inspired by Samuel Mockbee's decree, \"proceed + be bold!\" This boldness, coupled with compassion, is lived out through her work at the DCDC. Additionally, Julia was granted a Challenge Detroit Fellowship for 2016-2017. This has prompted her to dive deeper into the City of Detroit and further explore how design can be a tool that catalyzes social and individual change.",
+  'julia-kowalski-img': 'url(images/2019/speakers/julia-kowalski.jpg)',
 };
 
 function populateModal(elt) {

@@ -510,3 +510,27 @@
     url('../images/2019/speakers/joao-caeiro.jpg') no-repeat;
   background-size: contain;
 }
+
+#luciana-rodrigues .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/luciana-rodrigues.JPG') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/luciana-rodrigues.JPG') no-repeat;
+  background-size: contain;
+}
+
+#ceara-oleary .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/ceara-oleary.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/ceara-oleary.jpg') no-repeat;
+  background-size: contain;
+}
+
+#julia-kowalski .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/julia-kowalski.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/julia-kowalski.jpg') no-repeat;
+  background-size: contain;
+}
