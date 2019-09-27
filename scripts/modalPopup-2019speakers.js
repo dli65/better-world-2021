@@ -77,11 +77,21 @@ var speakerInfo = {
   'dhairya-pujara-company': 'Ycenter',
   'dhairya-pujara-bio': "Dhairya Pujara is the Founder, CEO at Ycenter. Dhairya has designed and delivered programs and keynotes on the topics of Innovation, Entrepreneurship and Creative Problem Solving. In 2015, Dhairya was awarded an O1A Visa by the US Government - a visa reserved for individuals of extra-ordinary abilities. He was a contributor at The HuffPost, ex-curator for World Economic Forum's Global Shaper Philadelphia HUB and an Entrepreneur-in-Residence at 1776. <br/> Ycenter is a Global Design Thinking Enterprise. It offers collaborative, hands on and sector agnostic programs with measurable impact. It has successfully completed Design Thinking workshops in reputed universities like Wharton and Stanford and co-created solutions with reputed organizations in 10 countries across 4 continents.",
   'dhairya-pujara-img': 'url(images/2019/speakers/dhairya-pujara.jpg)',
-    
+
   'miya-osaki-name': 'Miya Osaki',
   'miya-osaki-company': 'SVA',
   'miya-osaki-bio': "Miya Osaki is the chair of the Design For Social Innovation MFA program at School of Visual Arts. In addition, Miya is the founding partner at Diagram a New York-based, women- and minority-owned healthcare design studio. Miya brings her skills in interaction design, human-centered research, storytelling, and behavior design to create experiences aiming to better outcomes and enable patients to better improve their health, wellbeing, care, and quality of life. She is also the co-host of the podcast, Yah, No, focused on the intersection of design, business, and healthcare. Prior to Diagram, Miya served as Director of Experience Design at Johnson & Johnson’s Global Strategic Design Office creating innovative solutions chronic conditions such as diabetes, cardiovascular disease and chronic pain. She is a pioneer recipient of the DesignMatters Fellowship at Art Center College of Design where she collaborated with the UNICEF Innovation Team. A west-coast native, Miya currently lives in Brooklyn, NY.",
   'miya-osaki-img': 'url(images/2019/speakers/miya-osaki.jpg)',
+
+  'taylor-cook-name': 'Taylor Cook',
+  'taylor-cook-company': 'Program Manager at the Service Design Lab | Office of Design & Delivery at the City of Austin',
+  'taylor-cook-bio': "I am the Program Manager for the City of Austin’s Service Design Lab in the office Office of Design and Delivery. We lead City departments and stakeholders through design thinking to understand resident needs and develop solutions with and for our end users. Prior to joining the City, I was the founding Executive Director of Farmshare Austin and a healthcare policy consultant for the Texas Health and Human Services Commission where I worked on IT procurement and health information technology projects. I havea B.A. in Economics and Political Science from Hollins University in Roanoke, Virginia and an M.A. in Economics and Master of Public Administration from the University of Montana.",
+  'taylor-cook-img': 'url(images/2019/speakers/taylor-cook.jpg)',
+
+  'christopher-luedtke-name': 'Christopher Luedtke',
+  'christopher-luedtke-company': 'Service Designer | Office of Design & Delivery at the City of Austin',
+  'christopher-luedtke-bio': "I currently work for the City of Austin as a Service Designer in the Office of Design and Delivery. My goal is to make public services accessible, equitable, functional, and transparent. I began my career as a case manager for Homeless Outreach Stabilization Transition (HOST) doing street outreach to vulnerable populations in Seattle and after completing my Masters in Clinical Psychology, I worked with child protective services. Over-time, policies changed, a vote defunded another budget, and caseload sizes changed the person in front of me into a number. I gravitated to design because I found that the discipline has grown from a practice focused mainly on an aesthetic to one with a clear focus on the person or group of people who use a product/service. It's a way for us all to think together- to work as one and make a difference in the lives of the users and our communities as a whole.",
+  'christopher-luedtke-img': 'url(images/2019/speakers/christopher-luedtke.jpg)',
 };
 
 function populateModal(elt) {

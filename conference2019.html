@@ -82,13 +82,13 @@
             <li class = "otherSauce"><a  href="index.html"><img src='images/SidebarNav2019.png' class='navbar-logo'/></a></li>
             <div class="leftNav">
               <div class = "conference-nav">
-                  <li class = "otherSauce active"><a class="selectedPage"  href="conference2019.html">Conference</a>
-                      <div class="conference-dropdown">
-                        <a id = "scheduleLink" data-scroll href="conference2019.html#scheduleHeader">Schedule</a>
-                        <a id = "speakersLink" data-scroll href="conference2019.html#speakers">Speakers</a>
-                      </div>
-                  </li>
-               </div>
+                <li class = "otherSauce active"><a class="selectedPage"  href="conference2019.html">Conference</a>
+                  <div class="conference-dropdown">
+                    <a id = "scheduleLink" data-scroll href="conference2019.html#scheduleHeader">Schedule</a>
+                    <a id = "speakersLink" data-scroll href="conference2019.html#speakers">Speakers</a>
+                  </div>
+                </li>
+              </div>
               <li class = "otherSauce"><a href="about.html">About</a></li>
               <li class = "otherSauce"><a href="team.html">Team</a></li>
               <li class = "otherSauce"><a href="sponsors.html">Sponsors</a></li>
@@ -128,7 +128,7 @@
               </p>
             </div>
           </div>
-            
+
           <div id = "scheduleHeader"></div>
 
           <div id="mobileschedule">
@@ -291,7 +291,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="mobiletimeblock workshop threeCol">
                   <span class="mobiletime">10:30AM&mdash;12:00PM</span>
                   <div class="mobileevent">
@@ -315,7 +315,7 @@
                     </div>
                   </div>
                 </div>
-                
+
 
                 <div class="scheduleLogistics">
                   <div class="scheduleLogTime">12:00&mdash;1:00PM</div>
@@ -851,7 +851,7 @@
                 <p class="pronounTag">she/her</p>
               </div>
             </div>
-              
+
             <div class="personProfile" id="miya-osaki">
               <a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink-img" href="#modalPopupNoLink"></a>
               <img class="personImg-border" src="images/circleBorder-blue.svg" />
@@ -863,7 +863,27 @@
               </div>
             </div>
 
-            <div class="moreSpeakers">More speakers to come! Stay tuned.</div>
+            <div class="personProfile" id="taylor-cook">
+              <a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink-img" href="#modalPopupNoLink"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="taylor-cook-d">
+                <a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink-txt" href="#modalPopupNoLink">Taylor Cook</a>
+                <p class="companyTag">Program Manager | City of Austin</p>
+                <p class="pronounTag">she/her</p>
+              </div>
+            </div>
+
+            <div class="personProfile" id="christopher-luedtke">
+              <a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink-img" href="#modalPopupNoLink"></a>
+              <img class="personImg-border" src="images/circleBorder-blue.svg" />
+              <br />
+              <div class="tags" id="christopher-luedtke-d">
+                <a rel="leanModal" onclick="populateModalNoLink($(this)); return true;" class="personLink-txt" href="#modalPopupNoLink">Christopher Luedtke</a>
+                <p class="companyTag">Service Designer | City of Austin</p>
+                <p class="pronounTag">he/him</p>
+              </div>
+            </div>
           </div>
 
 
@@ -942,14 +962,14 @@
   <script src="scripts/smooth-scroll.js"></script>
   <script src="scripts/jquery.leanModal.min.js"></script>
   <script src="scripts/modalPopup-2019speakers.js"></script>
-    
+
   <script>
     var scroll = new SmoothScroll();
     var anchor = document.querySelector('#scheduleHeader');
     var toggle = document.querySelector('#scheduleLink');
     var options = { speed: 500-, easing: 'easeOutCubic' };
     scroll.animateScroll(anchor, toggle, options);
-      
+
     var scroll = new SmoothScroll();
     var anchor = document.querySelector('#speakers');
     var toggle = document.querySelector('#speakersLink');

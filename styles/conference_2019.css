@@ -473,3 +473,19 @@ border-bottom: 1px solid #BFBFBF;
     url('../images/2019/speakers/miya-osaki.jpg') no-repeat;
   background-size: contain;
 }
+
+#taylor-cook .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/taylor-cook.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/taylor-cook.jpg') no-repeat;
+  background-size: contain;
+}
+
+#christopher-luedtke .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/christopher-luedtke.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/christopher-luedtke.jpg') no-repeat;
+  background-size: contain;
+}
