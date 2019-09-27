@@ -203,12 +203,6 @@
   border-bottom: none;
 }
 
-/*
-.scheduleBotLine {
-border-bottom: 1px solid #BFBFBF;
-}
-*/
-
 .title {
   font-size: 1.1em;
   font-weight: 500;
@@ -217,7 +211,6 @@ border-bottom: 1px solid #BFBFBF;
 .location {
   padding: 0px;
   font-size: 1em;
-  /*  font-weight: 400;*/
 }
 
 .speaker {
