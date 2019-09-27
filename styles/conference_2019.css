@@ -81,10 +81,6 @@
   font-size: 1.2em;
 }
 
-.sensitiveMaterial {
-    font-style: italic;
-}
-
 .legends {
   float: right;
   margin-right: 20px;
@@ -320,7 +316,7 @@
 }
 
 .dropdown b {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #barbara-london .personLink-img {
