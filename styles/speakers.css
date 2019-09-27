@@ -83,9 +83,15 @@
   min-height: 320px;
 }
 
+
 @media (min-width: 1400px) {
   .personProfile {
-    min-height: 420px;
+    min-height: 370px;
+  }
+}
+@media (min-width: 1600px) {
+  .personProfile {
+    min-height: 430px;
   }
 }
 @media (min-width: 1700px) {
