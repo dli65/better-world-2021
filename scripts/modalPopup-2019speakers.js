@@ -79,7 +79,7 @@ var speakerInfo = {
   'dhairya-pujara-img': 'url(images/2019/speakers/dhairya-pujara.jpg)',
 
   'miya-osaki-name': 'Miya Osaki',
-  'miya-osaki-company': 'SVA',
+  'miya-osaki-company': 'SVA Director',
   'miya-osaki-bio': "Miya Osaki is the chair of the Design For Social Innovation MFA program at School of Visual Arts. In addition, Miya is the founding partner at Diagram a New York-based, women- and minority-owned healthcare design studio. Miya brings her skills in interaction design, human-centered research, storytelling, and behavior design to create experiences aiming to better outcomes and enable patients to better improve their health, wellbeing, care, and quality of life. She is also the co-host of the podcast, Yah, No, focused on the intersection of design, business, and healthcare. Prior to Diagram, Miya served as Director of Experience Design at Johnson & Johnson’s Global Strategic Design Office creating innovative solutions chronic conditions such as diabetes, cardiovascular disease and chronic pain. She is a pioneer recipient of the DesignMatters Fellowship at Art Center College of Design where she collaborated with the UNICEF Innovation Team. A west-coast native, Miya currently lives in Brooklyn, NY.",
   'miya-osaki-img': 'url(images/2019/speakers/miya-osaki.jpg)',
 
@@ -92,6 +92,26 @@ var speakerInfo = {
   'christopher-luedtke-company': 'Service Designer | Office of Design & Delivery at the City of Austin',
   'christopher-luedtke-bio': "I currently work for the City of Austin as a Service Designer in the Office of Design and Delivery. My goal is to make public services accessible, equitable, functional, and transparent. I began my career as a case manager for Homeless Outreach Stabilization Transition (HOST) doing street outreach to vulnerable populations in Seattle and after completing my Masters in Clinical Psychology, I worked with child protective services. Over-time, policies changed, a vote defunded another budget, and caseload sizes changed the person in front of me into a number. I gravitated to design because I found that the discipline has grown from a practice focused mainly on an aesthetic to one with a clear focus on the person or group of people who use a product/service. It's a way for us all to think together- to work as one and make a difference in the lives of the users and our communities as a whole.",
   'christopher-luedtke-img': 'url(images/2019/speakers/christopher-luedtke.jpg)',
+
+  'jiayi-dong-name': 'Jiayi (Jai) Dong',
+  'jiayi-dong-company': 'SVA DSI',
+  'jiayi-dong-bio': "Jiayi Dong is a service designer and strategist in sustainable and ethical fashion who currently resides in New York City. She has a BS degree in Business Management and Entrepreneurship and an MFA degree in Design for Social Innovation. Jiayi has a strong passion for leveraging resources to find the best solutions. Through the lens of social design, she continues to explore innovative business opportunities. She is the founder of The Slow Hands’ Lab, a program to help Su Embroidery artists increase their economic opportunities and have their value acknowledged by pairing them in collaboration with contemporary designers. Outside of the office, Jiayi is an avid reader and traveler. On weekends, you might find her at the local bookstore or waiting in the check-in line at JFK Airport.",
+  'jiayi-dong-img': 'url(images/2019/speakers/jiayi-dong.jpeg)',
+
+  'zach-narva-name': 'Zach Narva',
+  'zach-narva-company': 'SVA DSI',
+  'zach-narva-bio': "Zach Narva is a strategist and designer based in Boston, MA with a background in visual and UX design. Interested primarily in mission-driven work, Zach has designed solutions in the food access, healthcare, and gender equity spaces. During his time at the School of Visual Arts MFA program in Design for Social Innovation MFA, Zach focused intently on developing services and resources for the LGBTQ+ community. His thesis project—Camp Sharon & Karen—built a curriculum and created a new learning environment for parents of trans and gender-nonconforming kids, offering space to address uncertainty and find new ways to demonstrate support. In his free time, Zach enjoys hosting dinner parties, photography, and smashing the patriarchy.",
+  'zach-narva-img': 'url(images/2019/speakers/zach-narva.JPG)',
+
+  'rutvika-gupta-name': 'Rutvika Gupta',
+  'rutvika-gupta-company': 'SVA DSI',
+  'rutvika-gupta-bio': "Rutvi Gupta is a designer and researcher focused on inclusive, community-centered, and compassionate design. With a BFA in Industrial Design and an MFA in Design for Social Innovation, Rutvi is passionate about co-creating with communities and using design as a tool to build capacity. She is currently a designer and researcher at Nava, a Public Benefit Corporation that partners with government agencies to positively transform how millions of people experience government. For the past two years, Rutvi has been working at various organizations, like the NYC Mayor’s Office of Economic Opportunity, and a start-up exploring ways society can be reimagined and more equitable. She is also the co-founder of a start-up aiming to positively impact the Indian textile industry and the livelihoods of artisans. Born and raised in the Midwest and India, Rutvi currently lives in New York City and can be found constantly searching for the best cup of chai.",
+  'rutvika-gupta-img': 'url(images/2019/speakers/rutvika-gupta.jpg)',
+
+  'joao-caeiro-name': 'Joao Caeiro',
+  'joao-caeiro-company': 'RootStudio',
+  'joao-caeiro-bio': "Joao Caeiro, previously a skipper of sailing boats and dive instructor, is an architect and the founder of RootStudio in Oaxaca, Mexico. Joao will be at our conference speaking on his specialized work in Bamboo construction, community service, and social impact projects in rural areas of Oaxaca. An integral component of RootStudio is the investigation and use of low tech and sustainable techniques and processes in design and building.",
+  'joao-caeiro-img': 'url(images/2019/speakers/joao-caeiro.jpg)',
 };
 
 function populateModal(elt) {

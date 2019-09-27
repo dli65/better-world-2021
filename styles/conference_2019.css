@@ -478,3 +478,35 @@
     url('../images/2019/speakers/christopher-luedtke.jpg') no-repeat;
   background-size: contain;
 }
+
+#jiayi-dong .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/jiayi-dong.jpeg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/jiayi-dong.jpeg') no-repeat;
+  background-size: contain;
+}
+
+#zach-narva .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/zach-narva.JPG') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/zach-narva.JPG') no-repeat;
+  background-size: contain;
+}
+
+#rutvika-gupta .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/rutvika-gupta.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/rutvika-gupta.jpg') no-repeat;
+  background-size: contain;
+}
+
+#joao-caeiro .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/joao-caeiro.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/joao-caeiro.jpg') no-repeat;
+  background-size: contain;
+}
