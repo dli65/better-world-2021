@@ -83,31 +83,43 @@
   min-height: 320px;
 }
 
+
 @media (min-width: 1400px) {
   .personProfile {
     min-height: 370px;
   }
 }
+@media (min-width: 1600px) {
+  .personProfile {
+    min-height: 430px;
+  }
+}
 @media (min-width: 1700px) {
   .personProfile {
-    min-height: 450px;
+    min-height: 520px;
   }
 }
 @media (min-width: 2000px) {
-  .personProfile {
-    min-height: 500px;
-  }
-}
-
-@media (min-width: 3000px) {
   .personProfile {
     min-height: 600px;
   }
 }
 
+@media (min-width: 3000px) {
+  .personProfile {
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 3500px) {
+  .personProfile {
+    min-height: 1000px;
+  }
+}
+
 @media (min-width: 4000px) {
   .personProfile {
-    min-height: 800px;
+    min-height: 1200px;
   }
 }
 
@@ -130,6 +142,7 @@
     margin-left: 1%;
     margin-top: 10px;
     margin-bottom: 10px;
+    min-height: 300px;
   }
 }
 
@@ -140,7 +153,7 @@
     margin-left: 1%;
     margin-top: 0px;
     margin-bottom: 0px;
-    min-height: 270px;
+    min-height: 280px;
   }
 }
 

@@ -81,10 +81,6 @@
   font-size: 1.2em;
 }
 
-.sensitiveMaterial {
-    font-style: italic;
-}
-
 .legends {
   float: right;
   margin-right: 20px;
@@ -162,11 +158,15 @@
     font-size: 2em;
   }
   .scheduleTitle {
-    padding-left: 50px;
+    padding-left: 40px;
   }
   #mobileschedule {
     display: block;
-    padding: 0px 0px 40px 0px;
+    padding: 0px !important;
+    width: 100%;
+  }
+  .tab-content {
+    padding-right: 40px;
   }
   .scheduleTitleWords {
     width: 100%;
@@ -203,12 +203,6 @@
   border-bottom: none;
 }
 
-/*
-.scheduleBotLine {
-border-bottom: 1px solid #BFBFBF;
-}
-*/
-
 .title {
   font-size: 1.1em;
   font-weight: 500;
@@ -217,7 +211,6 @@ border-bottom: 1px solid #BFBFBF;
 .location {
   padding: 0px;
   font-size: 1em;
-  /*  font-weight: 400;*/
 }
 
 .speaker {
@@ -327,7 +320,7 @@ border-bottom: 1px solid #BFBFBF;
 }
 
 .dropdown b {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #barbara-london .personLink-img {
@@ -471,5 +464,77 @@ border-bottom: 1px solid #BFBFBF;
     url('../images/2019/speakers/miya-osaki.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
     url('../images/2019/speakers/miya-osaki.jpg') no-repeat;
+  background-size: contain;
+}
+
+#taylor-cook .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/taylor-cook.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/taylor-cook.jpg') no-repeat;
+  background-size: contain;
+}
+
+#christopher-luedtke .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/christopher-luedtke.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/christopher-luedtke.jpg') no-repeat;
+  background-size: contain;
+}
+
+#jiayi-dong .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/jiayi-dong.jpeg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/jiayi-dong.jpeg') no-repeat;
+  background-size: contain;
+}
+
+#zach-narva .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/zach-narva.JPG') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/zach-narva.JPG') no-repeat;
+  background-size: contain;
+}
+
+#rutvika-gupta .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/rutvika-gupta.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/rutvika-gupta.jpg') no-repeat;
+  background-size: contain;
+}
+
+#joao-caeiro .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/joao-caeiro.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/joao-caeiro.jpg') no-repeat;
+  background-size: contain;
+}
+
+#luciana-rodrigues .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/luciana-rodrigues.JPG') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/luciana-rodrigues.JPG') no-repeat;
+  background-size: contain;
+}
+
+#ceara-oleary .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/ceara-oleary.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/ceara-oleary.jpg') no-repeat;
+  background-size: contain;
+}
+
+#julia-kowalski .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/julia-kowalski.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2019/speakers/julia-kowalski.jpg') no-repeat;
   background-size: contain;
 }
