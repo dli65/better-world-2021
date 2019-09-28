@@ -158,11 +158,15 @@
     font-size: 2em;
   }
   .scheduleTitle {
-    padding-left: 10px;
+    padding-left: 40px;
   }
   #mobileschedule {
     display: block;
-    padding: 0px 0px 40px 0px;
+    padding: 0px !important;
+    width: 100%;
+  }
+  .tab-content {
+    padding-right: 40px;
   }
   .scheduleTitleWords {
     width: 100%;
