@@ -110,9 +110,18 @@ p {
 }
 
 .wixVideo {
-    padding: 5px 0px;
-    width: 68vw;
-    height: "auto";
+    position: relative; 
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
+#wixIFrame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 [role=main] {
