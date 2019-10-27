@@ -54,27 +54,27 @@ body {
 
 .logosDesktop {
   display: visible;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 @media (max-width: 1024px) {
   .logosDesktop {
-    margin-top: 120px;
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 800px) {
   .logosDesktop {
-    margin-top: 100px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 640px) {
   .logosDesktop {
-    margin-top: 120px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 520px) {
   .logosDesktop {
-    margin-top: 80px;
+    margin-top: -20px;
   }
   .mobileBreak {
     display: block;
@@ -86,7 +86,7 @@ body {
     display: none;
   }
   .logosDesktop {
-    margin-top: 75px;
+    margin-top: 0px;
     font-size: 0.8em;
   }
 }
@@ -330,7 +330,7 @@ body {
   font-family: "calibre";
   font-weight: 300;
   font-size: 1.5em;
-  margin-top: 10px;
+  margin-bottom: 20px;
   border-radius: 25px;
 }
 .ticketButton:hover {

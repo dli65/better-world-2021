@@ -8,9 +8,9 @@ var canvas;
 var animationOn = true;
 
 const theme = "Noise";
-const themeTop = "Welcome to BWxD 2019";
-const time = "September 27 - 29, 2019";
-const description = "Noise disrupts dominant wavelengths. While this disturbance is often considered negative, we have chosen Noise as this year’s theme as an opportunity to embrace imperfection while challenging distortion. Through auditory, visual and physical forms of noise, we consider how design and social practices can create major shock waves that disrupt traditional methods and generate new ideas.";
+const themeTop = "Thanks for coming to BWxD 2019";
+const time = "We are currently building our BWxD family for 2020!";
+const description = "We are currently building our BWxD family for 2020!";
 const buttonTextOn = "Disable Animation";
 const buttonTextOff = "Enable Animation";
 
@@ -82,11 +82,11 @@ function draw() {
     textFont(fontMedium);
     textSize(20);
     text(time, halfWidth, 165);
-    if (windowHeight > 400) {
-      textSize(14);
-      textAlign(LEFT);
-      text(description, halfWidth, 430, 280, 500);
-    }
+//    if (windowHeight > 400) {
+//      textSize(14);
+//      textAlign(LEFT);
+//      text(description, halfWidth, 430, 280, 500);
+//    }
     xlo = 100;
     xhi = 350;
     ylo = 150;
@@ -102,11 +102,11 @@ function draw() {
     textFont(fontMedium);
     textSize(26);
     text(time, halfWidth, 230);
-    if (windowHeight > 400) {
-      textSize(18);
-      textAlign(LEFT);
-      text(description, halfWidth, 450, 430, 400);
-    }
+//    if (windowHeight > 400) {
+//      textSize(18);
+//      textAlign(LEFT);
+//      text(description, halfWidth, 450, 430, 400);
+//    }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
     ylo = 230;
@@ -122,11 +122,11 @@ function draw() {
     textFont(fontMedium);
     textSize(26);
     text(time, halfWidth, 250);
-    if (windowHeight > 400) {
-      textSize(20);
-      textAlign(LEFT);
-      text(description, halfWidth, 480, 520, 400);
-    }
+//    if (windowHeight > 400) {
+//      textSize(20);
+//      textAlign(LEFT);
+//      text(description, halfWidth, 480, 520, 400);
+//    }
     xlo = int(windowWidth/4);
     xhi = int(windowWidth/1.2);
     ylo = 240;
@@ -142,9 +142,9 @@ function draw() {
     textFont(fontMedium);
     textSize(30);
     text(time, halfWidth, 270);
-    textSize(20);
-    textAlign(LEFT);
-    text(description, halfWidth, 495, 550, 400);
+//    textSize(20);
+//    textAlign(LEFT);
+//    text(description, halfWidth, 495, 550, 400);
     xlo = int(windowWidth/3);
     xhi = int(windowWidth/1.5);
     ylo = 280;
