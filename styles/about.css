@@ -303,8 +303,24 @@ p {
 	margin: 0 0; /* Originally 30px 0 */
 }
 
-
 /* Individual people */
+#sofia .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/Sofia_serious.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/Sofia_serious.png') no-repeat;
+	background-size: cover;
+}
+#sofia .personLink-img:hover {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/sofia\ silly.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/sofia\ silly.png') no-repeat;
+	background-size: cover;
+}
+
+/*2019 people start here*/
+
 #erica-s .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2019/chair_erica.jpg') no-repeat;

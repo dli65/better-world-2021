@@ -79,6 +79,18 @@
 
 /* Individual people */
 
+#sofia .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/Sofia\ serious.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/Sofia\ serious.png') no-repeat;
+	background-size: contain;
+}
+
+
+
+
+/*2019 people start here*/
 #callie .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team/Callie.jpg') no-repeat;

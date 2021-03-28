@@ -3,6 +3,7 @@ var offsetTop = $(window).height() * 0.1;
 $("a[rel*=leanModal]").leanModal({ top : offsetTop, overlay : 0.4, closeButton: ".modal_close" });
 
 var bioInfo = {
+  'sofia-name'  : 'Sofia di Lodovico',
   'erica-name'    : 'Erica Silver',
   'erica-s-name'    : 'Erica Silver',
   'tristan-name'  : 'Tristan Harris',
@@ -29,6 +30,8 @@ var bioInfo = {
   'arjun-name'    : 'Arjun Shah',
   'grace-name'    : 'Grace Wilkins',
   'lauren-name'   : 'Lauren MIlan Rausaw',
+
+  'sofia-img' : 'url(images/team2021/Sofia_serious.png',
   
   'erica-img'     : 'url(images/team2019/chair_erica.jpg)',
   'erica-s-img'     : 'url(images/team2019/chair_erica.jpg)',
@@ -56,6 +59,8 @@ var bioInfo = {
   'arjun-img'     : 'url(images/team2019/soc_arjun.jpg)',
   'grace-img'     : 'url(images/team2019/soc_grace.jpg)',
   'lauren-img'    : 'url(images/team2019/soc_lauren.jpg)',
+
+  'sofia-bio' : "Sofia is an industrial design sophopmore at RISD. She is interested in creating useful, sustainable, and human-centered design. A fashion fanatic, Sofia loves oversized earrings and never leaves her dorm without her to-do list and a sketchbook.",
   
   'erica-bio'      : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
   'erica-s-bio'    : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
