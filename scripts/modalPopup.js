@@ -6,7 +6,10 @@ var bioInfo = {
   'adrian-name' : 'Adrian Hernandez',
   'annie-name' : 'Annie Wang',
   'sofia-name'  : 'Sofia di Lodovico', 
-  
+  'ella-name' : 'Ella Harris',
+  'michelle-name' : 'Michelle Yuan',
+  'moe-name' : 'Moe Levandoski',
+
   'erica-name'    : 'Erica Silver',
   'erica-s-name'    : 'Erica Silver',
   'tristan-name'  : 'Tristan Harris',
@@ -37,6 +40,9 @@ var bioInfo = {
   'adrian-img' : 'url(images/team2021/adrian_serious.jpg)',
   'annie-img' : 'url(images/team2021/Annie_Wang_Serious.jpeg)',
   'sofia-img' : 'url(images/team2021/Sofia_serious.png)',
+  'ella-img' : 'url(images/team2021/ella_serious.jpeg)',
+  'michelle-img' : 'url(images/team2021/michelle_serious.jpeg)',
+  'moe-img' : 'url(images/team2021/Moe_Serious.jpg)',
 
   'erica-img'     : 'url(images/team2019/chair_erica.jpg)',
   'erica-s-img'     : 'url(images/team2019/chair_erica.jpg)',
@@ -48,7 +54,7 @@ var bioInfo = {
   'niyoshi-img'   : 'url(images/team2019/con_niyoshi.jpg)',
   'sylvia-img'    : 'url(images/team2019/ce_sylvia.jpg)',
   'rhythm-img'    : 'url(images/team2019/ce_rhythm.jpg)',
-  'ella-img'      : 'url(images/team2019/ce_ella.jpg)',
+  
   'xinru-img'     : 'url(images/team2019/dev_xinru.jpg)',
   'isabel-img'    : 'url(images/team2019/dev_isabel.jpg)',
   'jonathan-img'  : 'url(images/team2019/dev_jonathan.jpg)',
@@ -68,6 +74,9 @@ var bioInfo = {
   'adrian-bio' : "Adrian is a junior at Brown studying environmental engineering. While he enjoys the wetter weather in Providence, he was raised in warm, dry Southern California. He really enjoys reading, drawing, and learning about sciency stuff. His favorite cosmic body is the moon.",
   'annie-bio' : "Annie is a junior at Brown studying Economics and Art History. While she grew up in Shanghai, China, she went to a high school in the middle of nowhere in Connecticut. Annie really enjoys traveling, exploring cafes and restaurants, and visiting art musuems.",
   'sofia-bio' : "Sofia is an industrial design sophopmore at RISD. She is interested in creating useful, sustainable, and human-centered design. A fashion fanatic, Sofia loves oversized earrings and never leaves her dorm without her to-do list and a sketchbook.",
+  'ella-bio' : "Ella is a junior at Brown studying English and Science, Technology, and Society. Ella is interested in learning about sustainable design, reading poetry, and making art of many kinds. They love eating high-effort foods like pomegranates, pistachios, and artichokes.",
+  'michelle-bio' : "Michelle is a sophomore at Brown studying Biology and Literary Arts. She is from New Jersey and has lived in the Northeast most of her life, but still copes poorly with winter weather. In her free time she likes to paint, scroll through Etsy, and listen to true crime podcasts. Her favorite time of day is dawn.",
+  'moe-bio' : "Moe is a junior at brown studying visual art and environmental studies. Their favorite place to be is in the studio with their oil paints, but when they're not painting, they're taking long walks through Providence, baking cookies for their housemates, and trying to read instead of watching telenovelas.",
 
   'erica-bio'      : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
   'erica-s-bio'    : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
@@ -79,7 +88,7 @@ var bioInfo = {
   'niyoshi-bio'   : "Niyoshi is a first-year at Brown who wants to do an independent concentration in human-centred design. She is interested in exploring the intersections of human behaviour, design thinking, computer science and psychology. Her spirit animal is a polar bear, essentially a combination of a labrador and a snowman. If you see her around campus, give her some food because she's always hungry!",
   'sylvia-bio'    : "Sylvia is a first year at Brown who is from Wilmington, North Carolina. She is planning on concentrating in Visual Arts and potentially Environmental Studies. She is interested in all forms of art, including painting, sculpture, digital design, and writing. She was born in Rome, Italy and then moved to Mexico City. She is always open to TV recommendations (preferably true crime or cooking shows).",
   'rhythm-bio'    : "Rhythm is a Brown'22 student from India who wishes to concentrate in Social Sciences and a form of the arts. She wants to explore the nature of barriers and is always excited to find design that informs social justice and activism. When she isn’t drinking copious amounts of coffee milk, she can be found hoarding cute stationery and reading psychological thrillers. ",
-  'ella-bio'      : "Ella is a member of Brown's class of 2022 and a lifelong San Franciscan facing her first East Coast winter. She is currently very uncertain about how her academic path will turn out, but she's interested in Public Policy, Urban Studies, Environmental Studies, and Visual Arts. In her free time, Ella loves editing her Spotify playlists, going on pointless walks, and trying to perfect her tomato sauce recipe to live up to her dad's culinary legacy (he's a chef).",
+  
   'xinru-bio'     : "Born in Beijing and raised just outside of Chicago, Xinru is a member of Brown's class of 2022 studying Music and Economics. She is particularly interested in exploring the way art affects the human condition, and spreading a greater appreciation of the fine arts in her community. Her favorite things include violas, cake, audiobooks, and violas.",
   'isabel-bio'    : "Born and raised in San Francisco, Isabel is an Architecture student in the Brown class of 2021. She is interested in environmentally sustainable design and finding ways in which design and urban planning can facilitate equality in urban areas. When not on campus, she can be found in the closest Muji or on public transportation where she can avoid the fact that she can’t drive.",
   'jonathan-bio'  : "Jonathan is a New York City native and a member of Brown’s class of 2022. While studying economics and art history, he enjoys understanding how the artistic/creative minds behind design connect with their markets and consumers. He can be found buried in the stacks of the Atheneum or hunting for art prints at Providence Flea.",

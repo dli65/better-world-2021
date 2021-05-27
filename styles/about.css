@@ -67,7 +67,7 @@
 	width: 100%;
 	white-space: nowrap;
 	position: relative;
-	border-top: 1px solid #FFD400;
+	border-top: 1px solid #e2e2e2;
 }
 h1 {
 	margin-top: 1px;
@@ -167,7 +167,7 @@ p {
 	}
 	.faceGrid {
 		position: relative;
-		border-top: 1px solid #FFD400;
+		border-top: 1px solid #e2e2e2;
 	}
 	.bottomAbout {
 		float: left;
@@ -305,7 +305,7 @@ p {
 
 /* 2021 People*/
 
-/*Co-chairs*/
+/**Co-chairs**/
 
 /*Adrian*/
 #adrian .personLink-img {
@@ -334,6 +334,34 @@ p {
 	background-size: cover;
 }
 
+/**Content**/
+
+/*Ella*/
+#ella .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/ella\ serious.jpeg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/ella_serious.jpeg') no-repeat;
+	background-size: cover;
+}
+
+/*Michelle*/
+#michelle .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/michelle_serious.jpeg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/michelle_serious.jpeg') no-repeat;
+	background-size: cover;
+}
+
+/*Moe*/
+#moe .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/Moe_Serious.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/Moe_Serious.jpg') no-repeat;
+	background-size: cover;
+}
 
 @media (min-width: 1000px){
   /*Co-chairs*/
@@ -356,6 +384,29 @@ p {
                    url('../images/team2021/sofia\ silly.png') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/sofia\ silly.png') no-repeat;
+    background-size: cover;
+  }
+
+   /*Content*/
+   #ella .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/ella_silly.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/ella_silly.jpeg') no-repeat;
+    background-size: cover;
+  }
+  #michelle .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/michelle_silly.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/michelle_silly.jpeg') no-repeat;
+    background-size: cover;
+  }
+  #moe .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/Moe_Funny.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/Moe_Funny.jpeg') no-repeat;
     background-size: cover;
   }
 
@@ -434,13 +485,14 @@ p {
                  url('../images/team2019/ce_rhythm.jpg') no-repeat;
 	background-size: contain;
 }
+/*
 #ella .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2019/ce_ella.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/team2019/ce_ella.jpg') no-repeat;
 	background-size: contain;
-}
+}*/
 #xinru .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2019/dev_xinru.jpg') no-repeat;
@@ -611,13 +663,14 @@ p {
                    url('../images/team2019/ce_rhythm2.jpg') no-repeat;
     background-size: contain;
   }
+  /*
   #ella .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2019/ce_ella2.jpg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2019/ce_ella2.jpg') no-repeat;
     background-size: contain;
-  }
+  }*/
   #xinru .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2019/dev_xinru2.jpg') no-repeat;
