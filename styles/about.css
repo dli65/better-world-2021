@@ -303,7 +303,29 @@ p {
 	margin: 0 0; /* Originally 30px 0 */
 }
 
-/* Individual people */
+/* 2021 People*/
+
+/*Co-chairs*/
+
+/*Adrian*/
+#adrian .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/adrian_serious.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/adrian_serious.jpg') no-repeat;
+	background-size: cover;
+}
+
+/*Annie*/
+#annie .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/Annie_Wang_Serious.jpeg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/Annie_Wang_Serious.jpeg') no-repeat;
+	background-size: cover;
+}
+
+/*Sofia*/
 #sofia .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/Sofia_serious.png') no-repeat;
@@ -311,12 +333,32 @@ p {
                  url('../images/team2021/Sofia_serious.png') no-repeat;
 	background-size: cover;
 }
-#sofia .personLink-img:hover {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2021/sofia\ silly.png') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2021/sofia\ silly.png') no-repeat;
-	background-size: cover;
+
+
+@media (min-width: 1000px){
+  /*Co-chairs*/
+  #adrian .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/adrian_funny.jpg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/adrian_funny.jpg') no-repeat;
+    background-size: cover;
+  }
+  #annie .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/Annie_Wang_Funny.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/Annie_Wang_Funny.jpeg') no-repeat;
+    background-size: cover;
+  }
+  #sofia .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/sofia\ silly.png') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/sofia\ silly.png') no-repeat;
+    background-size: cover;
+  }
+
 }
 
 /*2019 people start here*/

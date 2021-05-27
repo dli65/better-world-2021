@@ -3,7 +3,10 @@ var offsetTop = $(window).height() * 0.1;
 $("a[rel*=leanModal]").leanModal({ top : offsetTop, overlay : 0.4, closeButton: ".modal_close" });
 
 var bioInfo = {
-  'sofia-name'  : 'Sofia di Lodovico',
+  'adrian-name' : 'Adrian Hernandez',
+  'annie-name' : 'Annie Wang',
+  'sofia-name'  : 'Sofia di Lodovico', 
+  
   'erica-name'    : 'Erica Silver',
   'erica-s-name'    : 'Erica Silver',
   'tristan-name'  : 'Tristan Harris',
@@ -31,8 +34,10 @@ var bioInfo = {
   'grace-name'    : 'Grace Wilkins',
   'lauren-name'   : 'Lauren MIlan Rausaw',
 
-  'sofia-img' : 'url(images/team2021/Sofia_serious.png',
-  
+  'adrian-img' : 'url(images/team2021/adrian_serious.jpg)',
+  'annie-img' : 'url(images/team2021/Annie_Wang_Serious.jpeg)',
+  'sofia-img' : 'url(images/team2021/Sofia_serious.png)',
+
   'erica-img'     : 'url(images/team2019/chair_erica.jpg)',
   'erica-s-img'     : 'url(images/team2019/chair_erica.jpg)',
   'tristan-img'   : 'url(images/team2019/chair_tristan.jpg)',
@@ -60,8 +65,10 @@ var bioInfo = {
   'grace-img'     : 'url(images/team2019/soc_grace.jpg)',
   'lauren-img'    : 'url(images/team2019/soc_lauren.jpg)',
 
+  'adrian-bio' : "Adrian is a junior at Brown studying environmental engineering. While he enjoys the wetter weather in Providence, he was raised in warm, dry Southern California. He really enjoys reading, drawing, and learning about sciency stuff. His favorite cosmic body is the moon.",
+  'annie-bio' : "Annie is a junior at Brown studying Economics and Art History. While she grew up in Shanghai, China, she went to a high school in the middle of nowhere in Connecticut. Annie really enjoys traveling, exploring cafes and restaurants, and visiting art musuems.",
   'sofia-bio' : "Sofia is an industrial design sophopmore at RISD. She is interested in creating useful, sustainable, and human-centered design. A fashion fanatic, Sofia loves oversized earrings and never leaves her dorm without her to-do list and a sketchbook.",
-  
+
   'erica-bio'      : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
   'erica-s-bio'    : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
   'tristan-bio'    : "Tristan is in the class of 2020 at Brown and studies Economics and the History of Art. He enjoys exploring how multi-disciplinary strategies can sustain value for both institutions and individuals via the strategies of design. He is particularly interested in art that utilizes interventions into dominating systems as a means of critique. Raised in Florida, he enjoys running (but not up College Hill) and wishes that it was possible for Brown and RISD to relocate somewhere warmer during the winter.",
