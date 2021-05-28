@@ -9,6 +9,13 @@ var bioInfo = {
   'ella-name' : 'Ella Harris',
   'michelle-name' : 'Michelle Yuan',
   'moe-name' : 'Moe Levandoski',
+  'nikki-name' : 'Nikki Sohn',
+  'alyssa-name' : 'Alyssa Marie Loo',
+  'helen-name' : 'Helen Peng',
+  'parker-name' : 'Parker Ljung',
+  'sophie-name' : 'Sophie Ljung',
+  'grace-name' : 'Grace Zhao',
+  'hadley-name' : 'Hadley Dalton',
 
   'erica-name'    : 'Erica Silver',
   'erica-s-name'    : 'Erica Silver',
@@ -34,7 +41,6 @@ var bioInfo = {
   'megan-name'    : 'Megan Kasselberg',
   'malery-name'   : 'Malery Nguyen',
   'arjun-name'    : 'Arjun Shah',
-  'grace-name'    : 'Grace Wilkins',
   'lauren-name'   : 'Lauren MIlan Rausaw',
 
   'adrian-img' : 'url(images/team2021/adrian_serious.jpg)',
@@ -43,6 +49,14 @@ var bioInfo = {
   'ella-img' : 'url(images/team2021/ella_serious.jpeg)',
   'michelle-img' : 'url(images/team2021/michelle_serious.jpeg)',
   'moe-img' : 'url(images/team2021/Moe_Serious.jpg)',
+  'nikki-img' : 'url(images/team2021/nikki_serious.jpeg)',
+  'alyssa-img' : 'url(images/team2021/Alyssa_Loo_Serious.jpeg)',
+  'helen-img' : 'url(images/team2021/helen_peng_serious.jpeg)',
+  'parker-img' : 'url(images/team2021/Parker_Ljung_Serious.jpg)',
+  'sophie-img' : '',
+  'grace-img' : 'url(images/team2021/Grace_Zhao_Serious.jpeg)',
+  'hadley-img' : 'url(images/team2021/hadley_serious.jpg)',
+
 
   'erica-img'     : 'url(images/team2019/chair_erica.jpg)',
   'erica-s-img'     : 'url(images/team2019/chair_erica.jpg)',
@@ -53,8 +67,7 @@ var bioInfo = {
   'cherilyn-img'  : 'url(images/team2019/con_cherilyn.jpg)',
   'niyoshi-img'   : 'url(images/team2019/con_niyoshi.jpg)',
   'sylvia-img'    : 'url(images/team2019/ce_sylvia.jpg)',
-  'rhythm-img'    : 'url(images/team2019/ce_rhythm.jpg)',
-  
+  'rhythm-img'    : 'url(images/team2019/ce_rhythm.jpg)', 
   'xinru-img'     : 'url(images/team2019/dev_xinru.jpg)',
   'isabel-img'    : 'url(images/team2019/dev_isabel.jpg)',
   'jonathan-img'  : 'url(images/team2019/dev_jonathan.jpg)',
@@ -68,7 +81,6 @@ var bioInfo = {
   'megan-img'     : 'url(images/team2019/pr_megan.jpg)',
   'malery-img'    : 'url(images/team2019/pr_malery.jpg)',
   'arjun-img'     : 'url(images/team2019/soc_arjun.jpg)',
-  'grace-img'     : 'url(images/team2019/soc_grace.jpg)',
   'lauren-img'    : 'url(images/team2019/soc_lauren.jpg)',
 
   'adrian-bio' : "Adrian is a junior at Brown studying environmental engineering. While he enjoys the wetter weather in Providence, he was raised in warm, dry Southern California. He really enjoys reading, drawing, and learning about sciency stuff. His favorite cosmic body is the moon.",
@@ -77,6 +89,14 @@ var bioInfo = {
   'ella-bio' : "Ella is a junior at Brown studying English and Science, Technology, and Society. Ella is interested in learning about sustainable design, reading poetry, and making art of many kinds. They love eating high-effort foods like pomegranates, pistachios, and artichokes.",
   'michelle-bio' : "Michelle is a sophomore at Brown studying Biology and Literary Arts. She is from New Jersey and has lived in the Northeast most of her life, but still copes poorly with winter weather. In her free time she likes to paint, scroll through Etsy, and listen to true crime podcasts. Her favorite time of day is dawn.",
   'moe-bio' : "Moe is a junior at brown studying visual art and environmental studies. Their favorite place to be is in the studio with their oil paints, but when they're not painting, they're taking long walks through Providence, baking cookies for their housemates, and trying to read instead of watching telenovelas.",
+  'nikki-bio' : "Nikki is a sophomore at Brown studying Design/Computer Science. Although from sunny Los Angeles, she is in love with Providence weather (especially the snow). She also enjoys dancing and snacking on her favorite foods (applesauce and goldfish).",
+  'alyssa-bio' : "Alyssa is a first-year at Brown studying Linguistics and Computer Science. Hailing from sunny Singapore, Alyssa has developed a difficult relationship with Providence snow. Feed her coffee and biscuits for friendship points.",
+  'helen-bio' : "Helen is a sophomore at Brown studying Cognitive Science interested in Human-Centered Design. She grew up in Mississippi and does not enjoy winters in PVD. She does however, enjoy eating oranges, drawing random people, and is currently weighing the pros and cons of owning a pet rat.",
+  'parker-bio' : "Parker is a junior at Brown studying Computer Science & Economics. He's pretty simple: he likes to debate trivial things and draw Pokemon. He hopes to be a teacher and someday make his way into educational policy. In other words, he'd rather deal with kids than adults.",
+  'sophie-bio' : "Sophie is a sophomore at Brown studying Computer Science/Women's Health. She cares a lot about equity in health care, and she hopes to design solutions for a more progressive and inclusive future in this field.  She can bake a mean strawberry rhubarb pie.",
+  'grace-bio' : "Grace is a sophomore at Brown from Dallas, Texas, studying Economics and Visual Art. She is interested in human-centered design and entrepreneurship. Grace loves drawing pet portraits commissions, drinking tea, and playing tennis in her free time.",
+  'hadley-bio' : "Hadley is a sophomore studying Computer Science at Brown and Illustration at RISD. She is interested in interaction design, virtual reality, and AI. In her free time she likes to learn tiktok dances and enjoy the cold East Coast weather since she's from Arizona.",
+
 
   'erica-bio'      : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
   'erica-s-bio'    : "Born in Korea and raised in Seattle, Erica is a Graphic Design student at Rhode Island School of Design. Her works focus on blurring the lines between fine art and commercial design, where the traditional and new media meet to create meaningful design. She’s also passionate about the artists’ role in politics. When not crying over InDesign, Erica can be spotted petting random stranger's pet.",
@@ -88,7 +108,6 @@ var bioInfo = {
   'niyoshi-bio'   : "Niyoshi is a first-year at Brown who wants to do an independent concentration in human-centred design. She is interested in exploring the intersections of human behaviour, design thinking, computer science and psychology. Her spirit animal is a polar bear, essentially a combination of a labrador and a snowman. If you see her around campus, give her some food because she's always hungry!",
   'sylvia-bio'    : "Sylvia is a first year at Brown who is from Wilmington, North Carolina. She is planning on concentrating in Visual Arts and potentially Environmental Studies. She is interested in all forms of art, including painting, sculpture, digital design, and writing. She was born in Rome, Italy and then moved to Mexico City. She is always open to TV recommendations (preferably true crime or cooking shows).",
   'rhythm-bio'    : "Rhythm is a Brown'22 student from India who wishes to concentrate in Social Sciences and a form of the arts. She wants to explore the nature of barriers and is always excited to find design that informs social justice and activism. When she isn’t drinking copious amounts of coffee milk, she can be found hoarding cute stationery and reading psychological thrillers. ",
-  
   'xinru-bio'     : "Born in Beijing and raised just outside of Chicago, Xinru is a member of Brown's class of 2022 studying Music and Economics. She is particularly interested in exploring the way art affects the human condition, and spreading a greater appreciation of the fine arts in her community. Her favorite things include violas, cake, audiobooks, and violas.",
   'isabel-bio'    : "Born and raised in San Francisco, Isabel is an Architecture student in the Brown class of 2021. She is interested in environmentally sustainable design and finding ways in which design and urban planning can facilitate equality in urban areas. When not on campus, she can be found in the closest Muji or on public transportation where she can avoid the fact that she can’t drive.",
   'jonathan-bio'  : "Jonathan is a New York City native and a member of Brown’s class of 2022. While studying economics and art history, he enjoys understanding how the artistic/creative minds behind design connect with their markets and consumers. He can be found buried in the stacks of the Atheneum or hunting for art prints at Providence Flea.",
@@ -102,7 +121,6 @@ var bioInfo = {
   'megan-bio'     : "A southern belle from Nashville, Tennessee, Megan is a member of the class of 2020 at Brown University studying English and Behavioral Decision Sciences. She can be found in the Ratty eating pasta or on Amtrak, treking to and from New York to see her very soft cat Angus.",
   'malery-bio'    : "Malery is always making things more complicated than they need be, otherwise she is a simple person. She could always go for more sunshine and more hours in each day so she can do more things she loves: drawing, hiking, reading, dancing, eating pumpkin pie... She's also concentrating in architecture and is in the class of 2021 at Brown.",
   'arjun-bio'     : "Arjun is an undergraduate student at RISD in the class of 2021. He is majoring in Industrial Design. He is exceedingly excited about the relationship between computer science and industrial design and aims to understand the infinite possibilities better when the two are combined. He now suggests that you re-read this bio while imagining that Morgan Freeman is narrating.",
-  'grace-bio'     : "Grace Wilkins a Neuroscience major and a member Brown University's class of 2020. She is interested in design especially as it applies to scientific communication & illustration. At present, she is likely on the hunt for some Knead Donuts with a Blue State coffee in one hand and the New York Times crossword in the other.",
   'lauren-bio'    : "Lauren Milan is an undergraduate student in RISD's class of 2021. She is unafraid to challenge conventionalities and add her own unique perspective to the craft. As an Atlanta native, Lauren developed a passion for working on film sets. When she wasn't in school or on set, she taught herself animtation techniques, read books on neuroscience, and studied Mandarin Chinese. She aims to combine her passion for language, design, and animation to make impactful and innovative work. ",
   
   'erica-link'    : 'http://ericasilver.com',

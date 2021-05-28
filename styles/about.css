@@ -307,7 +307,6 @@ p {
 
 /**Co-chairs**/
 
-/*Adrian*/
 #adrian .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/adrian_serious.jpg') no-repeat;
@@ -316,7 +315,6 @@ p {
 	background-size: cover;
 }
 
-/*Annie*/
 #annie .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/Annie_Wang_Serious.jpeg') no-repeat;
@@ -325,7 +323,6 @@ p {
 	background-size: cover;
 }
 
-/*Sofia*/
 #sofia .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/Sofia_serious.png') no-repeat;
@@ -336,7 +333,6 @@ p {
 
 /**Content**/
 
-/*Ella*/
 #ella .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/ella\ serious.jpeg') no-repeat;
@@ -345,7 +341,6 @@ p {
 	background-size: cover;
 }
 
-/*Michelle*/
 #michelle .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/michelle_serious.jpeg') no-repeat;
@@ -354,12 +349,71 @@ p {
 	background-size: cover;
 }
 
-/*Moe*/
 #moe .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/Moe_Serious.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/team2021/Moe_Serious.jpg') no-repeat;
+	background-size: cover;
+}
+
+#nikki .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/nikki_serious.jpeg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/nikki_serious.jpeg') no-repeat;
+	background-size: cover;
+}
+
+/**CE/SE**/
+
+#alyssa .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/Alyssa_Loo_Serious.jpeg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/Alyssa_Loo_Serious.jpeg') no-repeat;
+	background-size: cover;
+}
+
+#helen .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/helen_peng_serious.jpeg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/helen_peng_serious.jpeg') no-repeat;
+	background-size: cover;
+}
+
+#parker .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/Parker_Ljung_Serious.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/Parker_Ljung_Serious.jpg') no-repeat;
+	background-size: cover;
+}
+
+#sophie .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('') no-repeat;
+	background-size: cover;
+}
+
+/**Ops**/
+
+#grace .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/Grace_Zhao_Serious.jpeg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/Grace_Zhao_Serious.jpeg') no-repeat;
+	background-size: cover;
+}
+
+#hadley .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2021/hadley_serious.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2021/hadley_serious.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -381,9 +435,9 @@ p {
   }
   #sofia .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
-                   url('../images/team2021/sofia\ silly.png') no-repeat;
+                   url('../images/team2021/sofia_silly.png') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2021/sofia\ silly.png') no-repeat;
+                   url('../images/team2021/sofia_silly.png') no-repeat;
     background-size: cover;
   }
 
@@ -407,6 +461,57 @@ p {
                    url('../images/team2021/Moe_Funny.jpeg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Moe_Funny.jpeg') no-repeat;
+    background-size: cover;
+  }
+  #nikki .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/nikki_silly.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/nikki_silly.jpeg') no-repeat;
+    background-size: cover;
+  }
+  /*CE/SE*/
+  #alyssa .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/Alyssa_Loo_Funny.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/Alyssa_Loo_Funny.jpeg') no-repeat;
+    background-size: cover;
+  }
+  #helen .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/helen_peng_funny.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/helen_peng_funny.jpeg') no-repeat;
+    background-size: cover;
+  }
+  #parker .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/Parker_Ljung_Funny.jpg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/Parker_Ljung_Funny.jpg') no-repeat;
+    background-size: cover;
+  }
+  #sophie .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('') no-repeat;
+    background-size: cover;
+  }
+  /*Ops*/
+  #grace .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/Grace_Zhao_Funny.jpeg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/Grace_Zhao_Funny.jpeg') no-repeat;
+    background-size: cover;
+  }
+  #hadley .personLink-img:hover {
+    background: linear-gradient(transparent, transparent),
+                   url('../images/team2021/hadley_silly.jpg') no-repeat;
+    background: -webkit-linear-gradient(transparent, transparent),
+                   url('../images/team2021/hadley_silly.jpg') no-repeat;
     background-size: cover;
   }
 
@@ -584,13 +689,14 @@ p {
                  url('../images/team2019/soc_arjun.jpg') no-repeat;
 	background-size: contain;
 }
+/*
 #grace .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2019/soc_grace.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/team2019/soc_grace.jpg') no-repeat;
 	background-size: contain;
-}
+}*/
 #lauren .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2019/soc_lauren.jpg') no-repeat;
@@ -762,13 +868,14 @@ p {
                    url('../images/team2019/soc_arjun2.jpg') no-repeat;
     background-size: contain;
   }
+  /*
   #grace .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2019/soc_grace2.jpg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2019/soc_grace2.jpg') no-repeat;
     background-size: contain;
-  }
+  }*/
   #lauren .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2019/soc_lauren2.jpg') no-repeat;
