@@ -15,7 +15,9 @@
 }
 
 .banner {
-  width: 100%; 
+  width: 1600px;
+  height: 1067px;
+  background-color: gray; 
   margin: auto;
   display: block;
 }
