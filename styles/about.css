@@ -645,7 +645,7 @@ p {
 }
 
 /*2019 people start here*/
-
+/*
 #erica-s .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2019/chair_erica.jpg') no-repeat;
@@ -997,14 +997,14 @@ p {
                    url('../images/team2019/soc_arjun2.jpg') no-repeat;
     background-size: contain;
   }
-  /*
+  
   #grace .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2019/soc_grace2.jpg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2019/soc_grace2.jpg') no-repeat;
     background-size: contain;
-  }*/
+  }
   #lauren .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2019/soc_lauren2.jpg') no-repeat;
@@ -1012,4 +1012,4 @@ p {
                    url('../images/team2019/soc_lauren2.jpg') no-repeat;
     background-size: contain;
   }
-}
+}*/
