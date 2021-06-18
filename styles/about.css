@@ -663,5 +663,8 @@ p {
     background-size: cover;
     transform: rotate(360deg);
   }
-}
 
+  .personLink-img:hover{
+    transition: all 0.3s;
+  }
+}
