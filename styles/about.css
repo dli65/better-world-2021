@@ -494,6 +494,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/adrian_funny.jpg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #annie .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -501,6 +502,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Annie_Wang_Funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #sofia .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -508,6 +510,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/sofia_silly.png') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
 
    /*Content*/
@@ -517,6 +520,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/ella_silly.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #michelle .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -524,6 +528,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/michelle_silly.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #moe .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -531,6 +536,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Moe_Funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #nikki .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -538,6 +544,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/nikki_silly.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   /*CE/SE*/
   #alyssa .personLink-img:hover {
@@ -546,6 +553,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Alyssa_Loo_Funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #helen .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -553,6 +561,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/helen_peng_funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #parker .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -560,6 +569,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Parker_Ljung_Funny.jpg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #sophie .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -567,6 +577,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   /*Ops*/
   #grace .personLink-img:hover {
@@ -575,6 +586,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Grace_Zhao_Funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #hadley .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -582,6 +594,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/hadley_silly.jpg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #selena .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -589,6 +602,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/selena_silly.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   /*Graphics*/
   #alexis .personLink-img:hover {
@@ -597,6 +611,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Alexis_Funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #truman .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -604,6 +619,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Truman_Funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   /*PR*/
   #bright .personLink-img:hover {
@@ -612,6 +628,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/bright_silly.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #christine .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -619,6 +636,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Christine_Jeong_Funny.jpeg') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #nicole .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -626,6 +644,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                    url('') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   /*Web*/
   #angela .personLink-img:hover {
@@ -634,6 +653,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                   url('../images/team2021/Angela_Akoto_Funny.JPG') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
   #delora .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
@@ -641,376 +661,7 @@ p {
     background: -webkit-linear-gradient(transparent, transparent),
                   url('../images/team2021/Delora_Li_Funny.JPG') no-repeat;
     background-size: cover;
+    transform: rotate(360deg);
   }
 }
 
-/*2019 people start here*/
-/*
-#erica-s .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_erica.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_erica.jpg') no-repeat;
-	background-size: contain;
-}
-
-#erica .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_erica.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_erica.jpg') no-repeat;
-	background-size: contain;
-}
-#tristan .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_tristan.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_tristan.jpg') no-repeat;
-	background-size: contain;
-}
-#tina .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_tina.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/chair_tina.jpg') no-repeat;
-	background-size: contain;
-}
-#emilia .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_emilia.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_emilia.jpg') no-repeat;
-	background-size: contain;
-}
-#sammy .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_sammy.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_sammy.jpg') no-repeat;
-	background-size: contain;
-}
-#cherilyn .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_cherilyn.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_cherilyn.jpg') no-repeat;
-	background-size: contain;
-}
-#niyoshi .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_niyoshi.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/con_niyoshi.jpg') no-repeat;
-	background-size: contain;
-}
-#sylvia .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/ce_sylvia.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/ce_sylvia.jpg') no-repeat;
-	background-size: contain;
-}
-#rhythm .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/ce_rhythm.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/ce_rhythm.jpg') no-repeat;
-	background-size: contain;
-}
-/*
-#ella .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/ce_ella.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/ce_ella.jpg') no-repeat;
-	background-size: contain;
-}
-#xinru .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/dev_xinru.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/dev_xinru.jpg') no-repeat;
-	background-size: contain;
-}
-#isabel .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/dev_isabel.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/dev_isabel.jpg') no-repeat;
-	background-size: contain;
-}
-#jonathan .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/dev_jonathan.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/dev_jonathan.jpg') no-repeat;
-	background-size: contain;
-}
-#aishwarya .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/ope_aishwarya.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/ope_aishwarya.jpg') no-repeat;
-	background-size: contain;
-}
-#stella .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/ope_stella.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/ope_stella.jpg') no-repeat;
-	background-size: cover;
-}
-#sophia .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/gra_sophia.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/gra_sophia.jpg') no-repeat;
-	background-size: contain;
-}
-#christie .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/gra_christie.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/gra_christie.jpg') no-repeat;
-	background-size: contain;
-}
-#claire .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/web_claire.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/web_claire.jpg') no-repeat;
-	background-size: contain;
-}
-/*
-#christine .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/web_christine.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/web_christine.jpg') no-repeat;
-	background-size: contain;
-}
-#megan .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/pr_megan.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/pr_megan.jpg') no-repeat;
-	background-size: contain;
-}
-#briana .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/pr_briana.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/pr_briana.jpg') no-repeat;
-	background-size: contain;
-}
-#malery .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/pr_malery.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/pr_malery.jpg') no-repeat;
-	background-size: contain;
-}
-#arjun .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/soc_arjun.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/soc_arjun.jpg') no-repeat;
-	background-size: contain;
-}
-
-#grace .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/soc_grace.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/soc_grace.jpg') no-repeat;
-	background-size: contain;
-}
-#lauren .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2019/soc_lauren.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2019/soc_lauren.jpg') no-repeat;
-	background-size: contain;
-}
-
-@media (min-width: 1000px){
-  #erica .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/chair_erica2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/chair_erica2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #tristan .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/chair_tristan2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/chair_tristan2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #tina .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/chair_tina2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/chair_tina2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #emilia .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_emilia2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_emilia2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #sammy .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_sammy2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_sammy2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #cherilyn .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_cherilyn2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_cherilyn2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #niyoshi .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_niyoshi2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/con_niyoshi2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #sylvia .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/ce_sylvia2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/ce_sylvia2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #rhythm .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/ce_rhythm2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/ce_rhythm2.jpg') no-repeat;
-    background-size: contain;
-  }
-  
-  #ella .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/ce_ella2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/ce_ella2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #xinru .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/dev_xinru2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/dev_xinru2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #isabel .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/dev_isabel2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/dev_isabel2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #jonathan .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/dev_jonathan2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/dev_jonathan2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #aishwarya .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/ope_aishwarya2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/ope_aishwarya2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #stella .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/ope_stella2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/ope_stella2.jpg') no-repeat;
-    background-size: cover;
-  }
-  #sophia .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/gra_sophia2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/gra_sophia2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #christie .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/gra_christie2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/gra_christie2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #claire .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/web_claire2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/web_claire2.jpg') no-repeat;
-    background-size: contain;
-  }
-  
-  #christine .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/web_christine2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/web_christine2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #megan .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/pr_megan2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/pr_megan2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #briana .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/pr_briana2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/pr_briana2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #malery .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/pr_malery2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/pr_malery2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #arjun .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/soc_arjun2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/soc_arjun2.jpg') no-repeat;
-    background-size: contain;
-  }
-  
-  #grace .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/soc_grace2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/soc_grace2.jpg') no-repeat;
-    background-size: contain;
-  }
-  #lauren .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2019/soc_lauren2.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2019/soc_lauren2.jpg') no-repeat;
-    background-size: contain;
-  }
-}
-*/
