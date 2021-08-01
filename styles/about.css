@@ -120,7 +120,7 @@ p {
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom:20px;
-	background-color: #241F59;
+	background-color:black;
 }
 .rightCol {
 	padding-top: 5px;
@@ -189,7 +189,7 @@ p {
 	}
 	.footer{
 		width: 100%;
-		background-color: #241F59;
+		background-color: black;
 	}
 }
 
@@ -222,7 +222,7 @@ p {
 		width: 100%;
 		padding-top: 21px;
 		padding-bottom: 21px;
-		background-color: #241F59;
+		background-color: black;
 	}
 }
 
