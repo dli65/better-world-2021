@@ -2,9 +2,10 @@
 /*green: #00B5AD*/
 /*blue: #241F59*/
 /*red: #EF413D*/
+
 .conferenceCover {
   display: block;
-  background-color: gray;
+  background-image: url(../images/2021graphics/conferenceCover-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +17,7 @@
 
 .conferenceHeader {
   display: block;
-  background-image: ;
+  background-image: url(../images/2021graphics/web.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

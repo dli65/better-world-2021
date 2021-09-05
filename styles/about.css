@@ -15,9 +15,8 @@
 }
 
 .banner {
-  width: 1600px;
-  height: 1067px;
-  background-color: gray; 
+  width: 100%;
+ 
   margin: auto;
   display: block;
 }
@@ -343,27 +342,12 @@ p {
 	background-size: cover;
 }
 
-#michelle .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2021/michelle_serious.jpeg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2021/michelle_serious.jpeg') no-repeat;
-	background-size: cover;
-}
 
 #moe .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/Moe_Serious.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/team2021/Moe_Serious.jpg') no-repeat;
-	background-size: cover;
-}
-
-#nikki .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2021/nikki_serious.jpeg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2021/nikki_serious.jpeg') no-repeat;
 	background-size: cover;
 }
 
@@ -408,14 +392,6 @@ p {
                  url('../images/team2021/Grace_Zhao_Serious.jpeg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/team2021/Grace_Zhao_Serious.jpeg') no-repeat;
-	background-size: cover;
-}
-
-#hadley .personLink-img {
-	background: linear-gradient(transparent, transparent),
-                 url('../images/team2021/hadley_serious.jpg') no-repeat;
-	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2021/hadley_serious.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -522,27 +498,11 @@ p {
     background-size: cover;
     transform: rotate(360deg);
   }
-  #michelle .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2021/michelle_silly.jpeg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2021/michelle_silly.jpeg') no-repeat;
-    background-size: cover;
-    transform: rotate(360deg);
-  }
   #moe .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2021/Moe_Funny.jpeg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Moe_Funny.jpeg') no-repeat;
-    background-size: cover;
-    transform: rotate(360deg);
-  }
-  #nikki .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2021/nikki_silly.jpeg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2021/nikki_silly.jpeg') no-repeat;
     background-size: cover;
     transform: rotate(360deg);
   }
@@ -585,14 +545,6 @@ p {
                    url('../images/team2021/Grace_Zhao_Funny.jpeg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
                    url('../images/team2021/Grace_Zhao_Funny.jpeg') no-repeat;
-    background-size: cover;
-    transform: rotate(360deg);
-  }
-  #hadley .personLink-img:hover {
-    background: linear-gradient(transparent, transparent),
-                   url('../images/team2021/hadley_silly.jpg') no-repeat;
-    background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2021/hadley_silly.jpg') no-repeat;
     background-size: cover;
     transform: rotate(360deg);
   }

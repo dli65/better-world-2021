@@ -83,7 +83,7 @@ body {
 .navbarDiv a.selectedPage {
   /*width: 100%;*/
   height: 100%;
-  color: #00ADA6;
+  color: #D13A36;
   /* border-bottom: 2px solid #D13A36; */
   align-content: left;
 }
@@ -137,7 +137,7 @@ ul li ul:hover {
 }
 
 /* Change color of dropdown links on hover */
-.conference-dropdown a:hover {color: #00ADA6;}
+.conference-dropdown a:hover {color: #D13A36;}
 
 /* Show the dropdown menu on hover */
 .conference-nav:hover .conference-dropdown {display: block;}
@@ -424,7 +424,7 @@ a {
 }
 @media (min-width: 800px) {
   a:hover {
-      color: #00ADA6;
+      color: #D13A36;
   }
 }
 
