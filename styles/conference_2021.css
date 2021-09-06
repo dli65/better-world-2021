@@ -3,7 +3,6 @@
 /*blue: #241F59*/
 /*red: #EF413D*/
 
-<<<<<<< HEAD
 body{
   width:100vw;
 }
@@ -15,11 +14,6 @@ body{
   display: block;
   /*background-color: gray;*/
   background-image: "images/2021/banner2021.jpeg";
-=======
-.conferenceCover {
-  display: block;
-  background-image: url(../images/2021graphics/conferenceCover-min.jpg);
->>>>>>> 677199168cde48f592aa5f9396b9242e907be458
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,10 +34,6 @@ body{
 .conferenceHeader {
   z-index: 10;
   display: block;
-<<<<<<< HEAD
-=======
-  background-image: url(../images/2021graphics/web.jpg);
->>>>>>> 677199168cde48f592aa5f9396b9242e907be458
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
