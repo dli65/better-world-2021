@@ -107,6 +107,7 @@ p {
 
 .currentPartners {
     padding: 10px 0px;
+	display:none;
 }
 
 .wixVideo {

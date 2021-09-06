@@ -16,9 +16,17 @@
 
 .banner {
   width: 100%;
+<<<<<<< HEAD
+  /**height: 1067px;
+  background-color: gray; 
+=======
  
+>>>>>>> 677199168cde48f592aa5f9396b9242e907be458
   margin: auto;
-  display: block;
+  display: block;**/
+}
+.bannerImage {
+  width: 100%;
 }
 
 #teamBanner {
