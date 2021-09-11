@@ -342,7 +342,7 @@ p {
 
 /**Content**/
 
-#ella .personLink-img {
+#milo .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team2021/ella\ serious.jpeg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
@@ -498,7 +498,7 @@ p {
   }
 
    /*Content*/
-   #ella .personLink-img:hover {
+   #milo .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
                    url('../images/team2021/ella_silly.jpeg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
