@@ -342,11 +342,11 @@ p {
 
 /**Content**/
 
-#ella .personLink-img {
+#milo .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team2021/ella\ serious.jpeg') no-repeat;
+                 url('../images/team2021/milo\ serious.jpeg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team2021/ella_serious.jpeg') no-repeat;
+                 url('../images/team2021/milo_serious.jpeg') no-repeat;
 	background-size: cover;
 }
 
@@ -498,11 +498,11 @@ p {
   }
 
    /*Content*/
-   #ella .personLink-img:hover {
+   #milo .personLink-img:hover {
     background: linear-gradient(transparent, transparent),
-                   url('../images/team2021/ella_silly.jpeg') no-repeat;
+                   url('../images/team2021/milo_silly.jpeg') no-repeat;
     background: -webkit-linear-gradient(transparent, transparent),
-                   url('../images/team2021/ella_silly.jpeg') no-repeat;
+                   url('../images/team2021/milo_silly.jpeg') no-repeat;
     background-size: cover;
     transform: rotate(360deg);
   }
