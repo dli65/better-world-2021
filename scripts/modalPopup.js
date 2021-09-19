@@ -6,7 +6,7 @@ var bioInfo = {
   'adrian-name' : 'Adrian Hernandez',
   'annie-name' : 'Annie Wang',
   'sofia-name'  : 'Sofia di Lodovico', 
-  'ella-name' : 'Milo Harris',
+  'milo-name' : 'Milo Harris',
   'michelle-name' : 'Michelle Yuan',
   'moe-name' : 'Moe Levandoski',
   'nikki-name' : 'Nikki Sohn',
