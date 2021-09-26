@@ -348,8 +348,20 @@ body{
   font-weight: 300;
 }
 
-.personLink-img{
-  object-fit: cover;
+#emiliano-lopez .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/emiliano_lopez.jpeg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/emiliano_lopez.jpeg') no-repeat;
+  background-size: contain;
+}
+
+#anna-lee .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/anna_lee.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/anna_lee.jpg') no-repeat;
+  background-size: contain;
 }
 
 #ti-chang .personLink-img {
@@ -368,11 +380,27 @@ body{
   background-size: contain;
 }
 
+#yindi-pei .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/yindi_pei.jpg') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/yindi_pei.jpg') no-repeat;
+  background-size: contain;
+}
+
 #stephanie-yim .personLink-img {
   background: linear-gradient(transparent, transparent),
     url('../images/2021/speakers/stephanie_yim.JPG') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
     url('../images/2021/speakers/stephanie_yim.JPG') no-repeat;
+  background-size: contain;
+}
+
+#es-braziel .personLink-img {
+  background: linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/es-braziel.png') no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url('../images/2021/speakers/es-braziel.png') no-repeat;
   background-size: contain;
 }
 
@@ -384,53 +412,46 @@ body{
   background-size: contain;
 }
 
-#deroy-peraza .personLink-img {
+#nu-goteh .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/deroy-peraza.jpg') no-repeat;
+    url('../images/2021/speakers/nu_goteh.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/deroy-peraza.jpg') no-repeat;
+    url('../images/2021/speakers/nu_goteh.jpg') no-repeat;
   background-size: contain;
 }
 
-#irene-alvarado .personLink-img {
+#niki-franco .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/irene-alvarado.jpg') no-repeat;
+    url('../images/2021/speakers/niki_franco.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/irene-alvarado.jpg') no-repeat;
+    url('../images/2021/speakers/niki_franco.jpg') no-repeat;
   background-size: contain;
 }
 
-#alex-chen .personLink-img {
+#lukas-bentel .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/alex-chen.jpg') no-repeat;
+    url('../images/2021/speakers/lukas_bentel.png') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/alex-chen.jpg') no-repeat;
+    url('../images/2021/speakers/lukas_bentel.png') no-repeat;
   background-size: contain;
 }
 
-#pinar-guvenc .personLink-img {
+#kevin-wiesner .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
+    url('../images/2021/speakers/kevin_wiesner.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/pinar-guvenc.jpg') no-repeat;
+    url('../images/2021/speakers/kevin_wiesner.jpg') no-repeat;
   background-size: contain;
 }
 
-#brendan-ciecko .personLink-img {
+#haus-of-glitter .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+    url('../images/2021/speakers/glitter_dance.JPG') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/brendan-ciecko.jpg') no-repeat;
+    url('../images/2021/speakers/glitter_dance.JPG') no-repeat;
   background-size: contain;
 }
 
-#kevin-yoo .personLink-img {
-  background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/kevin-yoo.png') no-repeat;
-  background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/kevin-yoo.png') no-repeat;
-  background-size: contain;
-}
 
 #clare-stanton .personLink-img {
   background: linear-gradient(transparent, transparent),
