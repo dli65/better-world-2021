@@ -348,36 +348,39 @@ body{
   font-weight: 300;
 }
 
+.personLink-img{
+  object-fit: cover;
+}
 
-#barbara-london .personLink-img {
+#ti-chang .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/barbara-london.jpg') no-repeat;
+    url('../images/2021/speakers/ti_chang.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/barbara-london.jpg') no-repeat;
+    url('../images/2021/speakers/ti_chang.jpg') no-repeat;
   background-size: contain;
 }
 
-#tendernet .personLink-img {
+#kelly-rakowski .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/tendernet.jpg') no-repeat;
+    url('../images/2021/speakers/kelly_rakowski.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/tendernet.jpg') no-repeat;
+    url('../images/2021/speakers/kelly_rakowski.jpg') no-repeat;
   background-size: contain;
 }
 
-#danny-chapman .personLink-img {
+#stephanie-yim .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/danny-chapman.jpg') no-repeat;
+    url('../images/2021/speakers/stephanie_yim.JPG') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/danny-chapman.jpg') no-repeat;
+    url('../images/2021/speakers/stephanie_yim.JPG') no-repeat;
   background-size: contain;
 }
 
-#karen-krolak .personLink-img {
+#lucia-monge .personLink-img {
   background: linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/karen-krolak.jpg') no-repeat;
+    url('../images/2021/speakers/lucia_monge.jpg') no-repeat;
   background: -webkit-linear-gradient(transparent, transparent),
-    url('../images/2019/speakers/karen-krolak.jpg') no-repeat;
+    url('../images/2021/speakers/lucia_monge.jpg') no-repeat;
   background-size: contain;
 }
 
