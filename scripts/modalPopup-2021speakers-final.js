@@ -68,6 +68,11 @@ var speakerInfo = {
   'haus-of-glitter-bio': "The Haus of Glitter Dance Company (based in Providence, RI) works, through movement and choreography, to shift the energetic center of the universe towards Queer Feminist BIPOC Liberation. In the work we share and co-create with audiences, we strive to embody ancestral liberation, healing and love in every step and every breath of our creative process and pedagogy. Our choreography aims to reach beyond the stage and into the streets; into our homes; into our institutions; into our hearts.At the intersection of Queer-Affirming Feminist BIPoC cultural preservation + spacekeeping, historical intervention, social practice, concert dance, public spectacle, immersive interdisciplinary performance theatre, and protest/performance art, The Haus of Glitter Dance Company primarily performs Contemporary and Traditional West-African/Afrobeats, House, Vogue, Breakdance, Hip Hop, Drag, Theatre of the Oppressed, and loves collaborating with musicians, dancers, installation artists, performance artists, makers, multimedia artists, historians, and activist communities.",
   'haus-of-glitter-img': 'url(images/2021/speakers/glitter_dance.JPG)',
 
+  'akanksha-deo-name': 'Akanksha Deo',
+  'akanksha-deo-company': 'IKEA of Sweden AB',
+  'akanksha-deo-bio': "Akanksha Deo Sharma, born in 1991 in New Delhi, graduated from India’s National Institute of Fashion Technology, started working at IKEA as an in-house Designer in 2017 and has been listed under Forbes India 30 under 30 list for year 2020. A fashion designer by qualification and a visual artist, she specializes in textiles and craft. Her most recent project with IKEA - Förändring, a collection which turns rice harvest residue into a new renewable source of material has won Elle Decor EDIDA India award and has been exhibited at the Design Museum, London. Her work has been featured in Forbes, Dezeen, Design Boom, FRAME, Architectural Digest, Elle Decor and Vogue amongst others. Form, function, quality, sustainability and affordability are common denominators in her work — because leaving a positive impact on people and the planet is her driving force. Inquisitive by nature, Deo seeks to understand — and address — the ways in which society is evolving. ",
+  'akanksha-deo-img': 'url(images/2021/speakers/akanksha-deo.jpg)',
+
 };
 
 function populateModal(elt) {
